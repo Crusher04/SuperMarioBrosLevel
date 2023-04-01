@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 35f;
+    private float moveSpeed = 7f;
     private Rigidbody2D rb;
-    private Vector2 movement;
+    float moveX;
 
 
 
@@ -24,17 +25,23 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
-        movement.x = Input.GetAxisRaw("Horizontal");
+        moveX = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(moveX * moveSpeed, rb.velocity.y);
 
-     
+        if (Input.GetButtonDown("Jump"))
+        {
+
+            rb.velocity = new Vector2(rb.velocity.x, 14);
+
+        }
 
 
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-     
+        //rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+
     }
 
 
