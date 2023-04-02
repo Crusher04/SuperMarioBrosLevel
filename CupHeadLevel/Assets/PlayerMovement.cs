@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private float moveSpeed = 7f;
     private Rigidbody2D rb;
     float moveX;
-
+    private bool isJumping = false;
 
 
 
@@ -28,13 +28,19 @@ public class PlayerMovement : MonoBehaviour
         moveX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveX * moveSpeed, rb.velocity.y);
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !isJumping)
         {
 
             rb.velocity = new Vector2(rb.velocity.x, 14);
+            isJumping = true;
+        }
+        
+        if (rb.velocity.y == 0)
+        {
+
+            isJumping = false;
 
         }
-
 
     }
 
