@@ -1,0 +1,2770 @@
+fileFormatVersion: 2
+guid: 11b5d3404305fb548abf6f5429bb6703
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_0
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 16
+        width: 336
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa8852a57e97bb4d982665f7d0fabb0
+      internalID: 1395694887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_157
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a696cd84e3c4d40bfb6a6ca403c5b6
+      internalID: -1323494415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_158
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c61f916e8d4a8542be5b40ea74c5844
+      internalID: -1443569005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_180
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b8f38b93ea0954abd53abe161d4e71
+      internalID: -1276493262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_210
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481cfc2178b164c4aa81a74f1e02bcd1
+      internalID: -467582216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_277
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 240
+        width: 207
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8866eb1a8346441b742969ac25f7b6
+      internalID: -1636354612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_302
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 224
+        width: 63
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e389ea9d238f541b43acd524a583d6
+      internalID: 50571560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_423
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 64
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e991942e057d8864ebae005aa24a3185
+      internalID: -1397306550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_449
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b2b88dca1517046b7078a6555390a6
+      internalID: -2037110473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_455
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 15
+        width: 96
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b5664b0daad1b449ec8a18d98109a6
+      internalID: -321863936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_480
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da6d859f3f3d7b419d830a8a84f0312
+      internalID: 2118159040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_481
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 47
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34e2df2c58ba0f4d8b03ffd76725c62
+      internalID: -930135522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_488
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 112
+        width: 32
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c82ce241bd4e4419c785b5871c968d
+      internalID: 2003964829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_518
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 79
+        width: 111
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac024dc47a93cab4aba2d4c3820b65a2
+      internalID: -546835081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_552
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d66728b9fa3c34b8b6ec767db0b752
+      internalID: 1988768474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_553
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046fabf04e3ae054d8d16677364e46ac
+      internalID: 1821554150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_554
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7962b9b3c142dcd4fadfc59b413b8459
+      internalID: 316948096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_555
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12757837dcd06594a8632e468254ea5c
+      internalID: -1674789942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_601
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 128
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ddb725eb362a542b01d8ea35af751b
+      internalID: 1892401644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_603
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4668e2c24863043b91e215927d82ea
+      internalID: -954627902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_605
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6434657913f046f4cb5e0d07f2d7a59c
+      internalID: 1682679788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_606
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07fbd3460956a44282c41ae80f990d7
+      internalID: 1370531010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_607
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b25d798f6dfbe2409e73e7ddbfca410
+      internalID: -291574976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_625
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 47
+        width: 111
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b9b47feda213840a62b835f76efd9d
+      internalID: -1553572806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_632
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 16
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071f09751ada70b4682963f9cac6954e
+      internalID: -682515917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_670
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0463b2285fe48994fabf91e309f3ba10
+      internalID: 1896993046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_671
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3ad1efedca2a04c84c4cb4f5f82380
+      internalID: 1703280286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_672
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83fc85a032699240afd5bc1d8368fdf
+      internalID: -2114821766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_673
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82326f263c1e094ea76f587d18629b3
+      internalID: -652560693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_674
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980391367fd3fc14cb7559d8aa108c0f
+      internalID: 677551684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_675
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf4de2abed346c42bb3948519f0c0f0
+      internalID: 821034548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_677
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 79
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0231295f2c82d141ba7fd93b2c438f6
+      internalID: 99546050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_682
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7685ec80587cc254091ab3858327bb7f
+      internalID: -815545082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_710
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 13
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5688a8f45b9b247a3220403db0c8d4
+      internalID: 902687798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_712
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 15
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329d0e5f935a79644882435fbab4e542
+      internalID: -1077706543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_714
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49385997d408e243a95e141e152d75f
+      internalID: 1681414949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_715
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f26bce3f604da74b9981842de7d518c
+      internalID: -816842525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_716
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296969fdb601cf04181709a656758e4c
+      internalID: -972036615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_717
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2c1d5b64592234ea9838ee494a2d96
+      internalID: -1955639899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_718
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 16
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe2a98762650044e9063ce11b1ba42a
+      internalID: -1152072073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_721
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 16
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb4ac36013dc6e4db3ffd3ae2ba58a9
+      internalID: -1012915959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_723
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 16
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a50a9442d4d098428c7e60dc73e4c79
+      internalID: -976737939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_759
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d80ebbe71a77148b80ce3e32f2021c
+      internalID: -1710072943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_760
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbc6ce177556d14daf3433c67c50880
+      internalID: -1835082795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_761
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3666598a3d5f4524892b136e7d71c694
+      internalID: -438309637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_762
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca5a7537cbd77e449574f4831b61650
+      internalID: 2143959607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_763
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6762a5fc6d7cb4a840d7983c154931
+      internalID: 1123280195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_773
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 16
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f493281d96ade45aa57156e4862d85
+      internalID: -441580841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_786
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 32
+        width: 192
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f80b1cf943354142971556df61b33ae
+      internalID: 1572139180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_800
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 16
+        width: 112
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6188e93f542c788499c68e993d825663
+      internalID: -986678243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_807
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 15
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722a2dcac3a10ea4699536f97750bc21
+      internalID: 1160672478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_815
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 15
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066cf1bc9a3822246b80b8103b7b0880
+      internalID: -1446650220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_835
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 15
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf3dfbe1ce264c429f6837af21749ab
+      internalID: -59277045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_872
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c693fc725788e45b7a6db2a78f8b5c
+      internalID: -525447489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_873
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7690628830edf254284b82aeaeea075c
+      internalID: 1462890488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_874
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9947a0d6d82180a46af9d5000c63065f
+      internalID: -1324629770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_875
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d95598571824747826ad2658717c71
+      internalID: -222414570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_876
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c848c70c77bcdf547839591107860eb6
+      internalID: 1788651832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_877
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa0224d02ce9f7429f1d61370e0df44
+      internalID: -419625260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_878
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d831f41321fb4b4d84060978129984a
+      internalID: -726767585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_879
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b88b1221fb94cd4783c229f0bf38bbb
+      internalID: -165540113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_887
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba8914bac88bbc4089ea90170c25f7b
+      internalID: 1727483106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_895
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 464
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404f292729d2fa04ea61f72365168a2a
+      internalID: -1930048874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_938
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9627c954b765c34383395108b6e3db6
+      internalID: -1599277619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_998
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 624
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cdafbe7713e7a4fb21808d8607a90e
+      internalID: -790868357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1066
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 352
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f14c9f864667e43a34af59074160f9
+      internalID: 1621543533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1088
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd81d61eb2ca6a5448ca3c1a4d1f6fc9
+      internalID: 1505766840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1093
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 544
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa60a653183025a45bdb745583c024e9
+      internalID: 1115619442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1127
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 0
+        width: 560
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d726532bc38c5f408c60b6671b91ae0
+      internalID: 545412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_511: -1878025816
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_620: -1511762763
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_519: 1753180611
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_300: 1244975695
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_123: -1867728184
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_604: -715793965
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1032: 341486471
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_312: 631434210
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_805: -1085919324
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_651: -1906881892
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_669: 363599094
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_70: -800542297
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_920: -509880382
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_236: -1350185588
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1015: 1341200749
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_615: 1882503186
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_823: -10727698
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_8: -971967529
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1029: -1314333291
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_204: -449377021
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_90: -1180494042
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_353: -894715676
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_406: 1464137842
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_354: -1405348370
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_811: 1388345073
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_322: 1563324170
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_576: 2074265294
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_908: 77763196
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_851: 1312515907
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_462: -2100364370
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1149: -535731947
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_56: 766844076
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_60: -1158414623
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_439: -858829341
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1092: -302098919
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_33: -531527057
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_238: 1509121977
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_71: 1549489010
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_872: -525447489
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_637: -1111053545
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_201: -608485904
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_839: 2145997791
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_786: 1572139180
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1118: 1991318971
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1031: -1291749230
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_58: -166660877
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_358: 369233655
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1071: 500150943
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_464: 1197384520
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_73: 570324804
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_631: -259105003
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_674: 677551684
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_524: 1750683205
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_950: 1902255612
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_978: -1920689145
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_373: -625228056
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_363: -175851563
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1033: -1982837770
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_800: -986678243
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_705: -1514955198
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_446: 852280251
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_860: 26065923
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_48: -692989910
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_310: 1838207801
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_597: 1516820888
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_822: -2112416444
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_731: -703019900
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_327: -442854364
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1057: 1567016738
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_483: 11866613
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_541: 1336121597
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_832: -314371768
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1065: 1061092531
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_332: 1247446796
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_846: -339207147
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_413: -318211273
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_961: 542502307
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_621: -1221804620
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1019: -1775165291
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_916: -1058745260
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_186: 25047449
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1073: 766890154
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_437: 1306705375
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_756: -678084986
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1128: -790525006
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_783: -1999991877
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_191: -1638327319
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_600: -1901212206
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_81: -337197676
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_616: 904010141
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_720: -1034769635
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_197: -1051629678
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_461: 609321693
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1078: 1451104732
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_91: -1993608706
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_407: 1976583386
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_394: -931807884
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_667: -554459185
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_57: -1688340097
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_722: 1753564682
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_965: 1807099670
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_316: 1645602672
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1093: 1115619442
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_795: -1591164555
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_252: -1347455724
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_660: 1521764577
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1105: 990521701
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1137: -392865493
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1059: 1318195935
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_347: -1834891372
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1010: 1312630351
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_333: -262348959
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_167: -1883740121
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_624: 1336851980
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_405: -292208494
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_997: 1528932462
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_164: 2009775932
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_72: -554873185
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_205: -499042977
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_279: -1817223296
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_478: -43000403
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_721: -1012915959
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_586: -887265196
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1056: 559976628
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_575: -1634479621
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_850: -24613129
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_630: -683598111
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_710: 902687798
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_379: 2079753333
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_40: -748307045
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_257: 980443012
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_96: 1886000243
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_171: 907234379
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_917: 710732321
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_592: -1237463382
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_459: 2074347630
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_971: 943144918
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1134: 458735098
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_430: -538809672
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_216: -1345276319
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_636: 2017449212
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_927: -1849519276
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_816: 900472544
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_235: 178260887
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_650: -1969915318
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1063: 653374813
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_567: -669914611
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_606: 1370531010
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1064: -2140103264
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_126: -455807365
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_283: 2079929980
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_643: 1895056916
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_881: -411633571
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_558: -2096376911
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_163: -2114681146
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_330: 795743412
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_566: -1832979000
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_578: 1838245633
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_184: -1667361689
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_131: 1586049582
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_610: -1355178096
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_724: -1939405551
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_563: 494845096
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_195: 45256870
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_549: 630408056
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_573: 1189662094
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_999: -264348615
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_580: -1060629696
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_271: -116894040
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_990: 124289092
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_679: -619886035
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_180: -1276493262
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_170: 252487808
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_242: 283468672
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_255: 1609950683
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_626: -1308886396
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1096: 472203945
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1107: -591997570
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_757: -2095173271
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_582: 173994243
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_685: -1065336943
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1027: 347748548
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_69: -1568670157
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_470: 2064210599
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_250: -1983758888
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_808: -1690697324
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_882: 733305048
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_408: 2136944664
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_568: -18222694
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_906: 1019400993
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1088: 1505766840
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_160: -98333122
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_112: 1378983249
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_296: -1391618516
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_871: 43543204
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_498: 1752968651
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1060: -384920530
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1109: -1935031424
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_588: -947687095
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1117: -643625423
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_711: -566413704
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_622: 2073634492
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_788: 1468933154
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_893: -913431832
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_424: 1491350155
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_652: -998905275
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_473: 1135723408
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_303: -1921425410
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_491: -118189831
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_904: 842948254
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_714: 1681414949
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_492: -1611160876
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_234: 69850614
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_835: -59277045
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1004: 329886077
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_335: 1177847404
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_318: -1747930604
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_458: 122397411
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_396: 305530422
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_7: 488375544
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1007: -303880680
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_523: 1014166746
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_200: 1335765435
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_338: 66647472
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_103: 1618972620
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_765: 793194024
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_806: -859926027
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_384: -1701702588
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_831: -901720711
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_877: -419625260
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1131: 355318386
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_657: 1556280406
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_744: -1342192572
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_829: 663288238
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_933: -2047034239
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_905: -153540733
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_398: 2038221238
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_319: -1571206528
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_809: 1269289065
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_193: -681797297
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_535: -913721034
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1074: 1984968442
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_349: 1427306703
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_221: 682631795
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_954: -1734160551
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_121: 1644962459
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_886: -2074523085
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_25: 1433498799
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_247: -1698570217
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_340: -1625959842
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_891: -1284723707
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_559: 2123252636
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_182: 161543268
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_619: -490581916
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_17: -97113777
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_208: 481465848
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_414: -1697028627
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_874: -1324629770
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_587: -1745208115
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_157: -1323494415
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1046: 376334835
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_681: -1430543819
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_583: 1986428587
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_909: 778657904
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_209: -1174491904
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_6: -1818577556
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_346: -1644942605
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_422: -1653377492
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_225: 1688149669
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_706: 650002043
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_482: -1184142301
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_106: 1893649495
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_441: -1857087645
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_838: -845615023
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_713: 1105959886
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_423: -1397306550
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_966: 2012337284
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_701: -1585657075
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_984: -948389099
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_156: 581095978
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_125: 1398212330
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_74: 1438900750
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_813: 934272144
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_973: -341842966
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_784: -1592071471
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_561: 11928108
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_946: -1430219215
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_870: -1294075598
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_726: 1372816138
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_707: -977131065
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_803: 890706487
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1094: -146190784
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_676: 1615486185
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1132: -33997053
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_311: 24589213
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1138: 1160721254
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_421: -1098808438
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_952: -698753358
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_37: 219526861
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_865: -618046931
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_514: -1113848351
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_955: -1696426318
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_969: 190579232
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_334: 746841293
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_609: 1942115417
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_359: -1512046666
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_86: 588374121
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_343: 2008855486
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_607: -291574976
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_930: 964144499
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_913: 1938261702
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_149: 1072839481
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1097: -568750459
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_83: -1264240273
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_16: 1825718006
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1129: 1662292819
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_434: -1637366635
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_294: -867974927
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_190: -33770239
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_785: 785931489
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_979: 226639658
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_487: 1063585680
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_477: 1954580237
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_762: 2143959607
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_935: -770073295
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1050: 1532783127
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_530: 1785936853
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_479: 1409958853
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_943: -1409429709
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_376: -910586945
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_65: -966435736
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_796: 13395114
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_105: 644555801
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1003: 1829672188
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_291: -470509916
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_62: 433073026
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1043: 1134901688
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1130: 1532503338
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_992: 2097106476
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_658: -738110776
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_435: -932100837
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_92: 1161009626
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_638: -1670617733
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_267: 1941097284
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_420: -179942853
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_632: -682515917
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_677: 99546050
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_628: -369835726
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_220: -1867509464
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_912: 1289788987
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_286: 1276747985
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_309: -132914953
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_415: -1071070458
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_825: 791223302
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_907: 579748601
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1114: 1781123075
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_367: -180954556
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_728: -1815831335
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_432: -218393069
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_804: 180694623
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_844: -1636311816
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_974: 927806175
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_892: -1675942380
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1062: 1640409541
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_766: 2018079788
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_824: -1397915644
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_802: -368802370
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1135: 912438958
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_148: 1097168573
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_840: -1224477945
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1153: 739222517
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_986: 1110277138
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1151: 566096444
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1126: 1566512321
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_963: 1294138039
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_735: 1861250593
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1051: 1056509112
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1144: 1373702148
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_79: 2040432766
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_698: 14029163
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_47: 603333695
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_751: 1100308595
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_975: 98968696
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_270: -246892666
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_265: -1981188132
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_146: 857974828
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_521: 287020790
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_284: 694004765
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_790: 914680692
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_884: -137154795
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_508: 1821386351
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_228: -723201432
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_427: 1326772794
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_102: 708562264
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_888: -1682722270
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_646: 25224113
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_980: -2139987902
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_507: -1768645864
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_31: 559401404
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_132: -400244783
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_555: -1674789942
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_416: 1369998096
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_466: -1689019101
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_885: 1428171590
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_75: 925329791
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1079: 1188775418
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_900: -2087071346
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_848: 412505760
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_165: -597887260
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_372: -1827198019
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_268: 632666879
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_429: 1531801207
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_474: -1541337517
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_67: 575293908
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_798: -567953207
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_847: -1078358591
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_525: 1200744602
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_678: 1729468461
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_503: -1149214280
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_867: 2001595536
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_852: 860094575
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1026: 1002724100
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_202: -1767223468
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_210: -467582216
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_361: -1818947275
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_889: 125802359
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_985: 1819736201
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_493: 1591058034
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_565: 1550468834
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_110: 853533925
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1041: 140703441
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_663: 88576254
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_634: -1696073961
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_981: 155218004
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_754: -1963894711
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_993: 968672434
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_21: 1702556725
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_718: -1152072073
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_510: -2079422571
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_30: 1155918128
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_177: -890731972
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_640: -104151130
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1098: -1373854109
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_243: -16904059
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1055: -264028754
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_342: 1504850420
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_445: 814566218
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_579: 1429167161
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_560: 2007035583
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_845: -167244121
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_155: 832435411
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_227: 417839407
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_12: -2114029197
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_251: 552548298
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_901: -802118591
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_475: 1034973757
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_983: 29900885
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1110: 1660173187
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_859: -990375541
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_481: -930135522
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_134: -1890149997
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_142: -1410947366
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_449: -2037110473
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_716: -972036615
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1101: -638386642
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_699: 1229839262
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_345: 975008105
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_696: -1397774983
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_996: 866441767
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_19: -1942677767
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_550: -34707175
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_400: 1785109726
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_738: 1938435389
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_938: -1599277619
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1025: 2010890027
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1121: 1493841217
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_501: -1527940600
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_529: -281207317
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_465: 1095978353
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_436: -616344312
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_14: 1724564552
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_727: 1782925444
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_381: 1770262564
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_552: 1988768474
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1076: -2081068085
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_196: -312623476
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_278: -818986080
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_455: -321863936
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_715: -816842525
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_797: 1057793830
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1080: 14971305
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_770: -2146267397
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_611: -401310804
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_84: 341345096
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_779: 741190402
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_613: 1617805500
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_488: 2003964829
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_648: 448672760
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_22: -482831992
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1103: -1588715061
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_864: -794401547
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_95: 278528292
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_469: 1452473168
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_752: 653010383
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_237: 1007444119
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_602: 1603187739
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_107: -32756467
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_341: 1996051974
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_471: -460855174
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_799: 2086479669
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_617: 1367425439
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_794: -1178225728
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_760: -1835082795
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_781: 620624713
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_454: 1272724110
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_494: -847383827
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_457: 1025404266
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_518: -546835081
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_680: -287824914
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_192: 1681379972
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1069: 324821270
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_903: -683855532
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_689: 211955902
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_690: 113064548
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1158: -120597157
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1115: 283386272
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_750: -1146039973
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1157: -1599307950
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_977: -1664725232
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_655: -76513979
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_553: 1821554150
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1102: -1098868277
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_20: -1363790882
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1133: 1864128984
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_417: 323423827
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_562: 1339630805
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_275: -605471718
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_964: 1918173691
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_725: -1402715759
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_670: 1896993046
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_496: -345805668
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_213: 1531973453
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_24: -834663679
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_879: -165540113
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1009: -1882991754
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_442: 1087474716
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_753: -634596591
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_472: -1950024844
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_431: -1847207086
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1081: 914234710
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_289: -1292205817
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_53: -1703035957
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_150: 326874239
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_539: -1969050891
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_203: 641282781
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1045: -1399981920
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1058: -884578744
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_127: -1648718803
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_176: 1093159591
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_659: 1154511447
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1023: 637575792
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_120: -2131790741
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_397: 2042312932
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_249: -612385728
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_896: -508523867
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_957: 1636574694
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_814: 767244185
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_29: -1384760514
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_329: 1631304842
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_782: 44392504
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1085: -862243602
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_516: 137081957
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_299: -493702750
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_509: -1260282397
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_426: -612862067
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_590: 1912503966
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_118: -1600676780
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_897: -586796816
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_52: 1189856844
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_188: -1131318820
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_375: 517416684
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_512: -1749766980
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_863: 902698397
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_245: -1319315933
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_739: 2091663151
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_418: -2021979333
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_902: -1548572386
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_370: -1731644851
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1040: -1109657539
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_217: -1441988032
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_224: -1369587834
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_256: 883444011
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_383: -326358477
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_543: -1218035363
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_32: 1267629874
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_395: -2045588962
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_450: -561876417
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_187: 1727580630
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_712: -1077706543
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_591: -1903219530
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1141: 961470634
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_834: -1624909896
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1090: -1734538486
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_2: 27954111
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_356: -1170344507
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_855: -2066161985
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1018: -1694286577
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_263: -525099571
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_599: 483681756
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_951: 2111020895
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1011: 2062829149
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_253: 281883199
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_364: -1532106064
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_258: -409017548
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_778: -541641047
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_569: 893986010
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_895: -1930048874
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1013: -2033621020
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_80: 153231943
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_691: 513870103
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_737: -494600622
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_869: -2117270780
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_915: 1196894699
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_853: -1211244689
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_976: 461301029
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_43: 878639233
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_82: 578509567
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_940: 231670257
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_672: -2114821766
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1148: -1679274006
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1002: -721200711
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_687: -1173706518
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_730: 1415393194
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_18: -626107353
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_890: 1322207272
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1120: 328239588
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1159: 1014954365
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_595: -1558210695
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_654: -1898971160
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1142: -415216123
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_281: -217624024
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_162: -1607063886
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_810: 1722994876
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_365: 1096832563
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_259: -667588827
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_15: -181740426
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_269: 251064431
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_601: 1892401644
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_352: -913817582
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_662: 1846549410
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_115: -1569970159
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_371: -1472981699
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_183: 516759631
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_169: 858039342
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_608: -2095970808
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_425: -357941496
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1022: -1054247599
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_918: 1933748447
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_793: 1708410641
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_551: -384896286
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_219: -983207962
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1038: -747727781
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1147: 267420337
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_323: -213110130
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_542: 1209032506
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1082: -55524926
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_93: 178542626
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_154: 1442096139
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_598: 1193641494
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_515: -638741977
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_304: 1330497590
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_378: -928166443
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_277: -1636354612
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1067: -2130785427
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_596: -352909889
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1066: 1621543533
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_968: -1605726581
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_962: 263670099
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_703: -729317359
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_673: -652560693
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_898: 1443518001
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1: -1669416715
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_28: 1976734476
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_173: 725831509
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_59: -1800515756
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_683: -921472370
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_692: 900147715
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_875: -222414570
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_759: -1710072943
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_919: 747200227
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_404: -1580608804
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_484: -2044893476
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_747: -35569826
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_605: 1682679788
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1075: -381098425
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1123: 1971922066
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1100: -362221493
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_35: 1723483147
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_854: -1543862506
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_39: 2126785216
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_368: -1043774570
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_409: 1859788348
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_641: -2030695833
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1124: 1405779903
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_301: -717736739
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1155: 2042042735
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_23: 1755055406
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_328: -1859491179
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1161: -104210383
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_531: -327097219
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_136: -1737635435
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_708: 285976889
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_456: 178762452
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_114: 908787732
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_682: -815545082
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_198: -630384021
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_693: 905290006
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_764: -1083816244
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_883: 537904352
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_41: 1475914929
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_357: -1352794725
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_995: 96623284
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_581: 32582553
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_36: 485302304
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_949: 389032425
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1091: -960821528
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_399: -842253896
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_538: -1702878846
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1035: -1276671084
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_412: -2140718828
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_410: -782053924
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_374: 939357943
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_401: 1325459101
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_476: 36139303
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1140: -1358980500
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_520: -1768271775
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1089: 56293515
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_745: 643566090
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_262: 999147082
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1154: -1155209980
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_925: 1882767034
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_326: 1130705527
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_272: -545033377
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_704: 1588732483
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_767: 2141376669
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_138: -304627823
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1049: 1962765249
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_876: 1788651832
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1017: 1672119154
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_645: -457332418
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_44: -576394160
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_761: -438309637
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_388: 307780858
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_544: 402513211
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1044: -812474514
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_393: -1261869767
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1145: 1523710273
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_377: 422825173
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_467: -924654337
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_111: 1918394982
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_664: 1396219966
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_763: 1123280195
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_274: -2012995147
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1012: 785295378
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_145: 1893970892
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_128: -1739389299
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1037: 110352617
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_273: 1459734838
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_222: 450183228
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_545: 663489392
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_433: -1216706018
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_815: -1446650220
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_389: -1220588145
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_695: 960611620
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_936: -2019811473
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_557: -1974289528
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_686: -333884648
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_836: 85031064
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_101: -2000371159
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1039: 635558452
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_232: -662802617
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_308: 1530903301
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1005: 672964116
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_899: -1297104470
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_4: 1701884478
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_635: 321960132
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_94: 129862380
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_618: -196857177
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1042: -1954580958
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_290: -375491942
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_295: -685327663
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_382: 263860269
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_789: -787007055
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_351: 1542232048
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_931: -107716967
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1001: 419242171
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_956: 103972751
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1087: -711900317
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1048: -356960628
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1021: 641323363
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_403: -1982196453
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_181: 2006531969
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_861: 2013056998
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_229: 656521591
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_942: 879234191
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_463: -787612809
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_988: 520611282
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_934: -1958571888
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_189: -564188977
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_153: -1566532732
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_366: -1695042948
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_246: 1253347340
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1068: -2035609664
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_348: -1260189452
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_168: 1112524763
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1070: -443799420
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_932: -1369429748
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_46: -149603689
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_288: 276295321
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_499: -1059690928
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_671: 1703280286
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_147: -2030045667
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_486: 1311375392
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_929: -1794488921
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_945: 35991929
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_842: -1489683019
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_298: -977719251
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_122: -1396813685
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_723: -976737939
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_97: -1292455553
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_570: -324624887
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_211: -828900418
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1152: 220615531
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_633: -1872016107
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_653: 491157731
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_129: -506639882
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_141: -701641871
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1061: -684614366
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_158: -1443569005
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_390: 439151826
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_331: -761593785
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_528: 718288961
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_868: 122753704
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_894: 1931705484
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_489: -1456726843
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_982: -1101936620
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_124: 1922310935
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_527: -2042729136
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_133: 1075549172
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1086: 987878146
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1053: -2061601422
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_166: -875559687
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_843: 1942446482
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_104: -1586645306
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_144: -1930888559
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_554: 316948096
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_666: -585153666
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_533: -801381191
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_817: 827945076
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_748: -1659405031
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_719: 921869500
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_732: 84956285
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_344: -1844051900
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_497: -466000095
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_337: 676104223
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_923: -1421035530
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_749: 77161310
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_64: -1660371113
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_276: 1642901534
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_306: 534401071
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_787: -956096501
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_108: 555409410
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_953: -816555126
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_13: 812657546
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_451: -1773795985
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_355: -129018794
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1112: -1440531966
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_63: 1593662773
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_862: -1181340157
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_66: -556574589
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_113: 1585051380
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_937: 965920829
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_419: 709212595
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1106: -1605474965
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_572: 711837481
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_709: -452537807
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_743: 444494114
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_320: -1577865400
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_178: 493812898
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_87: 1721388554
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1036: -101822458
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1099: -1582436440
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_540: -1644941151
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_117: -673060658
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1160: 2073882331
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_556: -189349600
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_51: 12219651
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_736: -132863788
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_614: 446729281
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_321: 1871528951
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_505: -1053203214
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1143: 1007769439
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_947: -1702612762
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_812: 1930577042
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1034: 1043132293
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_972: -1141763111
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_143: 408955035
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_702: -1978257597
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_212: -1442547637
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1006: 1912983171
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_100: -1745752723
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_914: 1038156970
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_261: 1147388805
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_502: 541305117
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_185: -2060558498
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_490: -1249993387
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_665: -143474184
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1030: 1670958736
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_769: 936407708
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_240: 965797253
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_593: -102610195
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_776: -650099684
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_792: 1267882461
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_317: 1357818590
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_161: -1364351841
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_480: 2118159040
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_504: -747245930
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_577: 833768414
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1020: -693669497
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1119: -1707962416
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_244: 592753429
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_339: -2133441485
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_958: -1749325161
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_292: -1365653154
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_717: -1955639899
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_639: 1909968443
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_26: -41458099
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_939: 561834148
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_887: 1727483106
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_38: 1735891487
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_130: -1237619572
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_287: -1517645769
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_468: 760412299
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_911: 35836601
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_856: 206660113
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_206: -1257714783
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1084: 106145764
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_755: -234012049
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_215: -38066648
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1016: -1979799779
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_140: 163575045
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_98: 1401440269
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_768: 1676713465
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_139: 113471790
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_675: 821034548
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1113: -346539203
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_428: 1689941808
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_837: -1083181802
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_924: -601866737
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_411: 1233550880
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_921: -1824192898
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1108: 344469
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_11: -957750696
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_61: -639509024
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_324: -1724870201
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_447: -854615153
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_307: -1083878283
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_174: -863061144
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_526: 98023474
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_116: 1428881511
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_88: -147601643
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_448: -2046924901
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_833: 1120125427
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_589: -1244632816
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_485: 352704338
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_944: -900562631
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_231: 1501329464
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_772: -197799090
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_500: -347187973
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1047: -1546416229
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1125: -200138231
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_438: 796084338
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1136: 2078439704
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_948: -601544849
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1146: -324879696
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_230: 356023211
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_821: 1927449334
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_826: 110169543
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_967: 1788302884
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1028: -1176377244
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1014: 1936772992
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_548: -1485066872
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_207: -245228617
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_223: 135780086
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_777: 121146394
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_970: -1950925934
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_336: -1342138342
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1000: 1248605941
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_172: -211138673
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_392: -80204196
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_661: 488539837
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_697: -1970482585
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_910: 2014808966
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_775: 1979551825
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1008: -659483540
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_987: 522486502
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_159: -251656567
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_325: 1037994389
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_380: -639191443
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_959: 729249689
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_241: -1638757589
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_135: -1666636945
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_314: 1845256717
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_649: -2003128521
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_564: 762988919
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_807: 1160672478
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_574: 1278203236
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1116: -1178449433
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_45: -715611243
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1139: -721972152
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_801: 1188146147
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_360: -1798545434
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1083: 1033778566
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1111: -1534624168
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_119: -626796617
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_647: 913252437
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_513: -2004900698
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_443: -918072317
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_774: 1220498285
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_644: -2010694272
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_546: 233775246
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_922: -970797760
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1072: 405547779
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1077: 1955494146
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_99: -972262978
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_495: 1743308671
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_402: -857260075
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_517: 2086543562
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_0: 1395694887
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_453: -296785531
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_68: -1296798357
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_819: -537471274
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_584: -382919791
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_627: 828050909
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_42: 1172442489
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_440: -1825809778
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_78: 1868476783
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_668: 312895344
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_858: -999222792
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_27: -1392399394
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_537: 1681660845
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_828: -1673270582
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_534: 916624313
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_866: -923173083
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_991: 1510008446
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_684: 1589539117
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_746: -680581182
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_89: -1493420537
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_758: -360053253
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_841: 1586933888
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1104: 2066899896
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_733: 583720338
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1052: -997976386
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_3: -746065981
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_199: 1358041004
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_386: -913447950
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_54: 833949790
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_254: 110991689
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_385: 1965634523
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_452: 1191687860
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_926: 2066821121
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_642: 700382141
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_350: 2076621303
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_873: 1462890488
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_194: 116851560
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_34: 557600041
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_960: 197684988
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1054: -1741567937
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_226: 1477202941
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_10: -1720891111
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_362: -1016586078
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_734: 965691319
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_55: 276090683
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_85: -1114174728
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_175: -466398392
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_656: -1932121876
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_547: 1625055186
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_594: 1807675252
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_849: 1236081105
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_625: -1553572806
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_522: 55610252
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_9: 1422167972
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_460: 751624750
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_773: -441580841
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_729: 392711825
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_928: 1021541569
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_791: -613834799
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1156: -2070907594
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_305: 450681127
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1024: -563669131
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_391: -1327497683
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_629: -530331463
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_820: 355625900
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_532: 2057067541
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_536: 1351354882
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_830: 980518369
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_297: -1072077369
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_315: -1276794219
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_857: -2117783804
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_77: 1053719820
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_585: 1924332363
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_280: -1256946297
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_941: 1345700720
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_994: 914006207
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_369: -283901101
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1095: -605497652
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1150: -412661565
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_49: -37853007
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_151: 355234932
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_700: 1725256014
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_282: -1038374023
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_264: 1805579102
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_248: -808425160
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1127: 545412
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_266: -116640361
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_878: -726767585
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_998: -790868357
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_571: -1989355784
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_612: -609862999
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_313: -419975173
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_137: 1694481692
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_780: -1604612902
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_444: -784350898
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_152: 1100456901
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_302: 50571560
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_179: 536545200
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_293: 897034188
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_233: 1533902563
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_214: -415719829
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_109: 1610629636
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_623: 1382378847
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_239: -1567867528
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_694: 867762884
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_771: 203371468
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_740: -1047416296
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_506: -2063176118
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_742: -2017030041
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_741: -230086066
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_827: 391297881
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_880: 281989728
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_387: 1337763770
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_260: -1816686479
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1122: 1875717347
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_603: -954627902
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_989: 525409714
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_285: -1740153928
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_218: -1088841574
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_818: 974115673
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_50: -2138008760
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_688: -1858462335
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_76: 1872812969
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_5: 1779795032
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
