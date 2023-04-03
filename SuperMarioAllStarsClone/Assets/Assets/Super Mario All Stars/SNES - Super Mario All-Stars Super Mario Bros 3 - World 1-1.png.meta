@@ -351,48 +351,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_480
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 96
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0da6d859f3f3d7b419d830a8a84f0312
-      internalID: 2118159040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_481
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 47
-        width: 48
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c34e2df2c58ba0f4d8b03ffd76725c62
-      internalID: -930135522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_488
       rect:
         serializedVersion: 2
@@ -414,34 +372,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_518
-      rect:
-        serializedVersion: 2
-        x: 1328
-        y: 79
-        width: 111
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac024dc47a93cab4aba2d4c3820b65a2
-      internalID: -546835081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_552
       rect:
         serializedVersion: 2
         x: 272
-        y: 80
-        width: 16
-        height: 16
+        y: 63
+        width: 48
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,55 +393,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_553
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 046fabf04e3ae054d8d16677364e46ac
-      internalID: 1821554150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_554
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7962b9b3c142dcd4fadfc59b413b8459
-      internalID: 316948096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_555
       rect:
         serializedVersion: 2
         x: 464
         y: 64
-        width: 64
-        height: 32
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,111 +451,6 @@ TextureImporter:
       bones: []
       spriteID: 8b4668e2c24863043b91e215927d82ea
       internalID: -954627902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_605
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6434657913f046f4cb5e0d07f2d7a59c
-      internalID: 1682679788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_606
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e07fbd3460956a44282c41ae80f990d7
-      internalID: 1370531010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_607
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b25d798f6dfbe2409e73e7ddbfca410
-      internalID: -291574976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_625
-      rect:
-        serializedVersion: 2
-        x: 1296
-        y: 47
-        width: 111
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4b9b47feda213840a62b835f76efd9d
-      internalID: -1553572806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_632
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 16
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 071f09751ada70b4682963f9cac6954e
-      internalID: -682515917
       vertices: []
       indices: 
       edges: []
@@ -729,34 +519,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_673
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e82326f263c1e094ea76f587d18629b3
-      internalID: -652560693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_674
       rect:
         serializedVersion: 2
-        x: 304
-        y: 48
-        width: 16
-        height: 16
+        x: 287
+        y: 16
+        width: 33
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -774,10 +543,10 @@ TextureImporter:
       name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_675
       rect:
         serializedVersion: 2
-        x: 352
-        y: 16
-        width: 31
-        height: 48
+        x: 351
+        y: 15
+        width: 34
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -797,7 +566,7 @@ TextureImporter:
         serializedVersion: 2
         x: 400
         y: 16
-        width: 79
+        width: 208
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -808,27 +577,6 @@ TextureImporter:
       bones: []
       spriteID: f0231295f2c82d141ba7fd93b2c438f6
       internalID: 99546050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_682
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 48
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7685ec80587cc254091ab3858327bb7f
-      internalID: -815545082
       vertices: []
       indices: 
       edges: []
@@ -1086,69 +834,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_762
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ca5a7537cbd77e449574f4831b61650
-      internalID: 2143959607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_763
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b6762a5fc6d7cb4a840d7983c154931
-      internalID: 1123280195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_773
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 16
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0f493281d96ade45aa57156e4862d85
-      internalID: -441580841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_786
       rect:
         serializedVersion: 2
@@ -1175,8 +860,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1264
         y: 16
-        width: 112
-        height: 32
+        width: 177
+        height: 97
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1186,27 +871,6 @@ TextureImporter:
       bones: []
       spriteID: 6188e93f542c788499c68e993d825663
       internalID: -986678243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_807
-      rect:
-        serializedVersion: 2
-        x: 1376
-        y: 15
-        width: 32
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 722a2dcac3a10ea4699536f97750bc21
-      internalID: 1160672478
       vertices: []
       indices: 
       edges: []
@@ -1257,10 +921,10 @@ TextureImporter:
       name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_872
       rect:
         serializedVersion: 2
-        x: 160
+        x: 159
         y: 16
-        width: 16
-        height: 16
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1270,48 +934,6 @@ TextureImporter:
       bones: []
       spriteID: 72c693fc725788e45b7a6db2a78f8b5c
       internalID: -525447489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_873
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7690628830edf254284b82aeaeea075c
-      internalID: 1462890488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_874
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9947a0d6d82180a46af9d5000c63065f
-      internalID: -1324629770
       vertices: []
       indices: 
       edges: []
@@ -1380,75 +1002,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_878
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d831f41321fb4b4d84060978129984a
-      internalID: -726767585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_879
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b88b1221fb94cd4783c229f0bf38bbb
-      internalID: -165540113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_887
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 16
-        width: 33
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ba8914bac88bbc4089ea90170c25f7b
-      internalID: 1727483106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_895
       rect:
         serializedVersion: 2
         x: 624
         y: 0
-        width: 464
+        width: 465
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1491,7 +1050,7 @@ TextureImporter:
         x: 0
         y: 0
         width: 624
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1600,7 +1159,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_76: 1872812969
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_818: 974115673
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_620: -1511762763
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_519: 1753180611
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_300: 1244975695
@@ -1720,8 +1279,8 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_72: -554873185
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_205: -499042977
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_279: -1817223296
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_478: -43000403
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_721: -1012915959
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_478: -43000403
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_586: -887265196
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1056: 559976628
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_575: -1634479621
@@ -1859,11 +1418,10 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_414: -1697028627
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_874: -1324629770
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_587: -1745208115
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_157: -1323494415
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_713: 1105959886
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_681: -1430543819
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_583: 1986428587
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1046: 376334835
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_909: 778657904
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_713: 1105959886
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_583: 1986428587
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_209: -1174491904
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_6: -1818577556
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_346: -1644942605
@@ -1874,7 +1432,8 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_106: 1893649495
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_441: -1857087645
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_838: -845615023
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1046: 376334835
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_681: -1430543819
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_157: -1323494415
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_423: -1397306550
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_966: 2012337284
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_701: -1585657075
@@ -1925,8 +1484,8 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_477: 1954580237
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_762: 2143959607
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_935: -770073295
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1050: 1532783127
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_530: 1785936853
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1050: 1532783127
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_479: 1409958853
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_943: -1409429709
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_376: -910586945
@@ -2168,12 +1727,12 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_957: 1636574694
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_814: 767244185
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_29: -1384760514
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_329: 1631304842
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_782: 44392504
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_1085: -862243602
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_509: -1260282397
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_516: 137081957
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_299: -493702750
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_329: 1631304842
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_509: -1260282397
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_426: -612862067
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_590: 1912503966
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_118: -1600676780
@@ -2757,11 +2316,11 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_989: 525409714
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_285: -1740153928
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_218: -1088841574
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_818: 974115673
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_5: 1779795032
-      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_511: -1878025816
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_50: -2138008760
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_76: 1872812969
       SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_688: -1858462335
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_511: -1878025816
+      SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_5: 1779795032
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
