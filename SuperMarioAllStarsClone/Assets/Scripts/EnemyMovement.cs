@@ -1,16 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Security.Cryptography;
+using System.Threading;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
     private float moveSpeed = 5f;
     private Rigidbody2D rb;
-    private bool collided = false;
-    private Collision coll;
 
 
+    public bool moveRight;
 
     // Start is called before the first frame update
     void Start()
@@ -18,35 +19,48 @@ public class EnemyMovement : MonoBehaviour
 
 
         rb = GetComponent<Rigidbody2D>();
-        coll = GetComponent<Collision>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+        if (moveRight)
+        {
 
-        OnCollisionEnter(coll);
+            rb.velocity = new Vector2(moveSpeed, 0);
 
+        }
+        else
+        {
+
+            rb.velocity = new Vector2(-moveSpeed, 0);
+
+        }
 
     }
-    
-    void OnCollisionEnter(Collision collision)
+
+
+    void OnTriggerEnter2D(Collider2D trigger)
     {
 
-        if (!collided)
+        if (trigger.gameObject.CompareTag("Switch"))
         {
-            //Check for a match with the specific tag on any GameObject that collides with your GameObject
-            if (collision.gameObject.tag == "Switch")
+            if (moveRight)
             {
-             
-                moveSpeed *= -5;
-                collided = true;
+
+                moveRight = false;
+
+            }
+            else
+            {
+
+                moveRight = true;
+
             }
         }
+
     }
-
-
 
 }
