@@ -2,17 +2,17 @@
     "name": "Movement Controller",
     "maps": [
         {
-            "name": "Ground",
+            "name": "InLevel",
             "id": "e7a80c4d-d42f-4ece-b5d5-db32189edc6e",
             "actions": [
                 {
                     "name": "Move",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "667daa04-db0e-4b04-8c69-8516c80c223a",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -61,9 +61,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "1D Axis",
-                    "id": "cf66a5f3-118f-4016-a6c7-88dfd15bc630",
-                    "path": "1DAxis",
+                    "name": "Left / Right Movement - A/D",
+                    "id": "9658998e-f6e9-4878-bdb0-5f7404cfb1bc",
+                    "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -72,9 +72,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "positive",
-                    "id": "e8f7a85f-be21-42b5-9194-d410f739cea2",
-                    "path": "<Keyboard>/d",
+                    "name": "up",
+                    "id": "f46bb50b-085b-40c2-9419-9e0a1b4fdd84",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -83,9 +83,31 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "negative",
-                    "id": "7b509d96-b14d-4705-858c-cc58f108087c",
+                    "name": "down",
+                    "id": "52158479-d1d8-4e6a-84b3-aee7b9ac0a2d",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "72920f14-8520-4ac2-9cbf-b18665c6e332",
                     "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard;Xbox Controller",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "8acb8db0-7b00-4ba8-a7c7-5d1045e4a0cf",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
