@@ -16,11 +16,22 @@ public class MysteryBlock : MonoBehaviour
     public GameObject Life;
     public GameObject SuperLeaf;
 
+    public AudioClip blockHitAudio;
+    public AudioClip CoinAudio;
+    public AudioClip MushroomAudio;
+    public AudioClip LifeAudio;
+    public AudioClip SuperLeafAudio;
+
+    private Animator anim;
+    private Rigidbody2D rb;
+    private float timer = 0;
+    private bool playHitOnce = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();  
     }
 
     // Update is called once per frame
@@ -31,6 +42,16 @@ public class MysteryBlock : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Coin Block Collision OK");
+        if (!playHitOnce)
+        {
+            playHitOnce = true;
+            GetComponent<AudioSource>().clip = blockHitAudio;
+            GetComponent<AudioSource>().Play();
+        }
+
+        anim.SetBool("blockHit", true);
+       
     }
+
+    
 }
