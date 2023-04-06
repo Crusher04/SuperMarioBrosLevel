@@ -5181,7 +5181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_296
+      name: Cloud
       rect:
         serializedVersion: 2
         x: 2
@@ -17165,10 +17165,10 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_252: -53318199
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_1065: 1141795779
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_767: 115409387
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_631: 333444110
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_999: -71933659
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_974: 463832156
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_614: 137836252
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_567: -1463800324
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_32: 771157546
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_306: 1485231239
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_295: -424615967
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_125: -1241119081
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_428: -1765238498
@@ -17270,6 +17270,7 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_587: 763378005
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_324: -752439041
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_792: 1406264620
+      Cloud: -1284491165
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_142: 1340171992
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_617: -255415248
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_261: 838902741
@@ -17428,13 +17429,13 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_538: 737158499
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_988: -1662232832
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_737: 954366346
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_683: 1411436995
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_736: 1426394606
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_891: -728748414
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_128: -1822661702
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_620: -559808570
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_891: -728748414
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_683: 1411436995
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_48: -1135590817
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_556: -501751022
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_620: -559808570
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_736: 1426394606
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_399: -594255051
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_216: 2032727531
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_6: 679435371
@@ -17975,7 +17976,6 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_89: -1560585318
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_820: 1003068801
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_203: 918457035
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_296: -1284491165
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_714: 157005497
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_116: 1969852371
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_160: -2062864757
@@ -18266,9 +18266,9 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_727: 1026209567
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_272: 560620379
       SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_1031: -1778951219
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_306: 1485231239
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_999: -71933659
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_974: 463832156
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_567: -1463800324
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_631: 333444110
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Tileset and Objects_32: 771157546
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

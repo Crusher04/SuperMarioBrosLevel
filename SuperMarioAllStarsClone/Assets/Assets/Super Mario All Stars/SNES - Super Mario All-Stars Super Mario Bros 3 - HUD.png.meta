@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,7 +139,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 77
+        width: 150
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f4967e3edb33e49bb3c7abe2297577
+      internalID: 1463188174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 48
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecb7ee15cb6f1c4297f87ea80699976
+      internalID: -745916681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 48
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0ddd35f28d65f46bbc2df9ccfdb067
+      internalID: -632484631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 48
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15467dc450746e64e8ec00eb148ac032
+      internalID: 466323199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 48
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b16940bf2da41419bd36c9a841bf6f
+      internalID: 2049396031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 36
+        width: 31
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb69ad144e593247961fdd709f82e7d
+      internalID: 1908125515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 35
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c289a9bd31b8f41b0102b9cdd2dba1
+      internalID: -108229159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 35
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ec95e15d865604eaa46b5cd3c1ecd7
+      internalID: -1968922955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 35
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557d59c1d399a5c49a37e8aea51b9ad2
+      internalID: 1945543563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 35
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2888582a7ccea43910685596b78f4a
+      internalID: -1468119204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a3d5f0cb3f954eb74d531098969b7
+      internalID: -1283561498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e024dde2e0ce54ca54bcf1c088e827
+      internalID: -1381581981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae07a85498ef0874f8379567032322af
+      internalID: -2099026736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_13
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f810ae9df83e13b44b4c377eb26268a9
+      internalID: 119787875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f47552f0363c44b992b4330a708437
+      internalID: 428621399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7242e3009589874485115865f885a44
+      internalID: 1829694286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_16
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf90cbdcd48a3c84292b91198c710f97
+      internalID: -107788368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594f75d89d654e44b8209517e76dfe03
+      internalID: 13374393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256d282c2031f1d43a41c00863339634
+      internalID: -1896506855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_19
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41ec72187df1304dbd751d7586c46fe
+      internalID: 143555206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8121851c75217348827cc3703abd8b1
+      internalID: 1094155471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_21
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8259d5e0c85b07a48848135daa1d23ae
+      internalID: -1302864218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 15
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cac7ff2fcaa7d5439ce96562209e2ca
+      internalID: -947951229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_23
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 15
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479cc8d09361ca14495ae461b43e8a58
+      internalID: -2135299710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +654,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_20: 1094155471
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_2: -632484631
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_3: 466323199
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_6: -108229159
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_18: -1896506855
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_12: -2099026736
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_7: -1968922955
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_23: -2135299710
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_5: 1908125515
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_9: -1468119204
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_16: -107788368
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_11: -1381581981
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_17: 13374393
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_10: -1283561498
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_13: 119787875
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_0: 1463188174
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_1: -745916681
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_14: 428621399
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_15: 1829694286
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_19: 143555206
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_4: 2049396031
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_8: 1945543563
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_22: -947951229
+      SNES - Super Mario All-Stars Super Mario Bros 3 - HUD_21: -1302864218
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

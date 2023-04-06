@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,7 +139,1708 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 168
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df308e3f3649ae749939c3156ca34de4
+      internalID: 413748777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acee539ab6e62a46b640e1df76a09c0
+      internalID: -1872398656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dd36b4afaefbc4081f9fe2a78ba9b3
+      internalID: 2128827516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 152
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de41fd3fe386f8f468a4dd95a41ddfe3
+      internalID: -759319005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17934d58251bad42be3e852ea9526ab
+      internalID: -1263685301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83c26bd4116c964c8cb55ee50fd7957
+      internalID: 351838907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 150
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395aa0fd3b4d4a34eadb7618d7df9765
+      internalID: -237503633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d01c6d14d8ba91449d36e8e77deb70c
+      internalID: -1294362494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf238197bd89c846bc2d26539929754
+      internalID: 881649648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd95154329ef034d805dbc3fd61e7bc
+      internalID: 1041648405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfad75188f0926046b84ceb9dd813df6
+      internalID: -1721665516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483888f5f9b028a46960577b092114ac
+      internalID: -1174628619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7532861e638d1145a744ad3c34d6ff3
+      internalID: -2111651537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_13
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 132
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0b2531a6c939b45b09f1282687c7fa
+      internalID: -1867413436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 122
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c87ef80bd9bb34f97e6c62a3061660
+      internalID: -524644855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 122
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a31016280b7f54dbf502a4b1e3497a
+      internalID: 195036913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090dfca081e14e04f882af4d3c659949
+      internalID: 1239066296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946604ab61e6b5543a98a02b69c06149
+      internalID: -111370494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 104
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faec188dff5beda4cac3b9d95e4b116b
+      internalID: -788256603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735d5cf45bd89604a8b10d1aced90c55
+      internalID: 583824272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c166e5ac171c41648a60f622312e7f91
+      internalID: 1949635982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_21
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 104
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae3ab36bfc23e444969205bcdfe9b8d
+      internalID: -1544167968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca19f0b385eec14fbb1447d449b875e
+      internalID: 1192112142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_23
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 104
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caffe9bff99e57245b6480a893fba7c0
+      internalID: 1542126707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_24
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140c6a51dd4ea834895d0d614a599ec1
+      internalID: 831655180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_25
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb06ae6aa6586a4ba61dace6451ef5e
+      internalID: 1967824229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_26
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce4a9bccda9aab44b79468849e524ab
+      internalID: -688073876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_27
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 104
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97228dba82e2fa849bae1714e0af4976
+      internalID: 1575974366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_28
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf33fd96de798b3498eb3d360ed01025
+      internalID: 975831220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_29
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e2dbf51f956914890664944f5b1c09
+      internalID: 568467232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_30
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7048a910e4aaffb49bafc92765e9baae
+      internalID: -448725026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888b1b478252f934d997915c3827c3d5
+      internalID: 2077119418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 94
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d93ce2e9e1497641a64cce378adcda1
+      internalID: -433101303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 94
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81754b5e7fc1886478e58d09cc81918f
+      internalID: -1635980424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9134ba5aef5aa234b891363f1b7448ed
+      internalID: 846162901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117459536ee81e547a0b85a3999b244e
+      internalID: -1520541215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_36
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 76
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f58784b598413429851b741a7f1d76
+      internalID: 507872934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3084a773e49744c41b3fed29b779bce2
+      internalID: -122224145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_38
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b478b85d221b144930e32f94e79776
+      internalID: -1445650565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_39
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 76
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c69c9cf5092f946bd5813aa17d79f7
+      internalID: -786579319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_40
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2363eb0d8b464469ca03257208ef90
+      internalID: 88452886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_41
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 76
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa90840977ac0345ab73ba72f9373ba
+      internalID: 1762848654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260614344bacf1244a81a1ac41bbc0ed
+      internalID: -1302048962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_43
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43b04cb0da78d04db457246a1610efe
+      internalID: -495282024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_44
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecae1d38b4af1d4499c72c3d7f646775
+      internalID: 1070287863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_45
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 76
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f7ea3ee294c714fb35c988da91fae2
+      internalID: 1507818194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_46
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490f64a73864b7645a2404de79850642
+      internalID: -1264340239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_47
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27752f4246a15245afd9bb1877cb4e7
+      internalID: 1786431353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cd8f9fd6b468041a12f5517a5a8cd9
+      internalID: 441606529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692ad4118bb57524d95f8831385100d6
+      internalID: -852835884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_50
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7157f32fd93567443a7e335d6dc7085e
+      internalID: 1795382575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_51
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26c5d4511cece64d84efb19ead400d3
+      internalID: 1693650997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_52
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86baf61acdb670f48abb312ce46143b8
+      internalID: -1067875982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_53
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779acd5d5dae8c741ad2fecb1d672c26
+      internalID: 837925482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_54
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08481c43bb3d904c88c5ab92a1fdf77
+      internalID: 1354531275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7405ecf8d4a16ae4288a51516de767ca
+      internalID: 620309754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_56
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566383e078d0f984d8792d37c518fb7e
+      internalID: -1227939109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_57
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b3b0a416d8f4c47ab8ba83864a9e2a
+      internalID: 781329423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_58
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7344f095d42e1043b6dbb6dbd6cc570
+      internalID: 1493444152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_59
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1558b3851b478045be91fc87edae9c4
+      internalID: -1760232137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_60
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5cd91e93bfef14fafd7002abae68f7
+      internalID: -1127288040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_61
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 48
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c7f52f5397ce04cb459a7c44a116d6
+      internalID: 1184522339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_62
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 48
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26a13ebb43adb942a8c00a6bc30bde6
+      internalID: 1577132149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb20a29613ceff4a807fc6d34be52e8
+      internalID: -404870625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_64
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f15ba555911bd4b99f17209c0a32e0
+      internalID: -1385539833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_65
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 30
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c695ea6cee9bc264d8fac4467d35abb2
+      internalID: -1318469140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_66
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daab9a01be0a844c92797b33b3fad77
+      internalID: 44349061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_67
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511e4bf2ce480f94e9085b67faeadf1f
+      internalID: -1847065932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_68
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 30
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa75cfa4cc96541458270196d632c64a
+      internalID: 247332634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_69
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7a6958ceffaf541aec6671a4da2b0f
+      internalID: 542967896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_70
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 30
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22b3b9d6080ad14ba86e19352dab054
+      internalID: -1554718169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_71
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e9a5d34e1aebe4198540bb85e201ad
+      internalID: 1556729952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_72
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4a2203158ab1f40ae59ea57a9a4a00
+      internalID: 105417524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_73
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cb46a368cdd5b41b22ead869671676
+      internalID: 1147213376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_74
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 30
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056f45b202f0c154aa61cc938ff13736
+      internalID: -148962070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_75
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6340503a956874fbb2e0a13e0e6e84
+      internalID: -169365299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_76
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384a2af4321acd641beb0ec2dedf40a4
+      internalID: 1846756780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_77
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 20
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8c33661a7d2144dac64a417f91c94b
+      internalID: 12401536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_78
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 20
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd02b1c6472f214a9f3497d268c706b
+      internalID: -2139107507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_79
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86d7ba22b8d1a64785e656bfd7cc8cf
+      internalID: -98612652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_80
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2097a5fa19e50542b6b8bdf16159616
+      internalID: 161496781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +1851,88 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_64: -1385539833
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_43: -495282024
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_50: 1795382575
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_14: -524644855
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_0: 413748777
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_12: -2111651537
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_55: 620309754
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_36: 507872934
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_40: 88452886
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_49: -852835884
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_45: 1507818194
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_29: 568467232
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_63: -404870625
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_46: -1264340239
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_23: 1542126707
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_41: 1762848654
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_5: 351838907
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_11: -1174628619
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_35: -1520541215
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_60: -1127288040
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_19: 583824272
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_71: 1556729952
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_7: -1294362494
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_8: 881649648
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_59: -1760232137
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_39: -786579319
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_75: -169365299
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_61: 1184522339
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_51: 1693650997
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_70: -1554718169
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_9: 1041648405
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_34: 846162901
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_73: 1147213376
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_15: 195036913
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_18: -788256603
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_13: -1867413436
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_44: 1070287863
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_37: -122224145
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_20: 1949635982
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_6: -237503633
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_32: -433101303
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_33: -1635980424
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_38: -1445650565
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_21: -1544167968
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_26: -688073876
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_65: -1318469140
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_56: -1227939109
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_30: -448725026
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_25: 1967824229
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_57: 781329423
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_79: -98612652
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_24: 831655180
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_72: 105417524
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_68: 247332634
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_2: 2128827516
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_53: 837925482
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_62: 1577132149
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_47: 1786431353
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_66: 44349061
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_22: 1192112142
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_58: 1493444152
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_27: 1575974366
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_67: -1847065932
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_76: 1846756780
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_74: -148962070
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_4: -1263685301
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_31: 2077119418
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_16: 1239066296
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_77: 12401536
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_17: -111370494
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_42: -1302048962
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_80: 161496781
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_1: -1872398656
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_3: -759319005
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_10: -1721665516
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_48: 441606529
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_52: -1067875982
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_28: 975831220
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_69: 542967896
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_54: 1354531275
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Power Ups_78: -2139107507
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
