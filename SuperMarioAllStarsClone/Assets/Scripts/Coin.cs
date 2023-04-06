@@ -6,10 +6,12 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     private bool collided = false;
+    private GameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
     {
+
     }
 
     // Update is called once per frame
@@ -18,6 +20,7 @@ public class Coin : MonoBehaviour
         if (!GetComponent<AudioSource>().isPlaying && collided)
         {
             this.gameObject.SetActive(false);
+            gameManager.UpdateCoins();
         }
     }
 

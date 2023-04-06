@@ -1,172 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
 
-public class HUD : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-
-    public GameObject Mario;
-    public GameObject Luigi;
-    public GameObject zeroH, oneH, twoH, threeH, fourH, fiveH, sixH, sevenH, eightH, nineH;
     public GameObject zeroT, oneT, twoT, threeT, fourT, fiveT, sixT, sevenT, eightT, nineT;
     public GameObject zeroO, oneO, twoO, threeO, fourO, fiveO, sixO, sevenO, eightO, nineO;
-
-    //Round Timer Variables
-    private int seconds = 0;
-    private float timer = 0.0f;
-    private int roundTime = 300;
-
+    private int amountOfCoins = 0;
     // Start is called before the first frame update
     void Start()
     {
-        seconds = roundTime;
+    
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;        
-        seconds = roundTime - ((int)timer);
-
-        DisplayTimer(seconds);
+        DisplayCoins(amountOfCoins);
     }
 
-    void DisplayTimer(int time)
+    public void UpdateCoins()
+    {
+        Debug.Log("COIN UPDATED");
+        amountOfCoins++;
+    }
+
+    private void DisplayCoins(int numOfCoins)
     {
         int ones = 0;
         int tens = 0;
-        int hundreds = 0;
-        
-        hundreds = time / 100;    
-        tens = (time % 100) / 10;
-        ones = (time % 10);
-
-
-        switch (hundreds)
-        {
-            case 0:
-                zeroH.active = true;
-                oneH.active = false;
-                twoH.active = false;
-                threeH.active = false;
-                fourH.active = false;
-                fiveH.active = false;
-                sixH.active = false;
-                sevenH.active = false;
-                eightH.active = false;
-                nineH.active = false;
-                
-                break;
-            case 1:
-                zeroH.active = false;
-                oneH.active = true;
-                twoH.active = false;
-                threeH.active = false;
-                fourH.active = false;
-                fiveH.active = false;
-                sixH.active = false;
-                sevenH.active = false;
-                eightH.active = false;
-                nineH.active = false;
-                break;
-            case 2:
-                zeroH.active = false;
-                oneH.active = false;
-                twoH.active = true;
-                threeH.active = false;
-                fourH.active = false;
-                fiveH.active = false;
-                sixH.active = false;
-                sevenH.active = false;
-                eightH.active = false;
-                nineH.active = false;
-                break;
-            case 3:
-                zeroH.active = false;
-                oneH.active = false;
-                twoH.active = false;
-                threeH.active = true;
-                fourH.active = false;
-                fiveH.active = false;
-                sixH.active = false;
-                sevenH.active = false;
-                eightH.active = false;
-                nineH.active = false;
-                break;
-            case 4:
-                zeroH.active = false;
-                oneH.active = false;
-                twoH.active = false;
-                threeH.active = false;
-                fourH.active = true;
-                fiveH.active = false;
-                sixH.active = false;
-                sevenH.active = false;
-                eightH.active = false;
-                nineH.active = false;
-                break;
-            case 5:
-                zeroH.active = false;
-                oneH.active = false;
-                twoH.active = false;
-                threeH.active = false;
-                fourH.active = false;
-                fiveH.active = true;
-                sixH.active = false;
-                sevenH.active = false;
-                eightH.active = false;
-                nineH.active = false;
-                break;
-            case 6:
-                zeroH.active = false;
-                oneH.active = false;
-                twoH.active = false;
-                threeH.active = false;
-                fourH.active = false;
-                fiveH.active = false;
-                sixH.active = true;
-                sevenH.active = false;
-                eightH.active = false;
-                nineH.active = false;
-                break;
-            case 7:
-                zeroH.active = false;
-                oneH.active = false;
-                twoH.active = false;
-                threeH.active = false;
-                fourH.active = false;
-                fiveH.active = false;
-                sixH.active = false;
-                sevenH.active = true;
-                eightH.active = false;
-                nineH.active = false;
-                break;
-            case 8:
-                zeroH.active = false;
-                oneH.active = false;
-                twoH.active = false;
-                threeH.active = false;
-                fourH.active = false;
-                fiveH.active = false;
-                sixH.active = false;
-                sevenH.active = false;
-                eightH.active = true;
-                nineH.active = false;
-                break;
-            case 9:
-                zeroH.active = false;
-                oneH.active = false;
-                twoH.active = false;
-                threeH.active = false;
-                fourH.active = false;
-                fiveH.active = false;
-                sixH.active = false;
-                sevenH.active = false;
-                eightH.active = false;
-                nineH.active = true;
-                break;
-        }//End of hundreds
+        tens = (numOfCoins % 100) / 10;
+        ones = (numOfCoins % 10);
 
         switch (tens)
         {
@@ -417,7 +281,6 @@ public class HUD : MonoBehaviour
                 nineO.active = true;
                 break;
         }//End of ones
-
 
     }
 }
