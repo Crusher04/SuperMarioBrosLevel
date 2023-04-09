@@ -1587,7 +1587,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350967425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.83428, y: 0.010000467, z: -10}
+  m_LocalPosition: {x: -1.8464842, y: 0.010000467, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3136,7 +3136,7 @@ GameObject:
   - component: {fileID: 732055898}
   m_Layer: 0
   m_Name: Big 3 Blocks
-  m_TagString: Untagged
+  m_TagString: Edge Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3218,7 +3218,7 @@ EdgeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3240,7 +3240,7 @@ EdgeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3262,7 +3262,7 @@ EdgeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -2.76, y: -1.07}
@@ -3423,7 +3423,7 @@ GameObject:
   - component: {fileID: 751741823}
   m_Layer: 0
   m_Name: Ground 3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3505,7 +3505,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4085,10 +4085,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  moveRight: 0
+  jumpSpeed: 0
   isKoopa: 1
   isGoomba: 0
   isPiranha: 0
+  hasWings: 0
 --- !u!50 &966042226
 Rigidbody2D:
   serializedVersion: 4
@@ -4844,7 +4845,7 @@ GameObject:
   - component: {fileID: 1133231681}
   m_Layer: 0
   m_Name: Ground 2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4926,7 +4927,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5862,7 +5863,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342164775}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0081997, y: -0.000037670135, z: 0}
+  m_LocalPosition: {x: 0.9997206, y: -0.000037670135, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5983,10 +5984,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  moveRight: 0
+  jumpSpeed: 6
   isKoopa: 0
   isGoomba: 1
   isPiranha: 0
+  hasWings: 1
 --- !u!50 &1364081757
 Rigidbody2D:
   serializedVersion: 4
@@ -6068,7 +6070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364081753}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.07, y: -4.99, z: 0.034853272}
+  m_LocalPosition: {x: -44.81, y: -4.99, z: 0.034853272}
   m_LocalScale: {x: 1.125, y: 1.125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6199,7 +6201,7 @@ GameObject:
   - component: {fileID: 1413523241}
   m_Layer: 0
   m_Name: SNES - Super Mario All-Stars Super Mario Bros 3 - World 1-1_677
-  m_TagString: Untagged
+  m_TagString: Edge Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7642,10 +7644,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  moveRight: 0
+  jumpSpeed: 0
   isKoopa: 0
   isGoomba: 1
   isPiranha: 0
+  hasWings: 0
 --- !u!61 &1734429322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9165,7 +9168,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074219235}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.33455658, y: 0.16709566, z: 0.034853272}
+  m_LocalPosition: {x: 4.55, y: 0.13, z: 0.03485327}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9231,10 +9234,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  moveRight: 0
+  jumpSpeed: 6
   isKoopa: 1
   isGoomba: 0
   isPiranha: 0
+  hasWings: 1
 --- !u!50 &2074219240
 Rigidbody2D:
   serializedVersion: 4
