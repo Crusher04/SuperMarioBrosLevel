@@ -37,23 +37,7 @@ public class EnemyTakeDamage : MonoBehaviour
     }
 
 
-    //void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    //Check to see if the enemy collided with a switch object
-    //    if (collision.gameObject.CompareTag("Player"))
-    //    {
 
-    //        if (collision.collider == GetComponent<BoxCollider2D>())
-    //        {
-    //            Debug.Log("Collision with BoxCollider");
-    //        }
-    //        else if (collision.collider == GetComponent<EdgeCollider2D>())
-    //        {
-    //            Debug.Log("Collision with SphereCollider");
-    //        }
-    //    }
-
-    //}
 
 
 
