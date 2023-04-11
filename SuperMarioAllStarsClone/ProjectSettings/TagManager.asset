@@ -8,6 +8,7 @@ TagManager:
   - Switch
   - Edge Block
   - Pipe
+  - Enemy
   layers:
   - Default
   - TransparentFX
