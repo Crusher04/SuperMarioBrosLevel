@@ -137,7 +137,7 @@ public class EnemyMovement : MonoBehaviour
         if (!hasWings)
         {
             //Check to see if the enemy collided with a switch object
-            if (trigger.gameObject.CompareTag("Switch"))
+            if (trigger.gameObject.CompareTag("Switch") || trigger.gameObject.CompareTag("Ground"))
             {
                 //IF the enemy was moving right than make the enemy move left instead
                 if (moveRight)

@@ -39,17 +39,19 @@ public class PlayerEnemyCollision : MonoBehaviour
 
 
 
-
-            if (collision.gameObject.GetComponent<BoxCollider2D>())
+            if (script.enemyDeath == false)
             {
+                if (collision.gameObject.GetComponent<BoxCollider2D>())
+                {
 
-                playerHealth -= 1;
+                    playerHealth -= 1;
 
-            }
+                }
 
-            if (collision.gameObject.GetComponent<EdgeCollider2D>())
-            {
-                script.enemyDeath = true;
+                if (collision.gameObject.GetComponent<PolygonCollider2D>())
+                {
+                    script.enemyDeath = true;
+                }
             }
         }
 
