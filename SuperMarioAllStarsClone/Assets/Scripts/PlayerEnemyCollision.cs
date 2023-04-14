@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class PlayerEnemyCollision : MonoBehaviour
 {
+    ///Initialize Variables
 
-    [SerializeField]
-    public GameObject enemy;
-    private EnemyTakeDamage script;
 
+    //Variables for Player
     private int playerHealth;
+    private bool playerHit;
 
     // Start is called before the first frame update
     void Start()
     {
-        script = enemy.GetComponent<EnemyTakeDamage>();
+
         playerHealth = 1;
     }
 
@@ -30,29 +30,47 @@ public class PlayerEnemyCollision : MonoBehaviour
         }
     }
 
-
+    //Collision for player
     void OnCollisionEnter2D(Collision2D collision)
     {
         //Check to see if the enemy collided with a switch object
         if (collision.gameObject.CompareTag("Enemy"))
         {
 
+            // Get the contact point of the collision
+            ContactPoint2D contact = collision.contacts[0];
 
+            // Get the position of the contact point in world coordinates
+            Vector2 contactPos = contact.point;
 
-            if (script.enemyDeath == false)
+            // Get the normal vector of the collision
+            Vector2 contactNormal = contact.normal;
+
+            // Get the game object that collided with this one
+            GameObject otherObject = collision.gameObject;
+
+            // Get the script component of the collided object
+            EnemyTakeDamage script = collision.gameObject.GetComponent<EnemyTakeDamage>();
+
+            //Check to see IF the player collides with the side of an enemy
+            if (contactPos.y < otherObject.transform.position.y) 
             {
-                if (collision.gameObject.GetComponent<BoxCollider2D>())
+                //Decrease player health and set playerHit to true
+                playerHealth -= 1;
+                playerHit = true;
+            }
+
+            //IF playerHit equals false then check to see if the player collides with the top of an enemy
+            if (playerHit == false)
+            {
+                if (contactPos.x < otherObject.transform.position.x)
                 {
+                    //Set the enemy's enemyDamage bool to true
+                    script.enemyDamage = true;
 
-                    playerHealth -= 1;
-
-                }
-
-                if (collision.gameObject.GetComponent<PolygonCollider2D>())
-                {
-                    script.enemyDeath = true;
                 }
             }
+
         }
 
     }

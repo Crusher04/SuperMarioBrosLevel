@@ -26,6 +26,7 @@ public class EnemyMovement : MonoBehaviour
     private bool moveRight;
     private bool isFlying;
     private bool isJumping;
+    public bool enemyTookDamage;
 
     //Variables for enemy type
     public bool isKoopa;
@@ -66,7 +67,7 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         //IF the enemy does not have wings than have it move right and left
-        if (!hasWings)
+        if (!hasWings && !enemyTookDamage)
         {
 
             //Set enemy velocity 
@@ -134,7 +135,7 @@ public class EnemyMovement : MonoBehaviour
     {
 
         //IF the enemy does not have wings
-        if (!hasWings)
+        if (!hasWings && !enemyTookDamage)
         {
             //Check to see if the enemy collided with a switch object
             if (trigger.gameObject.CompareTag("Switch") || trigger.gameObject.CompareTag("Ground"))
