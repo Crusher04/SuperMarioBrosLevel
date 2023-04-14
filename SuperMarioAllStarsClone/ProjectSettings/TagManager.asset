@@ -5,8 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Switch
   - Edge Block
   - Pipe
+  - Enemy
   layers:
   - Default
   - TransparentFX
