@@ -14,6 +14,11 @@ public class CameraMovement : MonoBehaviour
     
     [SerializeField] private Transform target;
 
+    private void Start()
+    {
+         
+    }
+
     // Update is called once per frame
     void Update()
     {

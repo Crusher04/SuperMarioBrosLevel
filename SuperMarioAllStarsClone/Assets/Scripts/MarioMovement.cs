@@ -15,15 +15,26 @@ public class MarioMovement : MonoBehaviour
     [Header("Wall Check Componenets")]
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
-    
-    private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 16f;
-    private bool isFacingRight = true;
-    [SerializeField] private bool isWallSliding;
-    [SerializeField] private float wallSlidingSpeed = 2f;
 
+    [Header("Mario Speed")]
+    [SerializeField] private float horizontal;
+    [SerializeField] private float DefaultSpeed = 6f;
+    [SerializeField] private float MaxSpeed = 12f;
+    [SerializeField] private float speed = 6f;
+    [SerializeField] private float speedModifier = 0.5f;
+
+
+    [Header("Mario Jumping")]
+    [SerializeField] private float jumpingPower = 16f;
+
+    private bool isFacingRight = true;
+    private bool isWallSliding;
+    private float wallSlidingSpeed = 2f;
+    private bool isSprinting = false;
     private Animator anim;
+
+
+    public float rbVelTest;
 
     // Start is called before the first frame update
     void Start()
@@ -38,24 +49,58 @@ public class MarioMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        //Reading Rigidbody x velocity to test movement
+        rbVelTest = rb.velocity.x;
+
+        //Check which way we're facing
         if (!isFacingRight && horizontal > 0f)
         {
-
             Flip();
         }
         else if (isFacingRight && horizontal < 0f)
         {
-
             Flip();
         }
 
+        //Check if moving..
         if (horizontal != 0f)
         {
+            if (isSprinting)
+            {
+                if (speed < MaxSpeed)
+                    speed += speedModifier;
+
+                rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+                
+                
+            }
+            else
+            {
+                rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+            }
             anim.SetBool("moving", true);
         }
         else
+        {
+            if (speed != DefaultSpeed)
+                speed = DefaultSpeed;
+
             anim.SetBool("moving", false);
+        }
+
+        //Stop Jumping Animation if on the ground
+        if(IsGrounded())
+            anim.SetBool("jumping", false);
+
+        //Check for max speed sprinting animation
+        if (speed >= MaxSpeed)
+        {
+            anim.SetBool("sprinting", true);
+        }
+        else
+        {
+            anim.SetBool("sprinting", false);
+        }
 
         WallSlide();
     }
@@ -66,12 +111,27 @@ public class MarioMovement : MonoBehaviour
         if(context.performed && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            anim.SetBool("jumping", true);
         }
 
         if (context.canceled && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            anim.SetBool("jumping", true);
+        }
 
+
+    }
+
+    public void Sprint(InputAction.CallbackContext context)
+    {
+        if(context.performed)
+        {
+            isSprinting = true;
+        }
+        else
+        {
+            isSprinting = false;
         }
     }
 

@@ -20,6 +20,10 @@ public class JumpFromBelow : MonoBehaviour
     [SerializeField] private EdgeCollider2D edgeCollider2DThree;
     [SerializeField] private EdgeCollider2D edgeCollider2DFour;
 
+    [Header("Platform Materials")]
+    [SerializeField] private PhysicsMaterial2D Slippery;
+    [SerializeField] private PhysicsMaterial2D Rough;
+
     // Start is called before the first frame update
     void Start()
     {
