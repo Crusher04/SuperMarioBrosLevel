@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
@@ -21,9 +22,11 @@ public class EnemyMovement : MonoBehaviour
     //Variables for the object
     private Rigidbody2D rb;
     private Vector3 localScale;
-
+    public Transform playerTransform;
+    public Transform enemyTransform;
+    public EnemyTakeDamage enemyDamageScript;
     //Variables for movement
-    private bool moveRight;
+    public bool moveRight;
     private bool isFlying;
     private bool isJumping;
     public bool enemyTookDamage;
@@ -36,6 +39,12 @@ public class EnemyMovement : MonoBehaviour
 
     //Other Variables
     private int jumpCount;
+    private float timeLimit;
+    private float timeLeft;
+    public float time;
+    public float waitTime;
+    private float piranhaHeightPlus;
+    private float piranhaHeightMinus;
 
 
     // Start is called before the first frame update
@@ -44,6 +53,7 @@ public class EnemyMovement : MonoBehaviour
         //Get the RigidBody and the scale of the enemy
         localScale = transform.localScale;
         rb = GetComponent<Rigidbody2D>();
+        enemyDamageScript = GetComponent<EnemyTakeDamage>();
 
         //Set the newSpeed to equal moveSpeed at the start
         if (moveRight)
@@ -61,13 +71,21 @@ public class EnemyMovement : MonoBehaviour
 
         //Set these variables to 0
         jumpCount = 0;
+       
+        timeLimit = time;
+        timeLeft = timeLimit;
+        piranhaHeightPlus = 1000;
+        piranhaHeightMinus = -1000;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        timeLeft -= Time.deltaTime;
+
         //IF the enemy does not have wings than have it move right and left
-        if (!hasWings && !enemyTookDamage)
+        if (!hasWings && !enemyTookDamage && !isPiranha)
         {
 
             //Set enemy velocity 
@@ -126,8 +144,83 @@ public class EnemyMovement : MonoBehaviour
             }
 
 
-        }        
+        }
 
+        if (isPiranha)
+        {
+            if (timeLeft >= 0)
+            {
+                rb.velocity = new Vector2(0, 2);
+                if (rb.position.y >= piranhaHeightPlus)
+                {
+                    rb.position = new Vector2(rb.position.x, piranhaHeightPlus);
+
+                }
+
+                Vector2 toPlayer = playerTransform.position - enemyTransform.position;
+                Vector2 enemyRight = enemyTransform.right;
+                // Calculate dot product between toPlayer and enemyRight
+                float dotProduct = Vector2.Dot(toPlayer, enemyRight);
+
+                if (dotProduct > 0)
+                {
+                    localScale.x = -1;
+                    transform.localScale = localScale;
+                }
+                if (dotProduct < 0)
+                {
+                    localScale.x = 1;
+                    transform.localScale = localScale;
+                }
+
+            }
+
+            if (timeLeft <= 0f && timeLeft >= -waitTime)
+            {
+                if (rb.position.y >= piranhaHeightPlus)
+                {
+                    rb.position = new Vector2(rb.position.x, piranhaHeightPlus);
+
+                }
+
+                piranhaHeightPlus = rb.position.y;
+                rb.velocity = new Vector2(0, 0);
+
+            }
+
+            if (timeLeft <= -waitTime && timeLeft >= -time * 2)
+            {
+
+                rb.velocity = new Vector2(0, -2);
+                if (rb.position.y <= piranhaHeightMinus)
+                {
+                    
+                    rb.position = new Vector2(rb.position.x, piranhaHeightMinus);
+
+                }
+            }
+
+            if (timeLeft <= -time * 2)
+            {
+                if (rb.position.y <= piranhaHeightMinus)
+                {
+
+                    rb.position = new Vector2(rb.position.x, piranhaHeightMinus);
+
+                }
+
+                piranhaHeightMinus = rb.position.y;
+                rb.velocity = new Vector2(0, 0);
+
+            }
+
+            if (timeLeft <= -waitTime * 3)
+            {
+
+                timeLeft = time;
+
+            }
+        }
     }
 
     //Function that is called when enemy collides with something
@@ -135,10 +228,10 @@ public class EnemyMovement : MonoBehaviour
     {
 
         //IF the enemy does not have wings
-        if (!hasWings && !enemyTookDamage)
+        if (!hasWings && !enemyTookDamage && !isPiranha)
         {
             //Check to see if the enemy collided with a switch object
-            if (trigger.gameObject.CompareTag("Switch") || trigger.gameObject.CompareTag("Ground"))
+            if (trigger.gameObject.CompareTag("Switch"))
             {
                 //IF the enemy was moving right than make the enemy move left instead
                 if (moveRight)
@@ -160,11 +253,19 @@ public class EnemyMovement : MonoBehaviour
             }
         }
 
+  
+
+
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+
         //IF the enemy does have wings
         if (hasWings)
         {
             //Check to see if the enemy collided with an edge block or the ground
-            if (trigger.gameObject.CompareTag("Edge Block") || trigger.gameObject.CompareTag("Ground"))
+            if (collision.gameObject.CompareTag("Edge Block") || collision.gameObject.CompareTag("Ground"))
             {
 
                 //Set isFlying to false 
@@ -180,8 +281,81 @@ public class EnemyMovement : MonoBehaviour
             }
         }
 
+        //Check to see if the enemy collided with a switch object
+        if (!collision.gameObject.CompareTag("Player"))
+        {
 
+            // Get the contact point of the collision
+            ContactPoint2D contact = collision.contacts[0];
+
+            // Get the position of the contact point in world coordinates
+            Vector2 contactPos = contact.point;
+
+            // Get the normal vector of the collision
+            Vector2 contactNormal = contact.normal;
+
+            // Get the game object that collided with this one
+            GameObject otherObject = collision.gameObject;
+
+            //Check to see IF the enemy collides with another object
+            if (contactPos.y < otherObject.transform.position.y || contactPos.y > otherObject.transform.position.y)
+            {
+
+                if (!hasWings)
+                {
+                    //IF the enemy was moving right than make the enemy move left instead
+                    if (moveRight)
+                    {
+                        //Flip the enemy sprite when it changes directions
+                        localScale.x *= -1;
+                        transform.localScale = localScale;
+                        moveRight = false;
+                    }
+                    //IF the enemy was moving left than make the enemy move right instead
+                    else
+                    {
+                        //Flip the enemy sprite when it changes directions
+                        localScale.x *= -1;
+                        transform.localScale = localScale;
+                        moveRight = true;
+
+                    }
+                }
+            }
+        }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            // Get the contact point of the collision
+            ContactPoint2D contact = collision.contacts[0];
+
+            // Get the position of the contact point in world coordinates
+            Vector2 contactPos = contact.point;
+
+            // Get the normal vector of the collision
+            Vector2 contactNormal = contact.normal;
+
+            // Get the game object that collided with this one
+            GameObject otherObject = collision.gameObject;
+
+            EnemyTakeDamage damageScript = collision.gameObject.GetComponent<EnemyTakeDamage>();
+
+            //Check to see IF the enemy collides with another object
+            if (contactPos.y < otherObject.transform.position.y || contactPos.y > otherObject.transform.position.y)
+            {
+
+
+                if (enemyDamageScript.koopaShellMoving)
+                {
+
+                    damageScript.enemyDamage = true;
+
+                }
+
+
+            }
+
+        }
 
     }
-
 }

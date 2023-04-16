@@ -50,7 +50,8 @@ public class PlayerEnemyCollision : MonoBehaviour
             GameObject otherObject = collision.gameObject;
 
             // Get the script component of the collided object
-            EnemyTakeDamage script = collision.gameObject.GetComponent<EnemyTakeDamage>();
+            EnemyTakeDamage damageScript = collision.gameObject.GetComponent<EnemyTakeDamage>();
+            EnemyMovement movementScript = collision.gameObject.GetComponent<EnemyMovement>();
 
             //Check to see IF the player collides with the side of an enemy
             if (contactPos.y < otherObject.transform.position.y) 
@@ -65,8 +66,15 @@ public class PlayerEnemyCollision : MonoBehaviour
             {
                 if (contactPos.x < otherObject.transform.position.x)
                 {
+                    if (movementScript.isPiranha)
+                    {
+
+                        playerHealth -= 1;
+                        playerHit = true;
+                    }
+
                     //Set the enemy's enemyDamage bool to true
-                    script.enemyDamage = true;
+                    damageScript.enemyDamage = true;
 
                 }
             }

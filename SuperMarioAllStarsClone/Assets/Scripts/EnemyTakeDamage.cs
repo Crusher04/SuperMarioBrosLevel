@@ -15,10 +15,16 @@ public class EnemyTakeDamage : MonoBehaviour
     [SerializeField]
     public AnimationClip enemyDamageClip;
 
+    [SerializeField]
+    public AnimationClip koopaShellClip;
+
+    [SerializeField]
+    public AnimationClip greenKoopaMovingClip;
+
     //Enemy Variables
     public bool enemyDamage;
     private bool koopaShell;
-    private bool koopaShellMoving;
+    public bool koopaShellMoving;
     private int koopaShellHit;
 
     //Initialize component variables
@@ -44,54 +50,84 @@ public class EnemyTakeDamage : MonoBehaviour
         //Check to see IF the enemy has been damaged
         if (enemyDamage == true)
         {
-            //Call the change sprite function
-            ChangeSprite();
+
 
             //Check to see if the enemy is a goomba
             if(script.isGoomba)
-            { 
-                Destroy(gameObject, 1.0f);
+            {
+                if (!script.hasWings)
+                {
+                    //Call the change sprite function
+                    ChangeSprite();
+                    transform.localScale = new Vector2(1.0f, 0.75f);
+                    rb.velocity = new Vector2(rb.position.x, rb.velocity.y - 10);
+                    Destroy(gameObject, 1.0f);
+                    enemyDamage = false;
+                }
+                if (script.hasWings)
+                {
+                    //Call the change sprite function
+                    ChangeSprite();
+                    transform.localScale = new Vector2(0.875f, 0.875f);
+                    script.hasWings = false;
+                    script.enemyTookDamage = false;
+                    enemyDamage = false;
+                    
+                }
             }
 
             //Check too see if the enemy is a koopa
             if(script.isKoopa)
             {
-                //Increaase koopaShellHit by 1
-                koopaShellHit += 1;
-               
-                //IF koopaShellHit is 2 then set koopaShellMoving to false and koopaShell to false
-                if (koopaShellHit == 2)
+                if (!script.hasWings)
                 {
-                    koopaShellMoving = false;
-                    koopaShell = false;
+                    //Increaase koopaShellHit by 1
+                    koopaShellHit += 1;
+
+                    //IF koopaShellHit is 2 then set koopaShellMoving to false and koopaShell to false
+                    if (koopaShellHit == 2)
+                    {
+                        koopaShellMoving = false;
+                        koopaShell = false;
+
+                    }
+
+                    //IF koopaShell is false set koopaShellHit to 0
+                    if (koopaShell == false)
+                    {
+
+                        koopaShellHit = 0;
+                    }
+
+                    //Set koopaShell to true
+                    koopaShell = true;
+
+
+                    //IF koopaShellHit is 0 then call change sprite function
+                    if (koopaShellHit == 0)
+                    {
+                        ChangeSprite();
+                        transform.localScale = new Vector2(1.0f, 0.75f);
+                    }
+                    //IF koopaShellHit is 1 then set koopaShellMoving to true
+                    if (koopaShellHit == 1)
+                    {
+
+                        koopaShellMoving = true;
+
+                    }
+
+                    //Set enemyDamage back to false
+                    enemyDamage = false;
+                }
+                if (script.hasWings)
+                {
+                    animator.Play(greenKoopaMovingClip.name);
+                    script.enemyTookDamage = false;
+                    
+                    script.hasWings = false;
 
                 }
-
-                //IF koopaShell is false set koopaShellHit to 0
-                if(koopaShell == false)
-                {
-
-                    koopaShellHit = 0;
-                }
-
-                //Set koopaShell to true
-                koopaShell = true;
-                
-                
-                //IF koopaShellHit is 0 then call change sprite function
-                if (koopaShellHit == 0)
-                {
-                    ChangeSprite();
-                }
-                //IF koopaShellHit is 1 then set koopaShellMoving to true
-                if (koopaShellHit == 1)
-                {
-
-                    koopaShellMoving = true;
-
-                }
-
-                //Set enemyDamage back to false
                 enemyDamage = false;
 
             }
@@ -101,7 +137,10 @@ public class EnemyTakeDamage : MonoBehaviour
         //IF koopaShellMoving is true then change the velocity for the shell
         if (koopaShellMoving == true)
         {
-            rb.velocity = new Vector2(15, -5);
+            animator.Play(koopaShellClip.name);
+            script.enemyTookDamage = false;
+            script.moveSpeed = 10;
+            transform.localScale = new Vector2(1.0f, 0.75f);
         }
 
 
@@ -116,7 +155,7 @@ public class EnemyTakeDamage : MonoBehaviour
         //Set enemyTookDamage to true
         script.enemyTookDamage = true;
         //Change scale of sprite
-        transform.localScale = new Vector2(1.0f, 0.75f);
+        
 
     }
 

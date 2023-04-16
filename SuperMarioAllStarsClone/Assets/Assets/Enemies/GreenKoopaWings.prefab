@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &9169152481163747338
+--- !u!1 &1592268368172903748
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9169152481163747334}
-  - component: {fileID: 9169152481163747337}
-  - component: {fileID: 9169152481163747336}
-  - component: {fileID: 9169152481163747335}
-  - component: {fileID: 9169152481163747332}
-  - component: {fileID: 9169152481163747333}
-  - component: {fileID: 9169152481163747331}
+  - component: {fileID: 1592268368172903747}
+  - component: {fileID: 1592268368172903746}
+  - component: {fileID: 1592268368172903745}
+  - component: {fileID: 1592268368172903744}
+  - component: {fileID: 1592268368172903751}
+  - component: {fileID: 1592268368172903750}
+  - component: {fileID: 1592268368172903749}
   m_Layer: 0
-  m_Name: Goomba
+  m_Name: GreenKoopaWings
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9169152481163747334
+--- !u!4 &1592268368172903747
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9169152481163747338}
+  m_GameObject: {fileID: 1592268368172903748}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -52.67455, y: -6.0729046, z: 0.03485327}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 24.67, y: -3.2778602, z: 0.03485327}
+  m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &9169152481163747337
+--- !u!212 &1592268368172903746
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9169152481163747338}
+  m_GameObject: {fileID: 1592268368172903748}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1487896087, guid: 8b358d62fad889b4eadd69f492f80bf0, type: 3}
+  m_Sprite: {fileID: -814898997, guid: 8b358d62fad889b4eadd69f492f80bf0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -89,14 +89,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &9169152481163747336
+--- !u!50 &1592268368172903745
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9169152481163747338}
+  m_GameObject: {fileID: 1592268368172903748}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -109,63 +109,69 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &9169152481163747335
+  m_Constraints: 4
+--- !u!114 &1592268368172903744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9169152481163747338}
+  m_GameObject: {fileID: 1592268368172903748}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6052eaff058ad104b9fe2d07386207f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  jumpSpeed: 0
+  jumpSpeed: 6
+  playerTransform: {fileID: 0}
+  enemyTransform: {fileID: 0}
+  enemyDamageScript: {fileID: 1592268368172903749}
+  moveRight: 0
   enemyTookDamage: 0
-  isKoopa: 0
-  isGoomba: 1
+  isKoopa: 1
+  isGoomba: 0
   isPiranha: 0
-  hasWings: 0
---- !u!61 &9169152481163747332
+  hasWings: 1
+  time: 0
+  waitTime: 0
+--- !u!61 &1592268368172903751
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9169152481163747338}
+  m_GameObject: {fileID: 1592268368172903748}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0018253326, y: -0.001262784}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 1.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0127068, y: 0.99747443}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!95 &9169152481163747333
+--- !u!95 &1592268368172903750
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9169152481163747338}
+  m_GameObject: {fileID: 1592268368172903748}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0d20363c507ca0f4f80028794562dab9, type: 2}
+  m_Controller: {fileID: 9100000, guid: d7a3f38e4ce88fb48b1f661445d5f2c7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -175,18 +181,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &9169152481163747331
+--- !u!114 &1592268368172903749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9169152481163747338}
+  m_GameObject: {fileID: 1592268368172903748}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 595dedd1e9b25b34fb30042b1e073e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 9169152481163747338}
-  enemyDamageClip: {fileID: 7400000, guid: f63ec49e27acc924190a4f479f4f9e23, type: 2}
+  enemy: {fileID: 1592268368172903748}
+  enemyDamageClip: {fileID: 7400000, guid: 411cb255317a8814ca1a7e49cabe576a, type: 2}
+  koopaShellClip: {fileID: 7400000, guid: af7243998c3bac540ae063d2ae46404c, type: 2}
+  greenKoopaMovingClip: {fileID: 7400000, guid: 27b2b574112d75142a634b559670789d, type: 2}
   enemyDamage: 0
+  koopaShellMoving: 0
