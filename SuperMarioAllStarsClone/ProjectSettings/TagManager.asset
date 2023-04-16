@@ -9,14 +9,17 @@ TagManager:
   - Edge Block
   - Pipe
   - Enemy
+  - Mario Small
+  - Mario Big
+  - Mario Racoon
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
+  - Wall
   - 
   - 
   - 

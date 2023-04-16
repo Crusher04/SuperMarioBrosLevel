@@ -15,10 +15,10 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-public partial class @Movement : IInputActionCollection2, IDisposable
+public partial class @MovementController : IInputActionCollection2, IDisposable
 {
     public InputActionAsset asset { get; }
-    public @Movement()
+    public @MovementController()
     {
         asset = InputActionAsset.FromJson(@"{
     ""name"": ""Movement"",
@@ -26,11 +26,26 @@ public partial class @Movement : IInputActionCollection2, IDisposable
         {
             ""name"": ""InLevel"",
             ""id"": ""e7a80c4d-d42f-4ece-b5d5-db32189edc6e"",
+            ""actions"": [],
+            ""bindings"": []
+        },
+        {
+            ""name"": ""PlayerMovement"",
+            ""id"": ""994995e0-3731-4445-bd7d-191a963c67dc"",
             ""actions"": [
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""d1f0767d-835c-4894-9487-03120a0d754c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
                 {
                     ""name"": ""Move"",
                     ""type"": ""Value"",
-                    ""id"": ""667daa04-db0e-4b04-8c69-8516c80c223a"",
+                    ""id"": ""11dc2689-5f97-4017-85c0-aa182170c528"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -39,52 +54,19 @@ public partial class @Movement : IInputActionCollection2, IDisposable
             ],
             ""bindings"": [
                 {
-                    ""name"": ""1D Axis"",
-                    ""id"": ""1b7efe8a-5912-464c-a685-70e93e7952d4"",
-                    ""path"": ""1DAxis"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""positive"",
-                    ""id"": ""af545fef-197e-4f55-8ba6-9edbdfb2ab82"",
-                    ""path"": ""<AndroidJoystick>/stick/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Xbox Controller"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""negative"",
-                    ""id"": ""c40ecc4c-d752-42f6-b354-c0c6130769e4"",
-                    ""path"": ""<AndroidJoystick>/stick/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Xbox Controller"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
                     ""name"": """",
-                    ""id"": ""559e340a-9c5b-40a0-bbd7-b271a75a972f"",
-                    ""path"": ""<Joystick>/stick/right"",
+                    ""id"": ""01c6fbca-3832-42ea-ab6e-144ebef6b91a"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Xbox Controller"",
-                    ""action"": ""Move"",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""Left / Right Movement - A/D"",
-                    ""id"": ""9658998e-f6e9-4878-bdb0-5f7404cfb1bc"",
+                    ""name"": ""2D Vector"",
+                    ""id"": ""325df61d-0877-4bc2-b428-5cbd7f611111"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -94,9 +76,9 @@ public partial class @Movement : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""up"",
-                    ""id"": ""f46bb50b-085b-40c2-9419-9e0a1b4fdd84"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""name"": ""Down"",
+                    ""id"": ""0ceff1f1-6f37-41fc-851f-cfa85b121dda"",
+                    ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
@@ -105,30 +87,19 @@ public partial class @Movement : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""down"",
-                    ""id"": ""52158479-d1d8-4e6a-84b3-aee7b9ac0a2d"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""72920f14-8520-4ac2-9cbf-b18665c6e332"",
+                    ""name"": ""Left"",
+                    ""id"": ""5565e04f-960c-4b83-8eff-7b8f59351abf"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard;Xbox Controller"",
+                    ""groups"": ""Keyboard"",
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""right"",
-                    ""id"": ""8acb8db0-7b00-4ba8-a7c7-5d1045e4a0cf"",
+                    ""name"": ""Right"",
+                    ""id"": ""8d665be4-a996-4f92-8ebe-854af77ba0fc"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -167,7 +138,10 @@ public partial class @Movement : IInputActionCollection2, IDisposable
 }");
         // InLevel
         m_InLevel = asset.FindActionMap("InLevel", throwIfNotFound: true);
-        m_InLevel_Move = m_InLevel.FindAction("Move", throwIfNotFound: true);
+        // PlayerMovement
+        m_PlayerMovement = asset.FindActionMap("PlayerMovement", throwIfNotFound: true);
+        m_PlayerMovement_Jump = m_PlayerMovement.FindAction("Jump", throwIfNotFound: true);
+        m_PlayerMovement_Move = m_PlayerMovement.FindAction("Move", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -227,12 +201,10 @@ public partial class @Movement : IInputActionCollection2, IDisposable
     // InLevel
     private readonly InputActionMap m_InLevel;
     private IInLevelActions m_InLevelActionsCallbackInterface;
-    private readonly InputAction m_InLevel_Move;
     public struct InLevelActions
     {
-        private @Movement m_Wrapper;
-        public InLevelActions(@Movement wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Move => m_Wrapper.m_InLevel_Move;
+        private @MovementController m_Wrapper;
+        public InLevelActions(@MovementController wrapper) { m_Wrapper = wrapper; }
         public InputActionMap Get() { return m_Wrapper.m_InLevel; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -242,20 +214,55 @@ public partial class @Movement : IInputActionCollection2, IDisposable
         {
             if (m_Wrapper.m_InLevelActionsCallbackInterface != null)
             {
-                @Move.started -= m_Wrapper.m_InLevelActionsCallbackInterface.OnMove;
-                @Move.performed -= m_Wrapper.m_InLevelActionsCallbackInterface.OnMove;
-                @Move.canceled -= m_Wrapper.m_InLevelActionsCallbackInterface.OnMove;
             }
             m_Wrapper.m_InLevelActionsCallbackInterface = instance;
             if (instance != null)
             {
+            }
+        }
+    }
+    public InLevelActions @InLevel => new InLevelActions(this);
+
+    // PlayerMovement
+    private readonly InputActionMap m_PlayerMovement;
+    private IPlayerMovementActions m_PlayerMovementActionsCallbackInterface;
+    private readonly InputAction m_PlayerMovement_Jump;
+    private readonly InputAction m_PlayerMovement_Move;
+    public struct PlayerMovementActions
+    {
+        private @MovementController m_Wrapper;
+        public PlayerMovementActions(@MovementController wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Jump => m_Wrapper.m_PlayerMovement_Jump;
+        public InputAction @Move => m_Wrapper.m_PlayerMovement_Move;
+        public InputActionMap Get() { return m_Wrapper.m_PlayerMovement; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(PlayerMovementActions set) { return set.Get(); }
+        public void SetCallbacks(IPlayerMovementActions instance)
+        {
+            if (m_Wrapper.m_PlayerMovementActionsCallbackInterface != null)
+            {
+                @Jump.started -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnJump;
+                @Move.started -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnMove;
+            }
+            m_Wrapper.m_PlayerMovementActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
                 @Move.started += instance.OnMove;
                 @Move.performed += instance.OnMove;
                 @Move.canceled += instance.OnMove;
             }
         }
     }
-    public InLevelActions @InLevel => new InLevelActions(this);
+    public PlayerMovementActions @PlayerMovement => new PlayerMovementActions(this);
     private int m_XboxControllerSchemeIndex = -1;
     public InputControlScheme XboxControllerScheme
     {
@@ -276,6 +283,10 @@ public partial class @Movement : IInputActionCollection2, IDisposable
     }
     public interface IInLevelActions
     {
+    }
+    public interface IPlayerMovementActions
+    {
+        void OnJump(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
     }
 }
