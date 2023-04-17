@@ -1,7 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using Unity.VisualScripting;
+using UnityEditor.AnimatedValues;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class MarioMovement : MonoBehaviour
 {
@@ -27,13 +31,21 @@ public class MarioMovement : MonoBehaviour
     [Header("Mario Jumping")]
     [SerializeField] private float jumpingPower = 16f;
 
+    [Header("Skidding Smoke")]
+    public GameObject SmokeOne;
+    public GameObject SmokeTwo;
+    public GameObject SmokeThree;
+    public GameObject SmokeFour;
+    public Transform SpawnLocation;
+
     private bool isFacingRight = true;
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
     private bool isSprinting = false;
     private Animator anim;
 
-
+    [Header("Watched Variables")]
+    public bool flippingBool;
     public float rbXVelTest;
     public float rbYVelTest;
     // Start is called before the first frame update
@@ -47,15 +59,16 @@ public class MarioMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //Reading Rigidbody x velocity to test movement
         rbXVelTest = rb.velocity.x;
         rbYVelTest = rb.velocity.y;
+        flippingBool = anim.GetBool("flipped");
 
         //Check which way we're facing
         if (!isFacingRight && horizontal > 0f)
-        {
+        {      
             Flip();
         }
         else if (isFacingRight && horizontal < 0f)
@@ -70,15 +83,45 @@ public class MarioMovement : MonoBehaviour
             {
                 if (speed < MaxSpeed)
                     speed += speedModifier;
+         
+            }
 
-                rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-                
-                
-            }
-            else
+            if (horizontal > 0)
             {
-                rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+
+                if (rb.velocity.x < 0)
+                {
+                    anim.SetBool("flipped", true);
+                    anim.SetBool("walking", false);
+                    anim.SetBool("sprinting", false);
+                    speed = DefaultSpeed;
+                }
+                else
+                {
+                    anim.SetBool("flipped", false);
+
+                }
             }
+            else if (horizontal < 0)
+            {
+                if (rb.velocity.x > 0)
+                {
+                    anim.SetBool("flipped", true);
+                    anim.SetBool("walking", false);
+                    anim.SetBool("sprinting", false);
+                    speed = DefaultSpeed;
+                }
+                else
+                {
+                    anim.SetBool("flipped", false);
+                }
+            }
+
+            if (!anim.GetBool("flipped"))
+                rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+
+
+
             anim.SetBool("moving", true);
         }
         else
@@ -86,7 +129,13 @@ public class MarioMovement : MonoBehaviour
             if (speed != DefaultSpeed)
                 speed = DefaultSpeed;
 
+            if (rb.velocity.x != 0)
+            {
+
+            }
+
             anim.SetBool("moving", false);
+            anim.SetBool("flipped", false);
         }
 
         //Stop Jumping Animation if on the ground
@@ -104,6 +153,30 @@ public class MarioMovement : MonoBehaviour
         }
 
         WallSlide();
+    }
+
+
+    private void SkidSmoke()
+    {
+        Vector3 spawnPos = SpawnLocation.transform.position;
+
+        
+        GameObject spwanSmokeOne = (GameObject)Instantiate(SmokeOne, spawnPos, SpawnLocation.transform.rotation);
+        
+    }
+    private bool isSlowingDown()
+    {
+        bool areWeMoving = false;
+        if(rb.velocity.x != 0)
+        {
+            areWeMoving = true;
+        }
+        else
+        {
+            areWeMoving = false;
+        }
+
+        return areWeMoving;
     }
 
     public void Jump(InputAction.CallbackContext context)

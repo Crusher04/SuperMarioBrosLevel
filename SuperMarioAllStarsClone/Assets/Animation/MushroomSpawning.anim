@@ -50,6 +50,15 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 0}
+    - time: 0.68333334
+      value: {fileID: 4956070277833816198, guid: 7f08d8c6e4a2c254585e6a65fa2ebfa8, type: 3}
+    attribute: MushroomComponent
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 13995ca7de86e644ab5e6f0a0e904a34, type: 3}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -71,8 +80,17 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 0
+      attribute: 3251673164
+      script: {fileID: 11500000, guid: 13995ca7de86e644ab5e6f0a0e904a34, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: -1872398656, guid: 708c8c96fd3f9214486768e1d0ca4ef0, type: 3}
+    - {fileID: 0}
+    - {fileID: 4956070277833816198, guid: 7f08d8c6e4a2c254585e6a65fa2ebfa8, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

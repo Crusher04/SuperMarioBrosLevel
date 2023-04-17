@@ -750,27 +750,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_29
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 1060
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fba44281728123348b88925819f2bb8d
-      internalID: 202391325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_30
       rect:
         serializedVersion: 2
@@ -8751,7 +8730,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_410
+      name: Cloud Effect One
       rect:
         serializedVersion: 2
         x: 102
@@ -8772,7 +8751,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_411
+      name: Cloud Effect Two
       rect:
         serializedVersion: 2
         x: 117
@@ -8793,7 +8772,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_412
+      name: Cloud Effect Three
       rect:
         serializedVersion: 2
         x: 133
@@ -8835,7 +8814,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_414
+      name: Cloud Effect Four
       rect:
         serializedVersion: 2
         x: 155
@@ -11079,7 +11058,6 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_141: 756531080
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_513: -861733420
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_352: 1168509627
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_411: 1572907155
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_259: -1517868878
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_81: 366523602
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_14: -205874404
@@ -11087,11 +11065,11 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_491: 164679628
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_169: 21026933
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_396: 272144623
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_38: 117145764
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_151: -727049028
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_38: 117145764
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_262: -474973793
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_482: 156599147
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_245: 867144137
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_482: 156599147
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_208: -371896858
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_337: -1611228413
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_246: -1143812112
@@ -11166,7 +11144,6 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_51: 145638225
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_77: 1428192039
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_249: -67443789
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_410: 1476753116
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_286: 1069875969
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_484: -1869559207
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_508: 2050529084
@@ -11328,7 +11305,6 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_283: 1132972217
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_69: 1059916763
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_158: -1250807564
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_414: 385667576
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_271: -697008673
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_40: 1731122053
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_125: -463613629
@@ -11378,6 +11354,7 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_442: 1756517901
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_65: -403531557
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_120: 300202806
+      Cloud Effect Four: 385667576
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_331: 1214648131
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_1: 2094049655
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_371: 1777574413
@@ -11403,13 +11380,12 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_439: 2001532562
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_362: -193383214
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_57: -1754294458
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_412: 47110175
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_473: -4709790
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_453: -1693843655
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_174: 512054256
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_75: 99190428
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_263: -1116847539
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_421: 64009490
-      SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_473: -4709790
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_20: 70377124
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_48: 1326196796
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_445: -569833986
@@ -11426,6 +11402,7 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_264: -843268180
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_448: -1381515445
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_452: -1250085793
+      Cloud Effect Two: 1572907155
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_17: 1530633495
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_254: 2091868238
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_261: 168229423
@@ -11515,6 +11492,7 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_89: -1266911481
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_114: 1627393759
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_8: 393709883
+      Cloud Effect One: 1476753116
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_328: 924983744
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_343: -1985477162
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_15: -1686488178
@@ -11522,6 +11500,7 @@ TextureImporter:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_474: 1675353490
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_45: -814898997
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_298: -1798458246
+      Cloud Effect Three: 47110175
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_345: 1841351413
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_471: -1873544708
       SNES - Super Mario All-Stars Super Mario Bros 3 - Enemies_510: -1111600237

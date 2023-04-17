@@ -519,27 +519,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_252
-      rect:
-        serializedVersion: 2
-        x: 809
-        y: 71
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca63ec770005e6f4b91dde27b72105ed
-      internalID: 1208530896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_265
       rect:
         serializedVersion: 2
@@ -603,27 +582,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_220
-      rect:
-        serializedVersion: 2
-        x: 834
-        y: 93
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b82e61d73ba6df4e9b11dda0abce38e
-      internalID: 705530372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_71
       rect:
         serializedVersion: 2
@@ -661,27 +619,6 @@ TextureImporter:
       bones: []
       spriteID: fc4e2388c2c533b4285292297ee500b7
       internalID: -249425782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_211
-      rect:
-        serializedVersion: 2
-        x: 761
-        y: 93
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 932e9ceff5bdf0b439e2fe69302de737
-      internalID: 2144904302
       vertices: []
       indices: 
       edges: []
@@ -1086,48 +1023,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_224
-      rect:
-        serializedVersion: 2
-        x: 792
-        y: 82
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 340ba0336d9fa884a9214f973bc1978d
-      internalID: -1951159800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_215
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 93
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94b8017a7ae681c4cbab9ba98baa2431
-      internalID: -1079341210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_101
       rect:
         serializedVersion: 2
@@ -1144,48 +1039,6 @@ TextureImporter:
       bones: []
       spriteID: e8a0a3729c085e7408cce6c45f9f0bc3
       internalID: -1068464094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_214
-      rect:
-        serializedVersion: 2
-        x: 785
-        y: 93
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bfc6d15f1f675a4db234575ead46bae
-      internalID: -1160082542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_226
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 82
-        width: 4
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 037d6edaa7072224e858d6be49452348
-      internalID: 1166931720
       vertices: []
       indices: 
       edges: []
@@ -1249,27 +1102,6 @@ TextureImporter:
       bones: []
       spriteID: 808cf7970671e6f4ba7f3b0c53bfbfc6
       internalID: -1786611374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_221
-      rect:
-        serializedVersion: 2
-        x: 841
-        y: 91
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffb5ef02af1ce04458f1aed085018525
-      internalID: 1186508904
       vertices: []
       indices: 
       edges: []
@@ -1506,27 +1338,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_225
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 82
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1ed5130e0fd3bf49bb3de79720cc420
-      internalID: 1684165991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_134
       rect:
         serializedVersion: 2
@@ -1564,27 +1375,6 @@ TextureImporter:
       bones: []
       spriteID: 0abd7d5e658d77440bc2c3085b34c617
       internalID: -422032829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_223
-      rect:
-        serializedVersion: 2
-        x: 784
-        y: 82
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70f2a5dc9e9c3ee47be8cc4009253bab
-      internalID: -836791543
       vertices: []
       indices: 
       edges: []
@@ -1711,27 +1501,6 @@ TextureImporter:
       bones: []
       spriteID: 3175a62960c18934b8681199f2c89fe8
       internalID: 172345105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_210
-      rect:
-        serializedVersion: 2
-        x: 718
-        y: 54
-        width: 30
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4708b5d7948c3f4449a43f2b9eb3b8da
-      internalID: 1511905360
       vertices: []
       indices: 
       edges: []
@@ -1947,27 +1716,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_254
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 71
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 654bf5b202b22b94f98ec561c5771541
-      internalID: -2056174471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_66
       rect:
         serializedVersion: 2
@@ -2026,27 +1774,6 @@ TextureImporter:
       bones: []
       spriteID: 498cbd23e1c8ec64393354c741a6226b
       internalID: 269870809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_253
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 71
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3ea1aa57220b2f4ca0183a3a3781ba5
-      internalID: 1725500210
       vertices: []
       indices: 
       edges: []
@@ -2383,27 +2110,6 @@ TextureImporter:
       bones: []
       spriteID: def44678171334e41bffa139843828a7
       internalID: 1434514653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_219
-      rect:
-        serializedVersion: 2
-        x: 825
-        y: 93
-        width: 4
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aae3902a17bd3cd47aef8206fe44677f
-      internalID: 1327569599
       vertices: []
       indices: 
       edges: []
@@ -3039,48 +2745,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_255
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 71
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08ef5d5eb9a6ad245868c47f076d81b8
-      internalID: -1237852446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_248
-      rect:
-        serializedVersion: 2
-        x: 776
-        y: 71
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4731b6137f490414ba50f38605d5bdb0
-      internalID: -268484996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_282
       rect:
         serializedVersion: 2
@@ -3160,27 +2824,6 @@ TextureImporter:
       bones: []
       spriteID: de7cb11aecc6b1f42a05aadd5eb42eaf
       internalID: -1916718848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_216
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 91
-        width: 11
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53579572d0a07444991f52a9e094cc8c
-      internalID: -1136089313
       vertices: []
       indices: 
       edges: []
@@ -3396,27 +3039,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_217
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 91
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be4dfccf8f34d4c49b597b56d1cb9ed4
-      internalID: -141288841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_18
       rect:
         serializedVersion: 2
@@ -3496,27 +3118,6 @@ TextureImporter:
       bones: []
       spriteID: 2b7dde47bab4bac47b554cd9b0aac9c2
       internalID: 11008601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_256
-      rect:
-        serializedVersion: 2
-        x: 842
-        y: 71
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b271b7fb40c9a64c8805531ef44e99d
-      internalID: 179224684
       vertices: []
       indices: 
       edges: []
@@ -3706,27 +3307,6 @@ TextureImporter:
       bones: []
       spriteID: 4022e6feb33d7f845a0eded630abdd15
       internalID: 102187181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_246
-      rect:
-        serializedVersion: 2
-        x: 759
-        y: 71
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 936163670112f68428ce4396f50807e0
-      internalID: 195941512
       vertices: []
       indices: 
       edges: []
@@ -4320,27 +3900,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_250
-      rect:
-        serializedVersion: 2
-        x: 793
-        y: 71
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4090134c679f924cae87556bafed8af
-      internalID: -1088776216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_103
       rect:
         serializedVersion: 2
@@ -4420,27 +3979,6 @@ TextureImporter:
       bones: []
       spriteID: 73ae255adedb1a7438e55e1d42e3c0b8
       internalID: -2137286995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_21
-      rect:
-        serializedVersion: 2
-        x: 893
-        y: 219
-        width: 56
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f781deb88a844aa40bbafa51f04cd7d1
-      internalID: -1650809492
       vertices: []
       indices: 
       edges: []
@@ -4971,27 +4509,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_257
-      rect:
-        serializedVersion: 2
-        x: 848
-        y: 71
-        width: 4
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57af5a72482aa784a9fc4a2857082fbb
-      internalID: -204587878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_42
       rect:
         serializedVersion: 2
@@ -5008,27 +4525,6 @@ TextureImporter:
       bones: []
       spriteID: 6dbedbd59d3eae14794d69d9b8fa6f4b
       internalID: -1017988265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_213
-      rect:
-        serializedVersion: 2
-        x: 774
-        y: 93
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a5f6813f7c5ce74e89d3edc9bf4b470
-      internalID: 1677539450
       vertices: []
       indices: 
       edges: []
@@ -5160,27 +4656,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_227
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 82
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6de0ff6e7988ab948b95847ec918ba80
-      internalID: 2003733557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_283
       rect:
         serializedVersion: 2
@@ -5281,27 +4756,6 @@ TextureImporter:
       bones: []
       spriteID: 43e87c3c723a83343a175c078963cde4
       internalID: 494220076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_212
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 91
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8aa4f62ad965f54dbaea41075f03416
-      internalID: 798269263
       vertices: []
       indices: 
       edges: []
@@ -5449,27 +4903,6 @@ TextureImporter:
       bones: []
       spriteID: fb37884e36f3d33419fbc1f24fe856f9
       internalID: 1888215545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_247
-      rect:
-        serializedVersion: 2
-        x: 770
-        y: 71
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2b8d2af9ba9bcf4fa111c8f1973fcc1
-      internalID: 1811989996
       vertices: []
       indices: 
       edges: []
@@ -5832,27 +5265,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walking_251
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 71
-        width: 4
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5aafa81b8d28f3d4fbc65d5077487275
-      internalID: 517307749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mario Walking_145
       rect:
         serializedVersion: 2
@@ -5995,27 +5407,6 @@ TextureImporter:
       bones: []
       spriteID: 75e8c0ba0a3ef464ca922099b9e789c4
       internalID: 1778780316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mario Walking_249
-      rect:
-        serializedVersion: 2
-        x: 785
-        y: 71
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69e227f232bb46e45b987576c049416e
-      internalID: 542194096
       vertices: []
       indices: 
       edges: []
@@ -6497,7 +5888,6 @@ TextureImporter:
       Mario Walking_52: -524525143
       Mario Walking_112: 1953156907
       Mario Walking_133: -2095079676
-      Mario Walking_146: -2079027719
       Mario Walking_209: 162268828
       Mario Walking_14: -1457009945
       Mario Walking_98: 2127840423
@@ -6556,15 +5946,15 @@ TextureImporter:
       Mario Walking_63: 233209602
       Mario Walking_200: 647402615
       Mario Walking_37: -1496385048
+      Mario Walking_140: -1448170306
+      Mario Walking_40: -85100238
+      Mario Walking_225: 1684165991
       Mario Walking_134: -1065648458
       Mario Walking_297: 217135273
-      Mario Walking_225: 1684165991
-      Mario Walking_140: -1448170306
       Mario Walking_135: -422032829
       Mario Walking_223: -836791543
       Mario Walking_130: -1067549434
       Mario Walking_144: -1205308564
-      Mario Walking_40: -85100238
       Mario Walking_141: 642283801
       Mario Walking_136: -2030602376
       Mario Walking_131: 172345105
@@ -6784,17 +6174,18 @@ TextureImporter:
       Mario Walking_172: 1558077038
       Mario Walking_233: 1175045340
       Mario Walking_78: -2141758670
+      Mario Walking_87: 109265419
+      Mario Walking_146: -2079027719
       Mario Walking_65: 1913381781
+      Mario Walking_148: 1760238452
       Mario Walking_270: -1510255282
       Mario Walking_36: -2138211705
-      Mario Walking_148: 1760238452
       Mario Walking_159: -1079156871
-      Mario Walking_87: 109265419
       Mario Walking_88: 305134154
       Mario Walking_279: -69282341
       Mario Walking_207: 216733011
-      Mario Walking_54: 1462145315
       Mario Walking_126: -1095447447
+      Mario Walking_54: 1462145315
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

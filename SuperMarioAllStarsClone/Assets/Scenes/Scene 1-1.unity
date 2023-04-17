@@ -16486,6 +16486,11 @@ Transform:
   m_Father: {fileID: 1310651031}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1698211814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2094665324762167158, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+  m_PrefabInstance: {fileID: 1553280398909607644}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1699908995
 GameObject:
   m_ObjectHideFlags: 0
@@ -20695,9 +20700,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1553280399033310324, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553280399033310324, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.9375
+      objectReference: {fileID: 0}
     - target: {fileID: 1553280399033310325, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: m_BodyType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553280399033310325, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: DefaultSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: SpawnLocation
+      value: 
+      objectReference: {fileID: 1698211814}
+    - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: speedModifier
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1553280399542730712, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: m_RootOrder

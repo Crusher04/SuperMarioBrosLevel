@@ -41,9 +41,9 @@ public class MysteryBlock : MonoBehaviour
 
     //Check if items are spawned
     private bool isMushroomSpawend = false;
-    
 
 
+    public Transform spawnLocation;
 
     // Start is called before the first frame update
     void Start()
