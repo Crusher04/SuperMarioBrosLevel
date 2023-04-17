@@ -340,6 +340,7 @@ public class EnemyMovement : MonoBehaviour
 
             EnemyTakeDamage damageScript = collision.gameObject.GetComponent<EnemyTakeDamage>();
 
+            EnemyMovement movementScript = collision.gameObject.GetComponent<EnemyMovement>();
             //Check to see IF the enemy collides with another object
             if (contactPos.y < otherObject.transform.position.y || contactPos.y > otherObject.transform.position.y)
             {
@@ -347,6 +348,14 @@ public class EnemyMovement : MonoBehaviour
 
                 if (enemyDamageScript.koopaShellMoving)
                 {
+                    //if (movementScript.hasWings)
+                    //{
+
+                    //    movementScript.hasWings = false;
+                    //}
+
+                    Destroy(otherObject);
+
 
                     damageScript.enemyDamage = true;
 

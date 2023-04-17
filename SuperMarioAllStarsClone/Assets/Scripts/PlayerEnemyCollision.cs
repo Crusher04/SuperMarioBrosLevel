@@ -10,7 +10,6 @@ public class PlayerEnemyCollision : MonoBehaviour
 
     //Variables for Player
     private int playerHealth;
-    private bool playerHit;
 
     // Start is called before the first frame update
     void Start()
@@ -53,18 +52,15 @@ public class PlayerEnemyCollision : MonoBehaviour
             EnemyTakeDamage damageScript = collision.gameObject.GetComponent<EnemyTakeDamage>();
             EnemyMovement movementScript = collision.gameObject.GetComponent<EnemyMovement>();
 
-            //Check to see IF the player collides with the side of an enemy
-            if (contactPos.y < otherObject.transform.position.y) 
-            {
-                //Decrease player health and set playerHit to true
-                playerHealth -= 1;
-                playerHit = true;
-            }
+            bool playerHit;
+            bool enemyHit;
+            playerHit = false;
+            enemyHit = false;
 
             //IF playerHit equals false then check to see if the player collides with the top of an enemy
             if (playerHit == false)
             {
-                if (contactPos.x < otherObject.transform.position.x)
+                if (contactPos.y > otherObject.transform.position.y + 0.3)
                 {
                     if (movementScript.isPiranha)
                     {
@@ -75,9 +71,45 @@ public class PlayerEnemyCollision : MonoBehaviour
 
                     //Set the enemy's enemyDamage bool to true
                     damageScript.enemyDamage = true;
-
+                    enemyHit = true;
                 }
             }
+            
+            if (enemyHit == false && damageScript.enemyDeath == false)
+            {
+                if (damageScript.koopaShellHit > 0)
+                {
+                    //Check to see IF the player collides with the side of an enemy
+                    if (contactPos.x < otherObject.transform.position.x || contactPos.x > otherObject.transform.position.x)
+                    {
+                        //Decrease player health and set playerHit to true
+                        playerHealth -= 1;
+                        playerHit = true;
+                    }
+                }
+            }
+
+            if (damageScript.koopaShellHit == 0)
+            {
+
+               
+
+                if (contactPos.x > otherObject.transform.position.x)
+                {
+                    damageScript.koopaShellMoving = true;
+                    movementScript.moveRight = false;
+                }
+
+                if (contactPos.x < otherObject.transform.position.x)
+                {
+                    damageScript.koopaShellMoving = true;
+                    movementScript.moveRight = true;
+                }
+
+        
+            }
+
+
 
         }
 

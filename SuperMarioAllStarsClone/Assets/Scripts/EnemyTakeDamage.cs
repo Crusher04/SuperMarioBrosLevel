@@ -13,20 +13,20 @@ public class EnemyTakeDamage : MonoBehaviour
     
 
     [SerializeField]
-    public AnimationClip enemyDamageClip;
+    public AnimationClip DeathClip;
 
     [SerializeField]
-    public AnimationClip koopaShellClip;
+    public AnimationClip ShellClip;
 
     [SerializeField]
-    public AnimationClip greenKoopaMovingClip;
+    public AnimationClip MovementClip;
 
     //Enemy Variables
     public bool enemyDamage;
     private bool koopaShell;
     public bool koopaShellMoving;
-    private int koopaShellHit;
-
+    public int koopaShellHit;
+    public bool enemyDeath;
     //Initialize component variables
     private EnemyMovement script;
     private Animator animator;
@@ -41,7 +41,7 @@ public class EnemyTakeDamage : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         transform = GetComponent<Transform>();
         script = enemy.GetComponent<EnemyMovement>();
-        koopaShellHit = 0;
+        koopaShellHit = 10;
     }
 
     // Update is called once per frame
@@ -58,17 +58,20 @@ public class EnemyTakeDamage : MonoBehaviour
                 if (!script.hasWings)
                 {
                     //Call the change sprite function
-                    ChangeSprite();
-                    transform.localScale = new Vector2(1.0f, 0.75f);
-                    rb.velocity = new Vector2(rb.position.x, rb.velocity.y - 10);
+                    animator.Play(DeathClip.name);
+                    script.enemyTookDamage = true;
+                    //rb.velocity = new Vector2(rb.position.x, rb.velocity.y - 10);
+                    enemyDeath = true;
                     Destroy(gameObject, 1.0f);
                     enemyDamage = false;
+                    
                 }
                 if (script.hasWings)
                 {
                     //Call the change sprite function
-                    ChangeSprite();
-                    transform.localScale = new Vector2(0.875f, 0.875f);
+                    animator.Play(MovementClip.name);
+                    rb.velocity = new Vector2(rb.position.x, rb.velocity.y - 10);
+                    script.enemyTookDamage = true;
                     script.hasWings = false;
                     script.enemyTookDamage = false;
                     enemyDamage = false;
@@ -81,6 +84,7 @@ public class EnemyTakeDamage : MonoBehaviour
             {
                 if (!script.hasWings)
                 {
+
                     //Increaase koopaShellHit by 1
                     koopaShellHit += 1;
 
@@ -106,8 +110,9 @@ public class EnemyTakeDamage : MonoBehaviour
                     //IF koopaShellHit is 0 then call change sprite function
                     if (koopaShellHit == 0)
                     {
-                        ChangeSprite();
+                        animator.Play(DeathClip.name);
                         transform.localScale = new Vector2(1.0f, 0.75f);
+                        script.enemyTookDamage = true;
                     }
                     //IF koopaShellHit is 1 then set koopaShellMoving to true
                     if (koopaShellHit == 1)
@@ -122,7 +127,8 @@ public class EnemyTakeDamage : MonoBehaviour
                 }
                 if (script.hasWings)
                 {
-                    animator.Play(greenKoopaMovingClip.name);
+                    animator.Play(MovementClip.name);
+                    rb.velocity = new Vector2(rb.position.x, rb.velocity.y - 2);
                     script.enemyTookDamage = false;
                     
                     script.hasWings = false;
@@ -133,35 +139,25 @@ public class EnemyTakeDamage : MonoBehaviour
             }
         }
 
+        
 
         //IF koopaShellMoving is true then change the velocity for the shell
         if (koopaShellMoving == true)
         {
-            animator.Play(koopaShellClip.name);
+            koopaShellHit = 1;
+            animator.Play(ShellClip.name);
             script.enemyTookDamage = false;
             script.moveSpeed = 10;
             transform.localScale = new Vector2(1.0f, 0.75f);
+            if (rb.velocity.y > 0.0f)
+            {
+                // If the object is moving up, stop it
+                rb.velocity = new Vector2(rb.velocity.x, 0.0f);
+            }
         }
 
 
         
     }
-
-    //Change sprite function
-    void ChangeSprite()
-    {
-        //Play enemy damage clip
-        animator.Play(enemyDamageClip.name);
-        //Set enemyTookDamage to true
-        script.enemyTookDamage = true;
-        //Change scale of sprite
-        
-
-    }
-
-
-
-
-
 
 }
