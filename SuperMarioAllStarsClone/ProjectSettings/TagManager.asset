@@ -12,6 +12,8 @@ TagManager:
   - Mario Small
   - Mario Big
   - Mario Racoon
+  - Mushroom
+  - Mystery Block
   layers:
   - Default
   - TransparentFX
