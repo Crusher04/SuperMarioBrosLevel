@@ -105,7 +105,7 @@ public class MysteryBlock : MonoBehaviour
             {
                 isCoinSpawned = true;  
                 AnimEventHandler.myAudio.Play();
-                AnimEventHandler.anim.SetBool("spawnCoin", true);
+                AnimEventHandler.anim.Play("Coin Turning");
                 
             }
         }

@@ -159,6 +159,7 @@ public class MarioMovement : MonoBehaviour
         if(rb.velocity.y > 0.5f)
         {
             anim.SetBool("jumping", true);
+            
         }
     
     }
@@ -195,15 +196,17 @@ public class MarioMovement : MonoBehaviour
         if (context.performed && IsGrounded())
         {    
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            GetComponent<AudioSource>().Play();
         }
 
         if (context.canceled && rb.velocity.y > 0f)
         {     
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            
 
         }
 
-
+        
 
     }
 

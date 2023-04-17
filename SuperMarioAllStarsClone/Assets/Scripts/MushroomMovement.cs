@@ -36,7 +36,7 @@ public class MushroomMovement : MonoBehaviour
         {
             if (firstSpawn)
             {
-                if(player.transform.position.x > transform.position.x)
+                if(player.transform.position.x >= transform.position.x)
                 {
                     orientation = -1;
                 }
