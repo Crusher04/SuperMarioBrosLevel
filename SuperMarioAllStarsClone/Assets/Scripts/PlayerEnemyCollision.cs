@@ -77,7 +77,7 @@ public class PlayerEnemyCollision : MonoBehaviour
             //IF playerHit equals false then check to see if the player collides with the top of an enemy
             if (playerHit == false)
             {
-                if (contactPos.y > otherObject.transform.position.y + 0.3)
+                if (contactPos.y > otherObject.transform.position.y - 1)
                 {
                     if (movementScript.isPiranha)
                     {

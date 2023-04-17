@@ -3,30 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Ground
-  - Switch
-  - Edge Block
-  - Pipe
-  - Enemy
-  - Mario Small
-  - Mario Big
-  - Mario Racoon
-  - Mushroom
-  - Mystery Block
-<<<<<<< Updated upstream
-  - InvisWall
-=======
-  - Projectile
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
-  - Wall
+  - 
   - 
   - 
   - 
