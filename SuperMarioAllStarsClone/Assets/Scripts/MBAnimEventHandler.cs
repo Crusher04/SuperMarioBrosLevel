@@ -19,16 +19,20 @@ public class MBAnimEventHandler : MonoBehaviour
     [Header("Watched Variables")]
     public bool blockHit = false;
 
+    [Header("Audio Source")]
+    public AudioSource myAudio;
+
     private void Start()
     {
-
+        myAudio = GetComponent<AudioSource>();
+        anim = GetComponent<Animator>();  
     }
 
     void Update()
     {
         blockHit = m_Block.isBlockHit;
 
-        if (m_Block.isBlockHit && !MushroomAnimComplete)
+        if (m_Block.isBlockHit && !MushroomAnimComplete && m_Block.spawnMushroom)
         {
             anim.SetBool("spawnMushroom", true);
         }
@@ -36,8 +40,8 @@ public class MBAnimEventHandler : MonoBehaviour
         {
             anim.SetBool("spawnMushroom", false);
         }
-    }
 
+    }
 
     public void MushroomAnimIsCompleted()
     {
@@ -47,6 +51,7 @@ public class MBAnimEventHandler : MonoBehaviour
     public void CoinAnimIsComplete()
     {
         CoinAnimComplete = true;
+        anim.SetBool("spawnCoin", false);
     }
 
     public void LifeAnimIsComplete()

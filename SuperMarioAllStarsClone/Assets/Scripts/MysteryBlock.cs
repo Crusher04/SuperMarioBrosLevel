@@ -50,6 +50,7 @@ public class MysteryBlock : MonoBehaviour
 
     //Check if items are spawned
     private bool isMushroomSpawned = false;
+    public bool isCoinSpawned = false; 
 
     //Play audio once if in update
     private bool audioIsPlaying = false;
@@ -74,9 +75,9 @@ public class MysteryBlock : MonoBehaviour
 
             isMushroomSpawned = true;
             GameObject Mushroom = (GameObject)Instantiate(MushroomGameObject, newPos, transform.rotation);
-        }
+        }  
 
-        if(!myAudio.isPlaying && isBlockHit && !isMushroomSpawned && !audioIsPlaying) 
+        if(!myAudio.isPlaying && isBlockHit && !isMushroomSpawned && !audioIsPlaying && spawnMushroom) 
         {
             myAudio.clip = MushroomAudio;
             myAudio.Play();
@@ -84,9 +85,7 @@ public class MysteryBlock : MonoBehaviour
 
             if (isMushroomSpawned)
                 audioIsPlaying = false;
-        }
-
-
+        }   
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -102,6 +101,13 @@ public class MysteryBlock : MonoBehaviour
             anim.SetBool("blockHit", true);
             myAudio.Play();
 
+            if (spawnCoin && !isCoinSpawned)
+            {
+                isCoinSpawned = true;  
+                AnimEventHandler.myAudio.Play();
+                AnimEventHandler.anim.SetBool("spawnCoin", true);
+                
+            }
         }
 
         
