@@ -71,7 +71,8 @@ public class MushroomMovement : MonoBehaviour
 
         if(collision.gameObject.tag == "Pipe")
         {
-            orientation *= -1;
+            Debug.Log("PIPE COLLISION WITH MUSHROOM");
+            orientation = -1;
         }
 
         if(collision.gameObject.tag == "InvisWall")
