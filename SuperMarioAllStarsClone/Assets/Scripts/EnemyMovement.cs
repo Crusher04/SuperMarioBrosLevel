@@ -13,7 +13,6 @@ public class EnemyMovement : MonoBehaviour
 
     ///Initialize Variables
 
-    
     //Variables for speed
     public float moveSpeed = 1.5f;
     private float newSpeed;
@@ -39,13 +38,6 @@ public class EnemyMovement : MonoBehaviour
 
     //Other Variables
     private int jumpCount;
-    private float timeLimit;
-    private float timeLeft;
-    public float time;
-    public float waitTime;
-    private float piranhaHeightPlus;
-    private float piranhaHeightMinus;
-
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +46,7 @@ public class EnemyMovement : MonoBehaviour
         localScale = transform.localScale;
         rb = GetComponent<Rigidbody2D>();
         enemyDamageScript = GetComponent<EnemyTakeDamage>();
+
 
         //Set the newSpeed to equal moveSpeed at the start
         if (moveRight)
@@ -71,25 +64,24 @@ public class EnemyMovement : MonoBehaviour
 
         //Set these variables to 0
         jumpCount = 0;
-       
-        timeLimit = time;
-        timeLeft = timeLimit;
-        piranhaHeightPlus = 1000;
-        piranhaHeightMinus = -1000;
-
+        rb.velocity = new Vector2(0, 0);
     }
+
 
     // Update is called once per frame
     void Update()
     {
-        timeLeft -= Time.deltaTime;
+        
+    
+
+
 
         //IF the enemy does not have wings than have it move right and left
         if (!hasWings && !enemyTookDamage && !isPiranha)
         {
 
             //Set enemy velocity 
-            rb.velocity = new Vector2(newSpeed, 0);
+            rb.velocity = new Vector2(newSpeed, rb.velocity.y);
 
             //Change velocity depending on if the enemy is moving right or left
             if (moveRight)
@@ -146,81 +138,6 @@ public class EnemyMovement : MonoBehaviour
 
         }
 
-        if (isPiranha)
-        {
-            if (timeLeft >= 0)
-            {
-                rb.velocity = new Vector2(0, 2);
-                if (rb.position.y >= piranhaHeightPlus)
-                {
-                    rb.position = new Vector2(rb.position.x, piranhaHeightPlus);
-
-                }
-
-                Vector2 toPlayer = playerTransform.position - enemyTransform.position;
-                Vector2 enemyRight = enemyTransform.right;
-                // Calculate dot product between toPlayer and enemyRight
-                float dotProduct = Vector2.Dot(toPlayer, enemyRight);
-
-                if (dotProduct > 0)
-                {
-                    localScale.x = -1;
-                    transform.localScale = localScale;
-                }
-                if (dotProduct < 0)
-                {
-                    localScale.x = 1;
-                    transform.localScale = localScale;
-                }
-
-            }
-
-            if (timeLeft <= 0f && timeLeft >= -waitTime)
-            {
-                if (rb.position.y >= piranhaHeightPlus)
-                {
-                    rb.position = new Vector2(rb.position.x, piranhaHeightPlus);
-
-                }
-
-                piranhaHeightPlus = rb.position.y;
-                rb.velocity = new Vector2(0, 0);
-
-            }
-
-            if (timeLeft <= -waitTime && timeLeft >= -time * 2)
-            {
-
-                rb.velocity = new Vector2(0, -2);
-                if (rb.position.y <= piranhaHeightMinus)
-                {
-                    
-                    rb.position = new Vector2(rb.position.x, piranhaHeightMinus);
-
-                }
-            }
-
-            if (timeLeft <= -time * 2)
-            {
-                if (rb.position.y <= piranhaHeightMinus)
-                {
-
-                    rb.position = new Vector2(rb.position.x, piranhaHeightMinus);
-
-                }
-
-                piranhaHeightMinus = rb.position.y;
-                rb.velocity = new Vector2(0, 0);
-
-            }
-
-            if (timeLeft <= -waitTime * 3)
-            {
-
-                timeLeft = time;
-
-            }
-        }
     }
 
     //Function that is called when enemy collides with something
@@ -251,6 +168,7 @@ public class EnemyMovement : MonoBehaviour
 
                 }
             }
+
         }
 
   
@@ -297,6 +215,7 @@ public class EnemyMovement : MonoBehaviour
             // Get the game object that collided with this one
             GameObject otherObject = collision.gameObject;
 
+
             //Check to see IF the enemy collides with another object
             if (contactPos.y < otherObject.transform.position.y || contactPos.y > otherObject.transform.position.y)
             {
@@ -309,7 +228,9 @@ public class EnemyMovement : MonoBehaviour
                         //Flip the enemy sprite when it changes directions
                         localScale.x *= -1;
                         transform.localScale = localScale;
+                        //rb.velocity = new Vector2(rb.velocity.x, -10);
                         moveRight = false;
+                        
                     }
                     //IF the enemy was moving left than make the enemy move right instead
                     else
@@ -317,9 +238,11 @@ public class EnemyMovement : MonoBehaviour
                         //Flip the enemy sprite when it changes directions
                         localScale.x *= -1;
                         transform.localScale = localScale;
+                        //rb.velocity = new Vector2(rb.velocity.x, -10);
                         moveRight = true;
 
                     }
+   
                 }
             }
         }

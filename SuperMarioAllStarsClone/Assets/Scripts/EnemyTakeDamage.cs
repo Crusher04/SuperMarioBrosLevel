@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class EnemyTakeDamage : MonoBehaviour
@@ -10,8 +12,12 @@ public class EnemyTakeDamage : MonoBehaviour
     //Initialize global Variables
     [SerializeField]
     public GameObject enemy;
-    
 
+    [SerializeField]
+    public GameObject Player;
+    private Rigidbody2D playerRB;
+    private PlayerShellPickup shellPickupScript;
+    private Transform playerTransform;
     [SerializeField]
     public AnimationClip DeathClip;
 
@@ -27,11 +33,17 @@ public class EnemyTakeDamage : MonoBehaviour
     public bool koopaShellMoving;
     public int koopaShellHit;
     public bool enemyDeath;
+    public bool shellCollision;
+    private bool shellPickedUp;
+
     //Initialize component variables
     private EnemyMovement script;
     private Animator animator;
     private Transform transform;
     private Rigidbody2D rb;
+    private Collider2D col;
+
+    private float timeLeft;
 
     // Start is called before the first frame update
     void Start()
@@ -42,11 +54,101 @@ public class EnemyTakeDamage : MonoBehaviour
         transform = GetComponent<Transform>();
         script = enemy.GetComponent<EnemyMovement>();
         koopaShellHit = 10;
+
+        playerRB = Player.GetComponent<Rigidbody2D>();
+        shellPickupScript = Player.GetComponent<PlayerShellPickup>();
+        col = GetComponent<Collider2D>();
+        playerTransform = Player.GetComponent<Transform>();
+     
+        shellCollision = true;
+        timeLeft = 0.5f;
+
+        shellPickedUp = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
+        if (koopaShellHit == 0)
+        {
+            float d = playerRB.position.x - rb.position.x;
+        
+            if (d < 0)
+            {
+                d *= -1;
+            }
+            Debug.Log(d);
+            if (d > 0 && d < 2)
+            {
+
+                    if (shellPickupScript.shellPickup == 1)
+                    {
+                        col.enabled = false;
+                        shellCollision = false;
+                        shellPickedUp = true;
+                        rb.velocity = new Vector2(0, 0);
+
+                        if (playerTransform.localScale.x > -1)
+                        {
+                            rb.position = new Vector2(playerRB.position.x + 1, playerRB.position.y);
+
+                        }
+
+                        if (playerTransform.localScale.x < 1)
+                        {
+                            rb.position = new Vector2(playerRB.position.x - 1, playerRB.position.y);
+                        }
+                    }
+                
+
+                
+            }
+            if (shellPickedUp)
+            {
+                if (shellPickupScript.shellPickup == 2)
+                {
+
+                    timeLeft -= Time.deltaTime;
+                    if (playerTransform.localScale.x > -1)
+                    {
+                        script.moveRight = true;
+                        rb.velocity = new Vector2(10, -4);
+                        col.enabled = true;
+
+                    }
+
+                    if (playerTransform.localScale.x < 1)
+                    {
+                        script.moveRight = false;
+                        rb.velocity = new Vector2(-10, -4);
+                        col.enabled = true;
+                    }
+                    animator.Play(ShellClip.name);
+                    //koopaShellMoving = true;
+
+                }
+            }
+        }
+
+        if (shellPickedUp == false)
+        {
+
+            shellPickupScript.shellPickup = 0;
+
+        }
+        if (timeLeft < 0)
+        {
+            shellCollision = true;
+            koopaShellMoving = true;
+            shellPickupScript.shellPickup = 0;
+            timeLeft = 0.5f;
+        }
+
+
+
+
         //Check to see IF the enemy has been damaged
         if (enemyDamage == true)
         {
@@ -110,6 +212,7 @@ public class EnemyTakeDamage : MonoBehaviour
                     //IF koopaShellHit is 0 then call change sprite function
                     if (koopaShellHit == 0)
                     {
+              
                         animator.Play(DeathClip.name);
                         transform.localScale = new Vector2(1.0f, 0.75f);
                         script.enemyTookDamage = true;
@@ -153,6 +256,7 @@ public class EnemyTakeDamage : MonoBehaviour
             animator.Play(ShellClip.name);
             script.enemyTookDamage = false;
             script.moveSpeed = 10;
+            rb.velocity = new Vector2(rb.velocity.x, -2);
             transform.localScale = new Vector2(1.0f, 0.75f);
             if (rb.velocity.y > 0.0f)
             {

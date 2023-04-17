@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
+
 public class PlayerEnemyCollision : MonoBehaviour
 {
     ///Initialize Variables
@@ -11,27 +12,45 @@ public class PlayerEnemyCollision : MonoBehaviour
     //Variables for Player
     private int playerHealth;
 
+
     // Start is called before the first frame update
     void Start()
     {
 
         playerHealth = 1;
+     
+      
     }
 
     // Update is called once per frame
     void Update()
     {
+    
         if (playerHealth == 0)
         {
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
-
+        
         }
     }
 
     //Collision for player
     void OnCollisionEnter2D(Collision2D collision)
     {
+
+        bool playerHit;
+        bool enemyHit;
+        playerHit = false;
+        enemyHit = false;
+
+        if (collision.gameObject.CompareTag("Projectile"))
+        {
+
+            playerHealth -= 1;
+            playerHit = true;
+            Destroy(collision.gameObject);
+        }
+
         //Check to see if the enemy collided with a switch object
         if (collision.gameObject.CompareTag("Enemy"))
         {
@@ -52,10 +71,8 @@ public class PlayerEnemyCollision : MonoBehaviour
             EnemyTakeDamage damageScript = collision.gameObject.GetComponent<EnemyTakeDamage>();
             EnemyMovement movementScript = collision.gameObject.GetComponent<EnemyMovement>();
 
-            bool playerHit;
-            bool enemyHit;
-            playerHit = false;
-            enemyHit = false;
+    
+
 
             //IF playerHit equals false then check to see if the player collides with the top of an enemy
             if (playerHit == false)
@@ -68,10 +85,12 @@ public class PlayerEnemyCollision : MonoBehaviour
                         playerHealth -= 1;
                         playerHit = true;
                     }
-
-                    //Set the enemy's enemyDamage bool to true
-                    damageScript.enemyDamage = true;
-                    enemyHit = true;
+                    if (damageScript.shellCollision)
+                    {
+                        //Set the enemy's enemyDamage bool to true
+                        damageScript.enemyDamage = true;
+                        enemyHit = true;
+                    }
                 }
             }
             

@@ -14,7 +14,11 @@ TagManager:
   - Mario Racoon
   - Mushroom
   - Mystery Block
+<<<<<<< Updated upstream
   - InvisWall
+=======
+  - Projectile
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
