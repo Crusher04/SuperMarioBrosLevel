@@ -115,7 +115,7 @@ public class PiranhaClass : MonoBehaviour
                 {
                     animator.Play(piranhaUpClip.name);
                     piranhaLookingUp = true;
-                    newSpawnLocation = new Vector2(newSpawnLocation.x, newSpawnLocation.y + 1);
+                    newSpawnLocation = new Vector2(newSpawnLocation.x, newSpawnLocation.y + 3);
                 }
 
                 if (playerTransform.position.y < enemyTransform.position.y)

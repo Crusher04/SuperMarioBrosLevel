@@ -150,22 +150,26 @@ public class EnemyMovement : MonoBehaviour
             //Check to see if the enemy collided with a switch object
             if (trigger.gameObject.CompareTag("Switch"))
             {
-                //IF the enemy was moving right than make the enemy move left instead
-                if (moveRight)
+                if (!enemyDamageScript.koopaShellMoving)
                 {
-                    //Flip the enemy sprite when it changes directions
-                    localScale.x *= -1;
-                    transform.localScale = localScale;
-                    moveRight = false;
-                }
-                //IF the enemy was moving left than make the enemy move right instead
-                else
-                {
-                    //Flip the enemy sprite when it changes directions
-                    localScale.x *= -1;
-                    transform.localScale = localScale;
-                    moveRight = true;
 
+                    //IF the enemy was moving right than make the enemy move left instead
+                    if (moveRight)
+                    {
+                        //Flip the enemy sprite when it changes directions
+                        localScale.x *= -1;
+                        transform.localScale = localScale;
+                        moveRight = false;
+                    }
+                    //IF the enemy was moving left than make the enemy move right instead
+                    else
+                    {
+                        //Flip the enemy sprite when it changes directions
+                        localScale.x *= -1;
+                        transform.localScale = localScale;
+                        moveRight = true;
+
+                    }
                 }
             }
 

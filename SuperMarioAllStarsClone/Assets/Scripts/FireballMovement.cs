@@ -16,8 +16,8 @@ public class FireballMovement : MonoBehaviour
     {
 
         rb = GetComponent<Rigidbody2D>();
-        hSpeed = 4;
-        vSpeed = 2;
+        hSpeed = 6;
+        vSpeed = 3;
 
 
     }
@@ -64,7 +64,7 @@ public class FireballMovement : MonoBehaviour
     {
 
 
-        Destroy(gameObject);
+       
 
 
     }

@@ -62,7 +62,7 @@ public class EnemyTakeDamage : MonoBehaviour
      
         shellCollision = true;
         timeLeft = 0.5f;
-
+        
         shellPickedUp = false;
     }
 
@@ -70,7 +70,7 @@ public class EnemyTakeDamage : MonoBehaviour
     void Update()
     {
 
-
+        Debug.Log(enemyDamage);
         if (koopaShellHit == 0)
         {
             float d = playerRB.position.x - rb.position.x;

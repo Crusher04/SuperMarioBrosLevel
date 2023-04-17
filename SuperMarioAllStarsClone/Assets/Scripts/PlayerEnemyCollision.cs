@@ -42,7 +42,7 @@ public class PlayerEnemyCollision : MonoBehaviour
         bool enemyHit;
         playerHit = false;
         enemyHit = false;
-
+        
         if (collision.gameObject.CompareTag("Projectile"))
         {
 
@@ -77,14 +77,16 @@ public class PlayerEnemyCollision : MonoBehaviour
             //IF playerHit equals false then check to see if the player collides with the top of an enemy
             if (playerHit == false)
             {
-                if (contactPos.y > otherObject.transform.position.y - 1)
+                if (contactPos.y > otherObject.transform.position.y + 0.3)
                 {
+                    
                     if (movementScript.isPiranha)
                     {
 
                         playerHealth -= 1;
                         playerHit = true;
                     }
+
                     if (damageScript.shellCollision)
                     {
                         //Set the enemy's enemyDamage bool to true
@@ -98,9 +100,11 @@ public class PlayerEnemyCollision : MonoBehaviour
             {
                 if (damageScript.koopaShellHit > 0)
                 {
+                    
                     //Check to see IF the player collides with the side of an enemy
                     if (contactPos.x < otherObject.transform.position.x || contactPos.x > otherObject.transform.position.x)
                     {
+                        Debug.Log("Hello");
                         //Decrease player health and set playerHit to true
                         playerHealth -= 1;
                         playerHit = true;
