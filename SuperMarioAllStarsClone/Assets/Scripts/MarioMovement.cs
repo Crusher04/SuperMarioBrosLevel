@@ -48,6 +48,8 @@ public class MarioMovement : MonoBehaviour
     public bool flippingBool;
     public float rbXVelTest;
     public float rbYVelTest;
+
+    private bool jumping = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -92,7 +94,7 @@ public class MarioMovement : MonoBehaviour
                 if (rb.velocity.x < 0)
                 {
                     anim.SetBool("flipped", true);
-                    anim.SetBool("walking", false);
+                    anim.SetBool("moving", false);
                     anim.SetBool("sprinting", false);
                     speed = DefaultSpeed;
                 }
@@ -107,7 +109,7 @@ public class MarioMovement : MonoBehaviour
                 if (rb.velocity.x > 0)
                 {
                     anim.SetBool("flipped", true);
-                    anim.SetBool("walking", false);
+                    anim.SetBool("moving", false);
                     anim.SetBool("sprinting", false);
                     speed = DefaultSpeed;
                 }
@@ -153,6 +155,12 @@ public class MarioMovement : MonoBehaviour
         }
 
         WallSlide();
+
+        if(rb.velocity.y > 0.5f)
+        {
+            anim.SetBool("jumping", true);
+        }
+    
     }
 
 
@@ -182,17 +190,19 @@ public class MarioMovement : MonoBehaviour
     public void Jump(InputAction.CallbackContext context)
     {
         
-        if(context.performed && IsGrounded())
-        {
+
+
+        if (context.performed && IsGrounded())
+        {    
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-            anim.SetBool("jumping", true);
         }
 
         if (context.canceled && rb.velocity.y > 0f)
-        {
+        {     
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-            anim.SetBool("jumping", true);
+
         }
+
 
 
     }
@@ -229,7 +239,7 @@ public class MarioMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
     }
 
     private void Flip()

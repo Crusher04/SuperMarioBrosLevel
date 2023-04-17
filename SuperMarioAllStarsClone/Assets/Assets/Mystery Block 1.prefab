@@ -41,6 +41,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7014721986209607049}
   - component: {fileID: 5301195316757746319}
+  - component: {fileID: 6671775269633364375}
+  - component: {fileID: 3640008345788595919}
   m_Layer: 3
   m_Name: Animation Spawner
   m_TagString: Untagged
@@ -73,7 +75,7 @@ Animator:
   m_GameObject: {fileID: 5027381127889009882}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 31469451bee4b0d43b83be0246a92245, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -83,6 +85,77 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!212 &6671775269633364375
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5027381127889009882}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &3640008345788595919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5027381127889009882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b9133ca72d3f054295fee20a2a03dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MushroomAnimComplete: 0
+  CoinAnimComplete: 0
+  LifeAnimComplete: 0
+  SuperLeafAnimComplete: 0
+  anim: {fileID: 5301195316757746319}
+  m_Block: {fileID: 5896798660784607724}
+  blockHit: 0
 --- !u!1 &5896798660784607714
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,6 +194,7 @@ Transform:
   - {fileID: 8553324453004273510}
   - {fileID: 5578799732667374239}
   - {fileID: 7014721986209607049}
+  - {fileID: 4304354035526009770}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -360,14 +434,16 @@ MonoBehaviour:
   spawnMushroom: 0
   spawnLife: 0
   spawnSuperLeaf: 0
-  CoinComponent: {fileID: 0}
-  MushroomComponent: {fileID: 0}
-  LifeComponent: {fileID: 0}
-  SuperLeafComponent: {fileID: 0}
+  CoinGameObject: {fileID: 0}
+  MushroomGameObject: {fileID: 4956070277833816198, guid: 7f08d8c6e4a2c254585e6a65fa2ebfa8, type: 3}
+  LifeGameObject: {fileID: 0}
+  SuperLeafGameObject: {fileID: 0}
+  AnimSpawnLocation: {fileID: 4304354035526009770}
+  AnimEventHandler: {fileID: 3640008345788595919}
   blockHitAudio: {fileID: 8300000, guid: 5d90b9dc4c6ee424895d7824bf132f08, type: 3}
-  CoinAudio: {fileID: 0}
-  MushroomAudio: {fileID: 0}
-  LifeAudio: {fileID: 0}
+  CoinAudio: {fileID: 8300000, guid: 7f07f2c96be7cf0439912b66ccd52296, type: 3}
+  MushroomAudio: {fileID: 8300000, guid: 6fabc4565c0ca284296552250bdbe9d8, type: 3}
+  LifeAudio: {fileID: 8300000, guid: 0a9696751c3ae5144b8c89a49e6b0b34, type: 3}
   SuperLeafAudio: {fileID: 0}
   BottomOfBlock: {fileID: 5578799732667374239}
   isBlockHit: 0
@@ -387,6 +463,37 @@ MonoBehaviour:
   Rough: {fileID: 6200000, guid: 0d72eca22693a6d4b849f57627321f0d, type: 2}
   TopOfBlock: {fileID: 8553324453004273510}
   BoxColliderOfChoice: {fileID: 0}
+--- !u!1 &6423991971599344675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4304354035526009770}
+  m_Layer: 3
+  m_Name: Anim Spawn Location
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4304354035526009770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6423991971599344675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5896798660784607727}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7616672561576409344
 GameObject:
   m_ObjectHideFlags: 0

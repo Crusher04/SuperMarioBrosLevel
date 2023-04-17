@@ -6,7 +6,7 @@ public class MushroomMovement : MonoBehaviour
 {
     [Header("Mushroom Speed")]
     [SerializeField] private float speed = 2f;
-    [SerializeField] private float Yspeed = 2f;
+   
 
     [Header("Ground Check Componenets")]
     [SerializeField] private Transform groundCheck;
@@ -16,22 +16,39 @@ public class MushroomMovement : MonoBehaviour
     public MysteryBlock mysteryBlock;
     public BoxCollider2D BoxColl;
     public BoxCollider2D Trigger;
-
-    private bool hasMushroomRisen = false;
-    private bool mushroomCanRoam = false;
     private Rigidbody2D rb;
+    private GameObject player;
+
+    private bool firstSpawn = true;
+    private int orientation = 1;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
         if(IsGrounded())
-             rb.velocity = new Vector3(speed, 0, 0);
+        {
+            if (firstSpawn)
+            {
+                if(player.transform.position.x > transform.position.x)
+                {
+                    orientation = -1;
+                }
+                else
+                {
+                    orientation = 1;
+                }
+            }
+
+            rb.velocity = new Vector3(speed * orientation, 0, 0);
+        }
+             
     }
 
     private bool IsGrounded()
@@ -46,5 +63,22 @@ public class MushroomMovement : MonoBehaviour
         {
             mysteryBlock = collision.gameObject.GetComponent<MysteryBlock>();
         }
+
+        if(collision.gameObject.tag == "Player")
+        {
+            Destroy(this.gameObject);
+        }
+
+        if(collision.gameObject.tag == "Pipe")
+        {
+            orientation *= -1;
+        }
+
+        if(collision.gameObject.tag == "InvisWall")
+        {
+            Destroy(this.gameObject);
+        }
     }
+
+
 }

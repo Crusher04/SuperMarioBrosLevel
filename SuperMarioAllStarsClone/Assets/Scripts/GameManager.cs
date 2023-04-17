@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Coins Numbers")]
     public GameObject zeroT, oneT, twoT, threeT, fourT, fiveT, sixT, sevenT, eightT, nineT;
     public GameObject zeroO, oneO, twoO, threeO, fourO, fiveO, sixO, sevenO, eightO, nineO;
     private int amountOfCoins = 0;
+
+    [Header("Game Music")]
+    public AudioSource mapScreen;
+    public AudioSource levelOne;
+    public AudioSource levelOneHurry;
+    public AudioSource levelEnter;
+
     // Start is called before the first frame update
     void Start()
     {

@@ -14,6 +14,7 @@ TagManager:
   - Mario Racoon
   - Mushroom
   - Mystery Block
+  - InvisWall
   layers:
   - Default
   - TransparentFX
