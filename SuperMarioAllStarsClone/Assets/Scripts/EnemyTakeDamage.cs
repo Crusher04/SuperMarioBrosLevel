@@ -139,7 +139,12 @@ public class EnemyTakeDamage : MonoBehaviour
             }
         }
 
-        
+        if (koopaShellHit == 0)
+        {
+
+            transform.localScale = new Vector2(1.0f, 0.75f);
+
+        }
 
         //IF koopaShellMoving is true then change the velocity for the shell
         if (koopaShellMoving == true)
