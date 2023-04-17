@@ -10,9 +10,13 @@ public class CameraMovement : MonoBehaviour
     private const float topCameraLock = 13.25f;
     private float smoothTime = 0.25f;
     private Vector3 velocity = Vector3.zero;
-    private Vector3 CameraStartBounds = new Vector3(-4.16854f, -0.6146467f, - 10f);
-    
     [SerializeField] private Transform target;
+
+    [Header("Variable Readings")]
+    [SerializeField] private Vector3 CameraStartBounds = new Vector3(-4.168548f, -0.6146467f, -10f);
+    [SerializeField] private Vector3 CameraEndBounds = new Vector3(153.800003f, -0.614646673f, -10f);
+    [SerializeField] private Vector3 CameraPos;
+    public float testTargetPosX;
 
     private void Start()
     {
@@ -23,16 +27,31 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
         Vector3 targetPosition = Vector3.zero;
-
+        CameraPos = transform.position;
 
         targetPosition.x = target.position.x + offset.x;
         targetPosition.y = bottomCameraLock;
         targetPosition.z = targetPosition.z + offset.z;
+        
+        testTargetPosX = targetPosition.x;
 
-        if (targetPosition.x >= CameraStartBounds.x)
+        if (targetPosition.x >= -10)
         {
+            if (CameraPos.x <= CameraStartBounds.x && targetPosition.x <= CameraStartBounds.x)
+            {
+                targetPosition.x = CameraStartBounds.x;
+                transform.position = targetPosition;
+            }
+
+            if (CameraPos.x >= CameraEndBounds.x && targetPosition.x >= CameraEndBounds.x)
+            {
+                targetPosition.x = CameraEndBounds.x;
+                transform.position = targetPosition;
+            }
+
             transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
         }
+          
 
         
     }

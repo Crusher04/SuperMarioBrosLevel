@@ -11,13 +11,14 @@ public class ObjectPhysicsMaterial : MonoBehaviour
 
     [Header("Player Object Checker")]
     [SerializeField] private Transform TopOfBlock;
+    [SerializeField] private BoxCollider2D BoxColliderOfChoice;
 
     private GameObject PlayerObject;
 
 
     // Start is called before the first frame update
     void Start()
-    {
+    {   
         PlayerObject = GameObject.FindGameObjectWithTag("Player");
     }
 
@@ -29,11 +30,17 @@ public class ObjectPhysicsMaterial : MonoBehaviour
 
     private void ChangeMaterial()
     {
+        if (BoxColliderOfChoice == null)
+        {
+            BoxColliderOfChoice = this.GetComponent<BoxCollider2D>();
+        }
+        
+
         if (PlayerObject.transform.position.y < TopOfBlock.transform.position.y)
         {
-            this.GetComponent<BoxCollider2D>().sharedMaterial = Slippery;
+            BoxColliderOfChoice.GetComponent<BoxCollider2D>().sharedMaterial = Slippery;
         }
         else
-            this.GetComponent<BoxCollider2D>().sharedMaterial = Rough;
+            BoxColliderOfChoice.GetComponent<BoxCollider2D>().sharedMaterial = Rough;
     }
 }

@@ -34,8 +34,8 @@ public class MarioMovement : MonoBehaviour
     private Animator anim;
 
 
-    public float rbVelTest;
-
+    public float rbXVelTest;
+    public float rbYVelTest;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,7 +50,8 @@ public class MarioMovement : MonoBehaviour
     void Update()
     {
         //Reading Rigidbody x velocity to test movement
-        rbVelTest = rb.velocity.x;
+        rbXVelTest = rb.velocity.x;
+        rbYVelTest = rb.velocity.y;
 
         //Check which way we're facing
         if (!isFacingRight && horizontal > 0f)

@@ -179,6 +179,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 11dc2689-5f97-4017-85c0-aa182170c528
     m_ActionName: PlayerMovement/Move[/Keyboard/d,/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1553280399033310328}
+        m_TargetAssemblyTypeName: MarioMovement, Assembly-CSharp
+        m_MethodName: Sprint
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8dd10e22-e310-4256-87be-7fc9aabaad17
+    m_ActionName: PlayerMovement/Run[/Keyboard/shift]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerMovement
@@ -205,8 +221,13 @@ MonoBehaviour:
   wallLayer:
     serializedVersion: 2
     m_Bits: 64
-  isWallSliding: 0
-  wallSlidingSpeed: 2
+  horizontal: 0
+  DefaultSpeed: 6
+  MaxSpeed: 12
+  speed: 5
+  speedModifier: 0.04
+  jumpingPower: 16
+  rbVelTest: 0
 --- !u!50 &1553280399033310325
 Rigidbody2D:
   serializedVersion: 4
