@@ -27,9 +27,13 @@ public class MarioMovement : MonoBehaviour
     [SerializeField] private float speed = 6f;
     [SerializeField] private float speedModifier = 0.5f;
 
-
     [Header("Mario Jumping")]
     [SerializeField] private float jumpingPower = 16f;
+    [SerializeField] private float smallIsGroundOverlap = 0.2f;
+    [SerializeField] private float bigIsGroundOverlap = 0.2f;
+
+    [Header("Mario Parent Manager")]
+    public PlayerManager parent;
 
     [Header("Skidding Smoke")]
     public GameObject SmokeOne;
@@ -242,10 +246,13 @@ public class MarioMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        if (parent.marioBig)
+            return Physics2D.OverlapCircle(groundCheck.position,bigIsGroundOverlap, groundLayer);
+        else
+            return Physics2D.OverlapCircle(groundCheck.position, smallIsGroundOverlap, groundLayer);
     }
 
-    private void Flip()
+        private void Flip()
     {
         isFacingRight = !isFacingRight;
         Vector3 localScale = transform.localScale;

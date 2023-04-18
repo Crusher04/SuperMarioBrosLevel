@@ -40,11 +40,6 @@ public class HUD : MonoBehaviour
     private float timer = 0.0f;
     private int roundTime = 300;
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(this);
-    }
-
     // Start is called before the first frame update
     void Start()
     {

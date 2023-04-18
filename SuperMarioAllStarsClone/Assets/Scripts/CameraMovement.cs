@@ -18,6 +18,11 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private Vector3 CameraPos;
     public float testTargetPosX;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
+
     private void Start()
     {
          

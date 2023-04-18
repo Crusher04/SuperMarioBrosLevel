@@ -21081,12 +21081,20 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: jumpingPower
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: SpawnLocation
       value: 
       objectReference: {fileID: 1698211814}
     - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: speedModifier
       value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: bigIsGroundOverlap
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 1553280399542730712, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: m_RootOrder
@@ -21135,6 +21143,14 @@ PrefabInstance:
     - target: {fileID: 1553280399542730719, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994783070441628106, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: marioBig
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994783070441628106, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: marioSmall
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
