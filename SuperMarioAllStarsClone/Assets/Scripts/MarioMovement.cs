@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Unity.VisualScripting;
 using UnityEditor.AnimatedValues;
+using UnityEditor.Experimental.GraphView;
+using UnityEditor.U2D;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -53,6 +55,10 @@ public class MarioMovement : MonoBehaviour
     public float rbXVelTest;
     public float rbYVelTest;
 
+    [Header("HUD")]
+    public HUD myHUD;
+
+    [SerializeField] private float speedCheck = 0;
     private bool jumping = false;
     // Start is called before the first frame update
     void Start()
@@ -165,9 +171,89 @@ public class MarioMovement : MonoBehaviour
             anim.SetBool("jumping", true);
             
         }
-    
-    }
 
+
+        HUDSpeedCheck();
+
+
+
+    }//End of FixedUpdate
+
+    private void HUDSpeedCheck()
+    {
+        speedCheck = ((rb.velocity.x / 2.4f));
+        if (speedCheck < 0)
+            speedCheck *= -1;
+
+        if (speedCheck > 2.1)
+        {
+            myHUD.P1RED.active = true;
+
+            if (speedCheck > 2.54)
+            {
+                myHUD.P2RED.active = true;
+
+                if (speedCheck > 2.99)
+                {
+                    myHUD.P3RED.active = true;
+
+                    if (speedCheck > 3.44)
+                    {
+                        myHUD.P4RED.active = true;
+
+                        if (speedCheck > 3.89)
+                        {
+                            myHUD.P5RED.active = true;
+
+                            if (speedCheck > 4.34)
+                            {
+                                myHUD.P6RED.active = true;
+
+                                if (speedCheck > 4.79)
+                                {
+                                    myHUD.PFinalRED.active = true;
+                                    myHUD.GetComponent<AudioSource>().clip = myHUD.PMeterClip;
+                                    if (!myHUD.GetComponent<AudioSource>().isPlaying)
+                                    {
+                                        myHUD.GetComponent<AudioSource>().Play();
+                                    }
+                                }
+                                else
+                                {
+                                    myHUD.PFinalRED.active = false;
+                                    myHUD.GetComponent<AudioSource>().Stop();
+                                }
+                            }
+                            else
+                                myHUD.P6RED.active = false;
+                        }
+                        else
+                            myHUD.P5RED.active = false;
+                    }
+                    else
+                        myHUD.P4RED.active = false;
+                }
+                else
+                    myHUD.P3RED.active = false;
+            }
+            else
+                myHUD.P2RED.active = false;
+        }
+        else
+            myHUD.P1RED.active = false;
+
+        if(speedCheck < 2.1)
+        {
+            myHUD.PFinalRED.active = false;
+            myHUD.P6RED.active = false;
+            myHUD.P5RED.active = false;
+            myHUD.P4RED.active = false;
+            myHUD.P3RED.active = false;
+            myHUD.P2RED.active = false;
+            myHUD.P1RED.active = false;
+        }
+    }
+   
 
     private void SkidSmoke()
     {

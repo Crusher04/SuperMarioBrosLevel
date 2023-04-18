@@ -35,6 +35,18 @@ public class HUD : MonoBehaviour
     public GameObject tCoinNine;
     public int totalCoins = 0;
 
+    [Header("Speed")]
+    public GameObject PFinalRED;
+    public GameObject P1RED;
+    public GameObject P2RED;
+    public GameObject P3RED;
+    public GameObject P4RED;
+    public GameObject P5RED;
+    public GameObject P6RED;
+
+    [Header("Audio Sources")]
+    public AudioClip PMeterClip;
+
     //Round Timer Variables
     private int seconds = 0;
     private float timer = 0.0f;
