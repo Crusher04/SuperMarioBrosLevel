@@ -290,6 +290,8 @@ public class EnemyMovement : MonoBehaviour
                     //    movementScript.hasWings = false;
                     //}
 
+                    enemyDamageScript.audioSource.volume = 0.25f;
+                    enemyDamageScript.audioSource.PlayOneShot(enemyDamageScript.enemyHitAudio);
                     Destroy(otherObject);
 
 

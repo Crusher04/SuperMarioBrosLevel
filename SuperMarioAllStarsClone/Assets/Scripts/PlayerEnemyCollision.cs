@@ -121,12 +121,16 @@ public class PlayerEnemyCollision : MonoBehaviour
                 {
                     damageScript.koopaShellMoving = true;
                     movementScript.moveRight = false;
+                    damageScript.audioSource.volume = 0.5f;
+                    damageScript.audioSource.PlayOneShot(damageScript.shellKickAudio);
                 }
 
                 if (contactPos.x < otherObject.transform.position.x)
                 {
                     damageScript.koopaShellMoving = true;
                     movementScript.moveRight = true;
+                    damageScript.audioSource.volume = 0.5f;
+                    damageScript.audioSource.PlayOneShot(damageScript.shellKickAudio);
                 }
 
         

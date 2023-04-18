@@ -39,6 +39,12 @@ public class PiranhaClass : MonoBehaviour
     public bool isFirePiranha;
     private int fireBallSpawnedAmount;
 
+    [SerializeField]
+    public AudioClip fireballAudio;
+
+    public AudioSource audioSource;
+    public bool usingAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,7 +52,7 @@ public class PiranhaClass : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         movementScript = GetComponent<EnemyMovement>();
-
+        audioSource = GetComponent<AudioSource>();
 
         timeLimit = time;
         timeLeft = timeLimit;
@@ -71,6 +77,10 @@ public class PiranhaClass : MonoBehaviour
                 fireballSpawned.GetComponent<FireballMovement>().SetInstantiator(gameObject);
                 //GameObject fireballObject = Instantiate(fireball, rb.position, Quaternion.identity);
                 fireBallSpawnedAmount = 1;
+                if (usingAudio)
+                {
+                    audioSource.PlayOneShot(fireballAudio);
+                }
                 fireballActive = false;
             }
         }

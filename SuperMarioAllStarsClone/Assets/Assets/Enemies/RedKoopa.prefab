@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1086901387795340113
+--- !u!1 &670962773694161490
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,13 +8,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1086901387795340138}
-  - component: {fileID: 1086901387795340139}
-  - component: {fileID: 1086901387795340116}
-  - component: {fileID: 1086901387795340117}
-  - component: {fileID: 1086901387795340118}
-  - component: {fileID: 1086901387795340119}
-  - component: {fileID: 1086901387795340112}
+  - component: {fileID: 670962773694161482}
+  - component: {fileID: 670962773694161481}
+  - component: {fileID: 670962773694161480}
+  - component: {fileID: 670962773694161487}
+  - component: {fileID: 670962773694161486}
+  - component: {fileID: 670962773694161485}
+  - component: {fileID: 670962773694161484}
+  - component: {fileID: 670962773694161491}
   m_Layer: 0
   m_Name: RedKoopa
   m_TagString: Enemy
@@ -22,28 +23,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1086901387795340138
+--- !u!4 &670962773694161482
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086901387795340113}
+  m_GameObject: {fileID: 670962773694161490}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.977516, y: -3.2635286, z: 0.034853272}
+  m_LocalPosition: {x: -1.5239861, y: -3.2626634, z: 0.034853272}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1086901387795340139
+--- !u!212 &670962773694161481
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086901387795340113}
+  m_GameObject: {fileID: 670962773694161490}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -89,14 +90,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &1086901387795340116
+--- !u!50 &670962773694161480
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086901387795340113}
+  m_GameObject: {fileID: 670962773694161490}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -110,13 +111,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1086901387795340117
+--- !u!114 &670962773694161487
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086901387795340113}
+  m_GameObject: {fileID: 670962773694161490}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6052eaff058ad104b9fe2d07386207f5, type: 3}
@@ -125,21 +126,21 @@ MonoBehaviour:
   moveSpeed: 3
   jumpSpeed: 0
   playerTransform: {fileID: 0}
-  enemyTransform: {fileID: 1086901387795340138}
-  enemyDamageScript: {fileID: 1086901387795340112}
+  enemyTransform: {fileID: 670962773694161482}
+  enemyDamageScript: {fileID: 670962773694161484}
   moveRight: 0
   enemyTookDamage: 0
   isKoopa: 1
   isGoomba: 0
   isPiranha: 0
   hasWings: 0
---- !u!61 &1086901387795340118
+--- !u!61 &670962773694161486
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086901387795340113}
+  m_GameObject: {fileID: 670962773694161490}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -159,14 +160,14 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0003693}
   m_EdgeRadius: 0
---- !u!95 &1086901387795340119
+--- !u!95 &670962773694161485
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086901387795340113}
+  m_GameObject: {fileID: 670962773694161490}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: cbe355686a249b9469fd69d59075046c, type: 2}
@@ -179,25 +180,124 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &1086901387795340112
+--- !u!114 &670962773694161484
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086901387795340113}
+  m_GameObject: {fileID: 670962773694161490}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 595dedd1e9b25b34fb30042b1e073e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 1086901387795340113}
+  enemy: {fileID: 670962773694161490}
   Player: {fileID: 0}
   DeathClip: {fileID: 7400000, guid: d70e2eb637d091248be1df5a63403004, type: 2}
   ShellClip: {fileID: 7400000, guid: 25e113a7d18c70a4e95e1d0b4439d02a, type: 2}
   MovementClip: {fileID: 7400000, guid: a28904cdfb8bc1046852624832c496ff, type: 2}
+  shellKickAudio: {fileID: 8300000, guid: 7910167971d26e2498beddb0a087496c, type: 3}
+  enemyHitAudio: {fileID: 8300000, guid: 29df8a403d0ae504da61dd3ff7985bc3, type: 3}
+  audioSource: {fileID: 670962773694161491}
   enemyDamage: 0
   koopaShellMoving: 0
   koopaShellHit: 10
   enemyDeath: 0
   shellCollision: 0
+--- !u!82 &670962773694161491
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670962773694161490}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

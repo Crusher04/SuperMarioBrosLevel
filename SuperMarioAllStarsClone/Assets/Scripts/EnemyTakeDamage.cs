@@ -27,6 +27,14 @@ public class EnemyTakeDamage : MonoBehaviour
     [SerializeField]
     public AnimationClip MovementClip;
 
+    [SerializeField]
+    public AudioClip shellKickAudio;
+
+    [SerializeField]
+    public AudioClip enemyHitAudio;
+
+    public AudioSource audioSource;
+
     //Enemy Variables
     public bool enemyDamage;
     private bool koopaShell;
@@ -53,6 +61,8 @@ public class EnemyTakeDamage : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         transform = GetComponent<Transform>();
         script = enemy.GetComponent<EnemyMovement>();
+        audioSource = GetComponent<AudioSource>();
+
         koopaShellHit = 10;
 
         playerRB = Player.GetComponent<Rigidbody2D>();
@@ -69,8 +79,7 @@ public class EnemyTakeDamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        Debug.Log(enemyDamage);
+        Debug.Log(shellPickupScript.shellPickup);
         if (koopaShellHit == 0)
         {
             float d = playerRB.position.x - rb.position.x;
@@ -116,7 +125,7 @@ public class EnemyTakeDamage : MonoBehaviour
                         script.moveRight = true;
                         rb.velocity = new Vector2(10, -4);
                         col.enabled = true;
-
+                        
                     }
 
                     if (playerTransform.localScale.x < 1)
@@ -124,28 +133,36 @@ public class EnemyTakeDamage : MonoBehaviour
                         script.moveRight = false;
                         rb.velocity = new Vector2(-10, -4);
                         col.enabled = true;
+                        
                     }
                     animator.Play(ShellClip.name);
                     //koopaShellMoving = true;
-
+                    
                 }
             }
+
+
+            if (shellPickedUp == false)
+            {
+                shellPickupScript.shellPickup = 0;
+            }
+
         }
 
-        if (shellPickedUp == false)
-        {
-
-            shellPickupScript.shellPickup = 0;
-
-        }
+      
         if (timeLeft < 0)
         {
             shellCollision = true;
             koopaShellMoving = true;
             shellPickupScript.shellPickup = 0;
+            shellPickedUp = false;
             timeLeft = 0.5f;
         }
-
+        if (timeLeft > 0.470 && timeLeft < 0.5)
+        {
+            audioSource.volume = 0.5f;
+            audioSource.PlayOneShot(shellKickAudio);
+        }
 
 
 
@@ -164,7 +181,9 @@ public class EnemyTakeDamage : MonoBehaviour
                     script.enemyTookDamage = true;
                     //rb.velocity = new Vector2(rb.position.x, rb.velocity.y - 10);
                     enemyDeath = true;
-                    Destroy(gameObject, 1.0f);
+                    audioSource.volume = 0.25f;
+                    audioSource.PlayOneShot(enemyHitAudio);
+                    Destroy(gameObject, 0.2f);
                     enemyDamage = false;
                     
                 }
@@ -173,6 +192,8 @@ public class EnemyTakeDamage : MonoBehaviour
                     //Call the change sprite function
                     animator.Play(MovementClip.name);
                     rb.velocity = new Vector2(rb.position.x, rb.velocity.y - 10);
+                    audioSource.volume = 0.25f;
+                    audioSource.PlayOneShot(enemyHitAudio);
                     script.enemyTookDamage = true;
                     script.hasWings = false;
                     script.enemyTookDamage = false;
@@ -212,7 +233,8 @@ public class EnemyTakeDamage : MonoBehaviour
                     //IF koopaShellHit is 0 then call change sprite function
                     if (koopaShellHit == 0)
                     {
-              
+                        audioSource.volume = 0.25f;
+                        audioSource.PlayOneShot(enemyHitAudio);
                         animator.Play(DeathClip.name);
                         transform.localScale = new Vector2(1.0f, 0.75f);
                         script.enemyTookDamage = true;
@@ -230,6 +252,8 @@ public class EnemyTakeDamage : MonoBehaviour
                 }
                 if (script.hasWings)
                 {
+                    audioSource.volume = 0.25f;
+                    audioSource.PlayOneShot(enemyHitAudio);
                     animator.Play(MovementClip.name);
                     rb.velocity = new Vector2(rb.position.x, rb.velocity.y - 2);
                     script.enemyTookDamage = false;
