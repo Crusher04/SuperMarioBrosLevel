@@ -20,7 +20,7 @@ public class Coin : MonoBehaviour
         if (!GetComponent<AudioSource>().isPlaying && collided)
         {
             this.gameObject.SetActive(false);
-            gameManager.UpdateCoins();
+            
         }
     }
 

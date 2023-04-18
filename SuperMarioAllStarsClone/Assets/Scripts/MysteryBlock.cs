@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -38,7 +39,7 @@ public class MysteryBlock : MonoBehaviour
     [Header("Public Variables")]
     public bool isBlockHit = false;
 
-    
+    public HUD ourHUD;
 
     private GameObject PlayerObject;
     private Rigidbody2D PlayerRB;
@@ -63,6 +64,7 @@ public class MysteryBlock : MonoBehaviour
         PlayerObject = GameObject.FindGameObjectWithTag("Player");
         PlayerRB = PlayerObject.GetComponent<Rigidbody2D>();
         myAudio = GetComponent<AudioSource>();
+        ourHUD = GameObject.FindWithTag("HUD").GetComponent<HUD>();
     }
 
     // Update is called once per frame
@@ -106,6 +108,7 @@ public class MysteryBlock : MonoBehaviour
                 isCoinSpawned = true;  
                 AnimEventHandler.myAudio.Play();
                 AnimEventHandler.anim.Play("Coin Turning");
+                ourHUD.totalCoins++;
                 
             }
         }

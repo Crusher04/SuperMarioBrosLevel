@@ -12,10 +12,38 @@ public class HUD : MonoBehaviour
     public GameObject zeroT, oneT, twoT, threeT, fourT, fiveT, sixT, sevenT, eightT, nineT;
     public GameObject zeroO, oneO, twoO, threeO, fourO, fiveO, sixO, sevenO, eightO, nineO;
 
+    [Header("Coins")]
+    public GameObject oCoinZero;
+    public GameObject oCoinOne;
+    public GameObject oCoinTwo;
+    public GameObject oCoinThree;
+    public GameObject oCoinFour;
+    public GameObject oCoinFive;
+    public GameObject oCoinSix;
+    public GameObject oCoinSeven;
+    public GameObject oCoinEight;
+    public GameObject oCoinNine;
+
+    public GameObject tCoinOne;
+    public GameObject tCoinTwo;
+    public GameObject tCoinThree;
+    public GameObject tCoinFour;
+    public GameObject tCoinFive;
+    public GameObject tCoinSix;
+    public GameObject tCoinSeven;
+    public GameObject tCoinEight;
+    public GameObject tCoinNine;
+    public int totalCoins = 0;
+
     //Round Timer Variables
     private int seconds = 0;
     private float timer = 0.0f;
     private int roundTime = 300;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +58,7 @@ public class HUD : MonoBehaviour
         seconds = roundTime - ((int)timer);
 
         DisplayTimer(seconds);
+        DisplayCoins(totalCoins);
     }
 
     void DisplayTimer(int time)
@@ -420,4 +449,255 @@ public class HUD : MonoBehaviour
 
 
     }
+
+    private void DisplayCoins(int numOfCoins)
+    {
+        int ones = 0;
+        int tens = 0;
+        tens = numOfCoins / 10;
+        ones = (numOfCoins % 10);
+
+        switch (tens)
+        {
+            case 0:
+                tCoinOne.active = false;
+                tCoinTwo.active = false;
+                tCoinThree.active = false;
+                tCoinFour.active = false;
+                tCoinFive.active = false;
+                tCoinSix.active = false;
+                tCoinSeven.active = false;
+                tCoinEight.active = false;
+                tCoinNine.active = false;
+
+                break;
+            case 1:
+                tCoinOne.active = true;
+                tCoinTwo.active = false;
+                tCoinThree.active = false;
+                tCoinFour.active = false;
+                tCoinFive.active = false;
+                tCoinSix.active = false;
+                tCoinSeven.active = false;
+                tCoinEight.active = false;
+                tCoinNine.active = false;
+                break;
+            case 2:
+                tCoinOne.active = false;
+                tCoinTwo.active = true;
+                tCoinThree.active = false;
+                tCoinFour.active = false;
+                tCoinFive.active = false;
+                tCoinSix.active = false;
+                tCoinSeven.active = false;
+                tCoinEight.active = false;
+                tCoinNine.active = false;
+                break;
+            case 3:
+                tCoinOne.active = false;
+                tCoinTwo.active = false;
+                tCoinThree.active = true;
+                tCoinFour.active = false;
+                tCoinFive.active = false;
+                tCoinSix.active = false;
+                tCoinSeven.active = false;
+                tCoinEight.active = false;
+                tCoinNine.active = false;
+                break;
+            case 4:
+                tCoinOne.active = false;
+                tCoinTwo.active = false;
+                tCoinThree.active = false;
+                tCoinFour.active = true;
+                tCoinFive.active = false;
+                tCoinSix.active = false;
+                tCoinSeven.active = false;
+                tCoinEight.active = false;
+                tCoinNine.active = false;
+                break;
+            case 5:
+                tCoinOne.active = false;
+                tCoinTwo.active = false;
+                tCoinThree.active = false;
+                tCoinFour.active = false;
+                tCoinFive.active = true;
+                tCoinSix.active = false;
+                tCoinSeven.active = false;
+                tCoinEight.active = false;
+                tCoinNine.active = false;
+                break;
+            case 6:
+                tCoinOne.active = false;
+                tCoinTwo.active = false;
+                tCoinThree.active = false;
+                tCoinFour.active = false;
+                tCoinFive.active = false;
+                tCoinSix.active = true;
+                tCoinSeven.active = false;
+                tCoinEight.active = false;
+                tCoinNine.active = false;
+                break;
+            case 7:
+                tCoinOne.active = false;
+                tCoinTwo.active = false;
+                tCoinThree.active = false;
+                tCoinFour.active = false;
+                tCoinFive.active = false;
+                tCoinSix.active = false;
+                tCoinSeven.active = true;
+                tCoinEight.active = false;
+                tCoinNine.active = false;
+                break;
+            case 8:
+                tCoinOne.active = false;
+                tCoinTwo.active = false;
+                tCoinThree.active = false;
+                tCoinFour.active = false;
+                tCoinFive.active = false;
+                tCoinSix.active = false;
+                tCoinSeven.active = false;
+                tCoinEight.active = true;
+                tCoinNine.active = false;
+                break;
+            case 9:
+                tCoinOne.active = false;
+                tCoinTwo.active = false;
+                tCoinThree.active = false;
+                tCoinFour.active = false;
+                tCoinFive.active = false;
+                tCoinSix.active = false;
+                tCoinSeven.active = false;
+                tCoinEight.active = false;
+                tCoinNine.active = true;
+                break;
+        }//End of tens
+
+        switch (ones)
+        {
+            case 0:
+                oCoinZero.active = true;
+                oCoinOne.active = false;
+                oCoinTwo.active = false;
+                oCoinThree.active = false;
+                oCoinFour.active = false;
+                oCoinFive.active = false;
+                oCoinSix.active = false;
+                oCoinSeven.active = false;
+                oCoinEight.active = false;
+                oCoinNine.active = false;
+
+                break;
+            case 1:
+                oCoinZero.active = false;
+                oCoinOne.active = true;
+                oCoinTwo.active = false;
+                oCoinThree.active = false;
+                oCoinFour.active = false;
+                oCoinFive.active = false;
+                oCoinSix.active = false;
+                oCoinSeven.active = false;
+                oCoinEight.active = false;
+                oCoinNine.active = false;
+                break;
+            case 2:
+                oCoinZero.active = false;
+                oCoinOne.active = false;
+                oCoinTwo.active = true;
+                oCoinThree.active = false;
+                oCoinFour.active = false;
+                oCoinFive.active = false;
+                oCoinSix.active = false;
+                oCoinSeven.active = false;
+                oCoinEight.active = false;
+                oCoinNine.active = false;
+                break;
+            case 3:
+                oCoinZero.active = false;
+                oCoinOne.active = false;
+                oCoinTwo.active = false;
+                oCoinThree.active = true;
+                oCoinFour.active = false;
+                oCoinFive.active = false;
+                oCoinSix.active = false;
+                oCoinSeven.active = false;
+                oCoinEight.active = false;
+                oCoinNine.active = false;
+                break;
+            case 4:
+                oCoinZero.active = false;
+                oCoinOne.active = false;
+                oCoinTwo.active = false;
+                oCoinThree.active = false;
+                oCoinFour.active = true;
+                oCoinFive.active = false;
+                oCoinSix.active = false;
+                oCoinSeven.active = false;
+                oCoinEight.active = false;
+                oCoinNine.active = false;
+                break;
+            case 5:
+                oCoinZero.active = false;
+                oCoinOne.active = false;
+                oCoinTwo.active = false;
+                oCoinThree.active = false;
+                oCoinFour.active = false;
+                oCoinFive.active = true;
+                oCoinSix.active = false;
+                oCoinSeven.active = false;
+                oCoinEight.active = false;
+                oCoinNine.active = false;
+                break;
+            case 6:
+                oCoinZero.active = false;
+                oCoinOne.active = false;
+                oCoinTwo.active = false;
+                oCoinThree.active = false;
+                oCoinFour.active = false;
+                oCoinFive.active = false;
+                oCoinSix.active = true;
+                oCoinSeven.active = false;
+                oCoinEight.active = false;
+                oCoinNine.active = false;
+                break;
+            case 7:
+                oCoinZero.active = false;
+                oCoinOne.active = false;
+                oCoinTwo.active = false;
+                oCoinThree.active = false;
+                oCoinFour.active = false;
+                oCoinFive.active = false;
+                oCoinSix.active = false;
+                oCoinSeven.active = true;
+                oCoinEight.active = false;
+                oCoinNine.active = false;
+                break;
+            case 8:
+                oCoinZero.active = false;
+                oCoinOne.active = false;
+                oCoinTwo.active = false;
+                oCoinThree.active = false;
+                oCoinFour.active = false;
+                oCoinFive.active = false;
+                oCoinSix.active = false;
+                oCoinSeven.active = false;
+                oCoinEight.active = true;
+                oCoinNine.active = false;
+                break;
+            case 9:
+                oCoinZero.active = false;
+                oCoinOne.active = false;
+                oCoinTwo.active = false;
+                oCoinThree.active = false;
+                oCoinFour.active = false;
+                oCoinFive.active = false;
+                oCoinSix.active = false;
+                oCoinSeven.active = false;
+                oCoinEight.active = false;
+                oCoinNine.active = true;
+                break;
+        }//End of ones
+
+    }
+
+
 }
