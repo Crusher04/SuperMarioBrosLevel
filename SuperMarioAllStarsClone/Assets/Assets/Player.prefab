@@ -77,6 +77,8 @@ GameObject:
   - component: {fileID: 1553280399033310325}
   - component: {fileID: 1553280399033310324}
   - component: {fileID: 1553280399033310326}
+  - component: {fileID: 6393401089749215813}
+  - component: {fileID: 3023504363277598932}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Player
@@ -337,6 +339,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &6393401089749215813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553280399033310335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9cd2c22bea9a41a0238c9fbe8ffc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3023504363277598932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553280399033310335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23acdc9b565ab8d4f9fe660a5dc0e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shellPickup: 0
 --- !u!1 &1553280399542730719
 GameObject:
   m_ObjectHideFlags: 0

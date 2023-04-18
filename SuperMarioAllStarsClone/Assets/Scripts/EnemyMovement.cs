@@ -200,6 +200,16 @@ public class EnemyMovement : MonoBehaviour
                 //Increase Jump Count
                 jumpCount++;
             }
+
+            if(collision.gameObject.CompareTag("Edge Block"))
+            {
+                if(collision.gameObject.transform.position.y < transform.position.y)
+                    Physics2D.IgnoreCollision(collision.collider, GetComponent<BoxCollider2D>(), true);
+                else
+                    Physics2D.IgnoreCollision(collision.collider, GetComponent<BoxCollider2D>(), false);
+
+            }
+
         }
 
         //Check to see if the enemy collided with a switch object

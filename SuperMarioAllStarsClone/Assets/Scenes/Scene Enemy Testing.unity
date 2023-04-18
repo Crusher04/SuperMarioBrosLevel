@@ -2453,30 +2453,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ca534b5357e9e74380f7180646ccaa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zeroT: {fileID: 0}
-  oneT: {fileID: 0}
-  twoT: {fileID: 0}
-  threeT: {fileID: 0}
-  fourT: {fileID: 0}
-  fiveT: {fileID: 0}
-  sixT: {fileID: 0}
-  sevenT: {fileID: 0}
-  eightT: {fileID: 0}
-  nineT: {fileID: 0}
-  zeroO: {fileID: 0}
-  oneO: {fileID: 0}
-  twoO: {fileID: 0}
-  threeO: {fileID: 0}
-  fourO: {fileID: 0}
-  fiveO: {fileID: 0}
-  sixO: {fileID: 0}
-  sevenO: {fileID: 0}
-  eightO: {fileID: 0}
-  nineO: {fileID: 0}
-  mapScreen: {fileID: 0}
-  levelOne: {fileID: 0}
-  levelOneHurry: {fileID: 0}
-  levelEnter: {fileID: 0}
+  mapScreenAS: {fileID: 0}
+  levelOneAS: {fileID: 0}
+  levelOneHurryAS: {fileID: 0}
+  levelEnterAS: {fileID: 0}
+  mapEnabled: 1
+  levelOneEnabled: 0
 --- !u!4 &324569187
 Transform:
   m_ObjectHideFlags: 0
@@ -5909,6 +5891,26 @@ MonoBehaviour:
   sevenO: {fileID: 1124752223}
   eightO: {fileID: 1579685961}
   nineO: {fileID: 284480896}
+  oCoinZero: {fileID: 0}
+  oCoinOne: {fileID: 0}
+  oCoinTwo: {fileID: 0}
+  oCoinThree: {fileID: 0}
+  oCoinFour: {fileID: 0}
+  oCoinFive: {fileID: 0}
+  oCoinSix: {fileID: 0}
+  oCoinSeven: {fileID: 0}
+  oCoinEight: {fileID: 0}
+  oCoinNine: {fileID: 0}
+  tCoinOne: {fileID: 0}
+  tCoinTwo: {fileID: 0}
+  tCoinThree: {fileID: 0}
+  tCoinFour: {fileID: 0}
+  tCoinFive: {fileID: 0}
+  tCoinSix: {fileID: 0}
+  tCoinSeven: {fileID: 0}
+  tCoinEight: {fileID: 0}
+  tCoinNine: {fileID: 0}
+  totalCoins: 0
 --- !u!212 &732518086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7097,11 +7099,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &873291683 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1553280399033310335, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
-  m_PrefabInstance: {fileID: 2119886489}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &874537831
 GameObject:
   m_ObjectHideFlags: 0
@@ -16071,7 +16068,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
   m_PrefabInstance: {fileID: 2119886489}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873291683}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba824919bb5993b44b46f4537a55b5bb, type: 3}
@@ -16082,31 +16079,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1553280399033310331, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
   m_PrefabInstance: {fileID: 2119886489}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1904342998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873291683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b9cd2c22bea9a41a0238c9fbe8ffc3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1904343004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873291683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23acdc9b565ab8d4f9fe660a5dc0e6e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shellPickup: 0
 --- !u!1 &1904620080
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ TagManager:
   - Ground
   - InvisWall
   - HUD
+  - Gold Block
   layers:
   - Default
   - TransparentFX

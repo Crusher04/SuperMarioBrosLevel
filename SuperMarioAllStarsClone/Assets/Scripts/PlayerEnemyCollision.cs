@@ -29,7 +29,7 @@ public class PlayerEnemyCollision : MonoBehaviour
         if (playerHealth == 0)
         {
 
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
         
         }
     }
