@@ -67,6 +67,7 @@ public class MushroomMovement : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
+            player.GetComponentInParent<PlayerManager>().marioBig = true;
         }
 
         if(collision.gameObject.tag == "Pipe")

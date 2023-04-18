@@ -7,14 +7,18 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     [Header("Game Music")]
-    public AudioSource mapScreen;
-    public AudioSource levelOne;
-    public AudioSource levelOneHurry;
-    public AudioSource levelEnter;
+    public AudioSource mapScreenAS;
+    public AudioSource levelOneAS;
+    public AudioSource levelOneHurryAS;
+    public AudioSource levelEnterAS;
+
+    public bool mapEnabled = true;
+    public bool levelOneEnabled = false;
 
     void Awake()
     {
         Instance = this;
+        DontDestroyOnLoad(this);
     }
 
     void Update()

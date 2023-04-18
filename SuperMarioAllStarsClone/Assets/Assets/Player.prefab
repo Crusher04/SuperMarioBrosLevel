@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 1553280399033310324}
   - component: {fileID: 1553280399033310326}
   m_Layer: 0
-  m_Name: Mario Small
+  m_Name: Mario
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,9 +258,9 @@ MonoBehaviour:
   MaxSpeed: 12
   speed: 5
   speedModifier: 0.04
-  jumpingPower: 16
+  jumpingPower: 17.5
   smallIsGroundOverlap: 0.2
-  bigIsGroundOverlap: 0.2
+  bigIsGroundOverlap: 0.36
   parent: {fileID: 5994783070441628106}
   SmokeOne: {fileID: 0}
   SmokeTwo: {fileID: 0}
@@ -388,6 +388,10 @@ MonoBehaviour:
   marioBig: 0
   marioSmallSprite: {fileID: 1402587848, guid: ae0c12281481c514cb7c006735203c4a, type: 3}
   marioBigSprite: {fileID: -28929580, guid: ae0c12281481c514cb7c006735203c4a, type: 3}
+  marioMapSmallAnimator: {fileID: 9100000, guid: c74fc34feab0a454693862a308609cc4, type: 2}
+  marioMapBigAnimator: {fileID: 0}
+  marioMapSmallSprite: {fileID: 92824081, guid: ae0c12281481c514cb7c006735203c4a, type: 3}
+  marioMapBigSprite: {fileID: 0}
   playerObject: {fileID: 1553280399033310335}
 --- !u!1 &1553280400445434814
 GameObject:

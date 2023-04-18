@@ -47,7 +47,6 @@ public class EnemyMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         enemyDamageScript = GetComponent<EnemyTakeDamage>();
 
-
         //Set the newSpeed to equal moveSpeed at the start
         if (moveRight)
         {

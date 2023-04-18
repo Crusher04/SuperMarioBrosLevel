@@ -191,7 +191,7 @@ TextureImporter:
         width: 255
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,6 +199,27 @@ TextureImporter:
       bones: []
       spriteID: 3096349c8a10cbe4991a942d2ac10b17
       internalID: 1098134704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario All-Stars Super Mario Bros 3 - Ending_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957a8c25ab79d154097469db6befe65c
+      internalID: -1937558671
       vertices: []
       indices: 
       edges: []
@@ -216,6 +237,7 @@ TextureImporter:
     nameFileIdTable:
       SNES - Super Mario All-Stars Super Mario Bros 3 - Ending_0: 2095047436
       SNES - Super Mario All-Stars Super Mario Bros 3 - Ending_2: 1098134704
+      SNES - Super Mario All-Stars Super Mario Bros 3 - Ending_3: -1937558671
       SNES - Super Mario All-Stars Super Mario Bros 3 - Ending_1: 250624807
   spritePackingTag: 
   pSDRemoveMatte: 0

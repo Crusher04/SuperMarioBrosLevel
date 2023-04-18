@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    [Header("Mario Animators & Triggers")]
+    [Header("Mario In-Game Animators & Triggers")]
     public AnimatorController marioSmallAnimator;
     public AnimatorController marioBigAnimator;
     public bool marioSmall = false;
@@ -13,7 +13,14 @@ public class PlayerManager : MonoBehaviour
 
     [Header("Mario Sprites")]
     public Sprite marioSmallSprite;
-    public Sprite marioBigSprite;   
+    public Sprite marioBigSprite;
+
+
+    [Header("Mario Map Animators & Sprites")]
+    public AnimatorController marioMapSmallAnimator;
+    public AnimatorController marioMapBigAnimator;
+    public Sprite marioMapSmallSprite;
+    public Sprite marioMapBigSprite;
 
     private bool mapMarioSmall = false;
     private bool mapMarioBig = false;
