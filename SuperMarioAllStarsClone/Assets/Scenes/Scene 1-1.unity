@@ -21072,6 +21072,10 @@ PrefabInstance:
       propertyPath: m_AngularDrag
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 1553280399033310326, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b03fc990e5d98914283235e5920ea6b6, type: 2}
     - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: speed
       value: 5
@@ -21082,7 +21086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: jumpingPower
-      value: 17
+      value: 17.5
       objectReference: {fileID: 0}
     - target: {fileID: 1553280399033310328, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: SpawnLocation
@@ -21106,7 +21110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1553280399542730712, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5597622
+      value: -2.31
       objectReference: {fileID: 0}
     - target: {fileID: 1553280399542730712, guid: 81d8dbcbc592e1545aa2e65376ae6f36, type: 3}
       propertyPath: m_LocalPosition.z
