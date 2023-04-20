@@ -34,17 +34,6 @@ public class MushroomMovement : MonoBehaviour
     {
         if(IsGrounded())
         {
-            if (firstSpawn)
-            {
-                if(player.transform.position.x >= transform.position.x)
-                {
-                    orientation = -1;
-                }
-                else
-                {
-                    orientation = 1;
-                }
-            }
 
             rb.velocity = new Vector3(speed * orientation, 0, 0);
         }
@@ -68,6 +57,7 @@ public class MushroomMovement : MonoBehaviour
         {
             Destroy(this.gameObject);
             player.GetComponentInParent<PlayerManager>().marioBig = true;
+            player.GetComponentInParent<PlayerManager>().audioFlag = true;
         }
 
         if(collision.gameObject.tag == "Pipe")

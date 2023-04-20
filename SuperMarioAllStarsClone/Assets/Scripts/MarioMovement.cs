@@ -34,8 +34,9 @@ public class MarioMovement : MonoBehaviour
     [SerializeField] private float smallIsGroundOverlap = 0.2f;
     [SerializeField] private float bigIsGroundOverlap = 0.2f;
 
-    [Header("Mario Parent Manager")]
+    [Header("Mario Parent Manager & Game Manager")]
     public PlayerManager parent;
+    public GameManager gameManager;
 
     [Header("Skidding Smoke")]
     public GameObject SmokeOne;
@@ -175,6 +176,10 @@ public class MarioMovement : MonoBehaviour
 
         HUDSpeedCheck();
 
+        if(transform.position.y < -10)
+        {
+            parent.marioDead = true;
+        }
 
 
     }//End of FixedUpdate
@@ -349,5 +354,5 @@ public class MarioMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         horizontal = context.ReadValue<Vector2>().x;
-    }
+    }   
 }

@@ -2,37 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
-
+using Unity.VisualScripting;
+using UnityEditor.Animations;
 
 public class PlayerEnemyCollision : MonoBehaviour
 {
-    ///Initialize Variables
-
+    public PlayerManager pmanager;
+    public Animator thisAnim;
+    public AnimatorController DeathAnim;
+    public GameManager gameManager;
+    public GameObject Player;
 
     //Variables for Player
-    private int playerHealth;
+    [SerializeField] private int playerHealth;
 
+    public float moveUp;
 
     // Start is called before the first frame update
     void Start()
     {
 
         playerHealth = 1;
-     
-      
+       
+
     }
 
     // Update is called once per frame
     void Update()
     {
-    
-        if (playerHealth == 0)
+        if(pmanager.marioBig == true)
         {
-
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
-        
+            playerHealth = 2;
         }
     }
+
+
 
     //Collision for player
     void OnCollisionEnter2D(Collision2D collision)
@@ -42,18 +46,34 @@ public class PlayerEnemyCollision : MonoBehaviour
         bool enemyHit;
         playerHit = false;
         enemyHit = false;
-        
+  
+
         if (collision.gameObject.CompareTag("Projectile"))
         {
+            Destroy(collision.gameObject);
+            if (playerHealth == 2)
+            {
+                pmanager.marioBig = false;
+                pmanager.audioFlag = true;
+            }
 
+            Debug.Log("Projectile Hit Mario");
             playerHealth -= 1;
             playerHit = true;
-            Destroy(collision.gameObject);
+            
+           
         }
 
         //Check to see if the enemy collided with a switch object
         if (collision.gameObject.CompareTag("Enemy"))
         {
+
+            //Audio/shrink mario
+            if(playerHealth == 2)
+            {
+                pmanager.marioBig = false;
+                pmanager.audioFlag = true;
+            }
 
             // Get the contact point of the collision
             ContactPoint2D contact = collision.contacts[0];
@@ -140,7 +160,20 @@ public class PlayerEnemyCollision : MonoBehaviour
 
         }
 
-    }
+        if (playerHealth == 0)
+        {
+            if(!pmanager.marioDead)
+            {
+                Physics2D.IgnoreCollision(GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>(), collision.collider, true);
+                thisAnim.SetBool("dead", true);               
+                pmanager.marioDead = true;
+                gameManager.OnMarioDeath();
+                
+            }
+            
+            
+        }
+    }//End of onCollision
 
 
 

@@ -1,5 +1,125 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &513430234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 513430235}
+  - component: {fileID: 513430236}
+  m_Layer: 0
+  m_Name: Feet
+  m_TagString: Feet
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &513430235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513430234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.036, y: -0.881, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1553280399033310331}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &513430236
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513430234}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0045399666, y: 0.40856695}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4098482, y: 0.1828661}
+  m_EdgeRadius: 0
+--- !u!1 &595376245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 595376246}
+  m_Layer: 0
+  m_Name: DeathPointOne
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &595376246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595376245}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.31, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1553280399033310331}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &970117499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 970117500}
+  m_Layer: 0
+  m_Name: DeathPointTwo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &970117500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970117499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -7.76, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1553280399033310331}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1008497859197005953
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,13 +216,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553280399033310335}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.22, z: 0}
+  m_LocalPosition: {x: 0, y: -1.1599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1553280400445434815}
   - {fileID: 1553280398816981424}
   - {fileID: 2094665324762167158}
+  - {fileID: 513430235}
+  - {fileID: 595376246}
+  - {fileID: 970117500}
   m_Father: {fileID: 1553280399542730712}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -231,6 +354,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 8dd10e22-e310-4256-87be-7fc9aabaad17
     m_ActionName: PlayerMovement/Run[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2cee82e8-b145-4b40-bd0a-3fc3a90be6b9
+    m_ActionName: InLevel/ResetLevel[/Keyboard/1]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerMovement
@@ -275,6 +402,7 @@ MonoBehaviour:
   rbXVelTest: 0
   rbYVelTest: 0
   myHUD: {fileID: 0}
+  speedCheck: 0
 --- !u!50 &1553280399033310325
 Rigidbody2D:
   serializedVersion: 4
@@ -332,7 +460,7 @@ Animator:
   m_GameObject: {fileID: 1553280399033310335}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b03fc990e5d98914283235e5920ea6b6, type: 2}
+  m_Controller: {fileID: 9100000, guid: ba2b371ca971ab240836b0fe9af3abb1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -354,6 +482,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9cd2c22bea9a41a0238c9fbe8ffc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pmanager: {fileID: 5994783070441628106}
+  thisAnim: {fileID: 1553280399033310326}
+  DeathAnim: {fileID: 9100000, guid: ba2b371ca971ab240836b0fe9af3abb1, type: 2}
+  gameManager: {fileID: 0}
+  Player: {fileID: 1553280399033310335}
+  playerHealth: 0
+  moveUp: 0
 --- !u!114 &3023504363277598932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -499,6 +634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1553280399542730712}
   - component: {fileID: 5994783070441628106}
+  - component: {fileID: 1939710451}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -536,8 +672,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marioSmallAnimator: {fileID: 9100000, guid: d6d58663a1b16e0419dd18ed7c44d821, type: 2}
   marioBigAnimator: {fileID: 9100000, guid: b03fc990e5d98914283235e5920ea6b6, type: 2}
+  marioDeathAnimator: {fileID: 9100000, guid: ba2b371ca971ab240836b0fe9af3abb1, type: 2}
   marioSmall: 1
   marioBig: 0
+  marioDead: 0
   marioSmallSprite: {fileID: 1402587848, guid: ae0c12281481c514cb7c006735203c4a, type: 3}
   marioBigSprite: {fileID: -28929580, guid: ae0c12281481c514cb7c006735203c4a, type: 3}
   marioMapSmallAnimator: {fileID: 9100000, guid: c74fc34feab0a454693862a308609cc4, type: 2}
@@ -545,6 +683,107 @@ MonoBehaviour:
   marioMapSmallSprite: {fileID: 92824081, guid: ae0c12281481c514cb7c006735203c4a, type: 3}
   marioMapBigSprite: {fileID: 0}
   playerObject: {fileID: 1553280399033310335}
+  playerShrinks: {fileID: 8300000, guid: 73c4b6b087ef4b643b34eb701d4a7557, type: 3}
+  playerGrows: {fileID: 8300000, guid: c1b864bc16425474f9fc081a0482d4d6, type: 3}
+  myAudio: {fileID: 1939710451}
+  audioFlag: 0
+  gameManager: {fileID: 0}
+--- !u!82 &1939710451
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553280399542730719}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1553280400445434814
 GameObject:
   m_ObjectHideFlags: 0

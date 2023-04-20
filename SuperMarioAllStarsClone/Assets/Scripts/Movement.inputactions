@@ -4,8 +4,30 @@
         {
             "name": "InLevel",
             "id": "e7a80c4d-d42f-4ece-b5d5-db32189edc6e",
-            "actions": [],
-            "bindings": []
+            "actions": [
+                {
+                    "name": "ResetLevel",
+                    "type": "Button",
+                    "id": "2cee82e8-b145-4b40-bd0a-3fc3a90be6b9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c9c5c88d-849e-48eb-99cc-eeacb555ab9b",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ResetLevel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         },
         {
             "name": "PlayerMovement",

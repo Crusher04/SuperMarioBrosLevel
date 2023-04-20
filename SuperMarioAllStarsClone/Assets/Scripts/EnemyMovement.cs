@@ -12,6 +12,10 @@ public class EnemyMovement : MonoBehaviour
 {
 
     ///Initialize Variables
+    public Camera ourCamera;
+    [Header("Front/Back of Camera")]
+    public Transform frontOfCam;
+    public Transform backOfCam;
 
     //Variables for speed
     public float moveSpeed = 1.5f;
@@ -42,6 +46,18 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+      
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
+
+        if(isPiranha)
+        {
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
+        ourCamera = FindObjectOfType<Camera>();
+        frontOfCam = GameObject.FindGameObjectWithTag("FrontOfCamera").transform;
+        backOfCam = GameObject.FindGameObjectWithTag("BackOfCamera").transform;
+
         //Get the RigidBody and the scale of the enemy
         localScale = transform.localScale;
         rb = GetComponent<Rigidbody2D>();
@@ -70,78 +86,82 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
 
+        if (playerTransform == null)
+            playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
 
-
-        //IF the enemy does not have wings than have it move right and left
-        if (!hasWings && !enemyTookDamage && !isPiranha)
-        {
-
-            //Set enemy velocity 
-            rb.velocity = new Vector2(newSpeed, rb.velocity.y);
-
-            //Change velocity depending on if the enemy is moving right or left
-            if (moveRight)
+       
+            //IF the enemy does not have wings than have it move right and left
+            if (!hasWings && !enemyTookDamage && !isPiranha)
             {
 
-                newSpeed = moveSpeed;
+                //Set enemy velocity 
+                rb.velocity = new Vector2(newSpeed, rb.velocity.y);
 
-            }
-            else
-            {
-
-                newSpeed = -moveSpeed;
-
-            }
-        }
-
-        //Check to see if the enemy is flying
-        if (isFlying == false)
-        {
-            //Check to see if the enemy has wings and if it is a Koopa
-            if(hasWings == true && isKoopa)
-            {
-                //Make the enemy fly     
-                rb.velocity = new Vector2(newSpeed / 2, jumpSpeed);
-                isFlying = true;
-            }
-
-
-            //Check to see if the enemy has wings and if it is a Goomba
-            //Goomba with wings has a different flying pattern than a Koopa with wings
-            if (hasWings == true && isGoomba)
-            {
-                
-                //Check to see if it is jumping 
-                if (isJumping == true)
+                //Change velocity depending on if the enemy is moving right or left
+                if (moveRight)
                 {
-                    //Make the enemy jump
-                    rb.velocity = new Vector2(newSpeed / 2, jumpSpeed / 3);
-                    isJumping = false;
+
+                    newSpeed = moveSpeed;
+
                 }
-                
-                //After 3 jumps make the enemy fly
-                if (jumpCount == 3)
+                else
                 {
 
-                    isJumping = false;
+                    newSpeed = -moveSpeed;
+
+                }
+            }
+
+            //Check to see if the enemy is flying
+            if (isFlying == false)
+            {
+                //Check to see if the enemy has wings and if it is a Koopa
+                if (hasWings == true && isKoopa)
+                {
+                    //Make the enemy fly     
                     rb.velocity = new Vector2(newSpeed / 2, jumpSpeed);
                     isFlying = true;
-                    jumpCount = 0;
-
                 }
+
+
+                //Check to see if the enemy has wings and if it is a Goomba
+                //Goomba with wings has a different flying pattern than a Koopa with wings
+                if (hasWings == true && isGoomba)
+                {
+
+                    //Check to see if it is jumping 
+                    if (isJumping == true)
+                    {
+                        //Make the enemy jump
+                        rb.velocity = new Vector2(newSpeed / 2, jumpSpeed / 3);
+                        isJumping = false;
+                    }
+
+                    //After 3 jumps make the enemy fly
+                    if (jumpCount == 3)
+                    {
+
+                        isJumping = false;
+                        rb.velocity = new Vector2(newSpeed / 2, jumpSpeed);
+                        isFlying = true;
+                        jumpCount = 0;
+
+                    }
+                }
+
+
             }
-
-
-        }
+        
 
     }
 
     //Function that is called when enemy collides with something
     void OnTriggerEnter2D(Collider2D trigger)
     {
+        if (trigger.gameObject.tag == "FrontOfCamera")
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
 
         //IF the enemy does not have wings
         if (!hasWings && !enemyTookDamage && !isPiranha)
@@ -179,8 +199,17 @@ public class EnemyMovement : MonoBehaviour
 
     }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "FrontOfCamera")
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.tag == "FrontOfCamera")
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+
 
         //IF the enemy does have wings
         if (hasWings)

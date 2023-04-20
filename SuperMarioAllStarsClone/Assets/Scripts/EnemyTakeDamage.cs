@@ -56,6 +56,8 @@ public class EnemyTakeDamage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+
         enemyDamage = false;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -79,6 +81,11 @@ public class EnemyTakeDamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(playerTransform == null)
+             playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        if(Player == null)
+            Player = GameObject.FindGameObjectWithTag("Player");
+
         Debug.Log(shellPickupScript.shellPickup);
         if (koopaShellHit == 0)
         {

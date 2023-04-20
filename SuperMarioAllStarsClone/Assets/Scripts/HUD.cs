@@ -47,15 +47,37 @@ public class HUD : MonoBehaviour
     [Header("Audio Sources")]
     public AudioClip PMeterClip;
 
+    [Header("Game Manager")]
+    public GameManager gameManager;
+
     //Round Timer Variables
     private int seconds = 0;
     private float timer = 0.0f;
     private int roundTime = 300;
 
+    [Header("Lives Counter")]
+    public GameObject life0;
+    public GameObject life1;
+    public GameObject life2;
+    public GameObject life3;
+    public GameObject life4;
+    public GameObject life5;
+    public GameObject life6;
+    public GameObject life7;
+    public GameObject life8;
+    public GameObject life9;
+    public int totalLives;
+
     // Start is called before the first frame update
     void Start()
     {
         seconds = roundTime;
+        totalCoins = gameManager.GetAmountOfCoins();
+
+        if(totalLives == null)
+        {
+            totalLives = gameManager.GetAmountOfLives();
+        }
     }
 
     // Update is called once per frame
@@ -66,6 +88,7 @@ public class HUD : MonoBehaviour
 
         DisplayTimer(seconds);
         DisplayCoins(totalCoins);
+        DisplayLives(totalLives);
     }
 
     void DisplayTimer(int time)
@@ -459,6 +482,9 @@ public class HUD : MonoBehaviour
 
     private void DisplayCoins(int numOfCoins)
     {
+        gameManager.UpdateCoins(numOfCoins);
+        numOfCoins = gameManager.GetAmountOfCoins();
+
         int ones = 0;
         int tens = 0;
         tens = numOfCoins / 10;
@@ -706,5 +732,133 @@ public class HUD : MonoBehaviour
 
     }
 
+    private void DisplayLives(int numOfLives)
+    {        
+        numOfLives = gameManager.GetAmountOfLives();
+        gameManager.UpdateLives(numOfLives);
 
+        switch (numOfLives)
+        {
+            case 0:
+                life0.active = true;
+                life1.active = false;
+                life2.active = false;
+                life3.active = false;
+                life4.active = false;
+                life5.active = false;
+                life6.active = false;
+                life7.active = false;
+                life8.active = false;
+                life9.active = false;
+                break;
+            case 1:
+                life0.active = false;
+                life1.active = true;
+                life2.active = false;
+                life3.active = false;
+                life4.active = false;
+                life5.active = false;
+                life6.active = false;
+                life7.active = false;
+                life8.active = false;
+                life9.active = false;
+                break;
+            case 2:
+                life0.active = false;
+                life1.active = false;
+                life2.active = true;
+                life3.active = false;
+                life4.active = false;
+                life5.active = false;
+                life6.active = false;
+                life7.active = false;
+                life8.active = false;
+                life9.active = false;
+                break;
+            case 3:
+                life0.active = false;
+                life1.active = false;
+                life2.active = false;
+                life3.active = true;
+                life4.active = false;
+                life5.active = false;
+                life6.active = false;
+                life7.active = false;
+                life8.active = false;
+                life9.active = false;
+                break;
+            case 4:
+                life0.active = false;
+                life1.active = false;
+                life2.active = false;
+                life3.active = false;
+                life4.active = true;
+                life5.active = false;
+                life6.active = false;
+                life7.active = false;
+                life8.active = false;
+                life9.active = false;
+                break;
+            case 5:
+                life0.active = false;
+                life1.active = false;
+                life2.active = false;
+                life3.active = false;
+                life4.active = false;
+                life5.active = true;
+                life6.active = false;
+                life7.active = false;
+                life8.active = false;
+                life9.active = false;
+                break;
+            case 6:
+                life0.active = false;
+                life1.active = false;
+                life2.active = false;
+                life3.active = false;
+                life4.active = false;
+                life5.active = false;
+                life6.active = true;
+                life7.active = false;
+                life8.active = false;
+                life9.active = false;
+                break;
+            case 7:
+                life0.active = false;
+                life1.active = false;
+                life2.active = false;
+                life3.active = false;
+                life4.active = false;
+                life5.active = false;
+                life6.active = false;
+                life7.active = true;
+                life8.active = false;
+                life9.active = false;
+                break;
+            case 8:
+                life0.active = false;
+                life1.active = false;
+                life2.active = false;
+                life3.active = false;
+                life4.active = false;
+                life5.active = false;
+                life6.active = false;
+                life7.active = false;
+                life8.active = true;
+                life9.active = false;
+                break;
+            case 9:
+                life0.active = false;
+                life1.active = false;
+                life2.active = false;
+                life3.active = false;
+                life4.active = false;
+                life5.active = false;
+                life6.active = false;
+                life7.active = false;
+                life8.active = false;
+                life9.active = true;
+                break;
+        }//End of tens
+    }
 }

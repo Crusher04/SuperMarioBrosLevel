@@ -26,8 +26,30 @@ public partial class @MovementController : IInputActionCollection2, IDisposable
         {
             ""name"": ""InLevel"",
             ""id"": ""e7a80c4d-d42f-4ece-b5d5-db32189edc6e"",
-            ""actions"": [],
-            ""bindings"": []
+            ""actions"": [
+                {
+                    ""name"": ""ResetLevel"",
+                    ""type"": ""Button"",
+                    ""id"": ""2cee82e8-b145-4b40-bd0a-3fc3a90be6b9"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""c9c5c88d-849e-48eb-99cc-eeacb555ab9b"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""ResetLevel"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         },
         {
             ""name"": ""PlayerMovement"",
@@ -158,6 +180,7 @@ public partial class @MovementController : IInputActionCollection2, IDisposable
 }");
         // InLevel
         m_InLevel = asset.FindActionMap("InLevel", throwIfNotFound: true);
+        m_InLevel_ResetLevel = m_InLevel.FindAction("ResetLevel", throwIfNotFound: true);
         // PlayerMovement
         m_PlayerMovement = asset.FindActionMap("PlayerMovement", throwIfNotFound: true);
         m_PlayerMovement_Jump = m_PlayerMovement.FindAction("Jump", throwIfNotFound: true);
@@ -222,10 +245,12 @@ public partial class @MovementController : IInputActionCollection2, IDisposable
     // InLevel
     private readonly InputActionMap m_InLevel;
     private IInLevelActions m_InLevelActionsCallbackInterface;
+    private readonly InputAction m_InLevel_ResetLevel;
     public struct InLevelActions
     {
         private @MovementController m_Wrapper;
         public InLevelActions(@MovementController wrapper) { m_Wrapper = wrapper; }
+        public InputAction @ResetLevel => m_Wrapper.m_InLevel_ResetLevel;
         public InputActionMap Get() { return m_Wrapper.m_InLevel; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -235,10 +260,16 @@ public partial class @MovementController : IInputActionCollection2, IDisposable
         {
             if (m_Wrapper.m_InLevelActionsCallbackInterface != null)
             {
+                @ResetLevel.started -= m_Wrapper.m_InLevelActionsCallbackInterface.OnResetLevel;
+                @ResetLevel.performed -= m_Wrapper.m_InLevelActionsCallbackInterface.OnResetLevel;
+                @ResetLevel.canceled -= m_Wrapper.m_InLevelActionsCallbackInterface.OnResetLevel;
             }
             m_Wrapper.m_InLevelActionsCallbackInterface = instance;
             if (instance != null)
             {
+                @ResetLevel.started += instance.OnResetLevel;
+                @ResetLevel.performed += instance.OnResetLevel;
+                @ResetLevel.canceled += instance.OnResetLevel;
             }
         }
     }
@@ -312,6 +343,7 @@ public partial class @MovementController : IInputActionCollection2, IDisposable
     }
     public interface IInLevelActions
     {
+        void OnResetLevel(InputAction.CallbackContext context);
     }
     public interface IPlayerMovementActions
     {

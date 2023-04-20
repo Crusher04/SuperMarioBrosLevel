@@ -13,6 +13,10 @@ TagManager:
   - InvisWall
   - HUD
   - Gold Block
+  - Feet
+  - Below World
+  - FrontOfCamera
+  - BackOfCamera
   layers:
   - Default
   - TransparentFX

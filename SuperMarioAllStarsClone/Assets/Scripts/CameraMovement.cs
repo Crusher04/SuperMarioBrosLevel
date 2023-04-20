@@ -20,12 +20,13 @@ public class CameraMovement : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
     }
 
     private void Start()
     {
-         
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+
     }
 
     // Update is called once per frame
@@ -56,8 +57,10 @@ public class CameraMovement : MonoBehaviour
 
             transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
         }
-          
+    }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
         
     }
 }
